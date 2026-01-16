@@ -14,7 +14,7 @@ Markdown conversions of Veeam Backup for Microsoft Azure documentation, optimize
 
 |                  |                                                      |
 | ---------------- | ---------------------------------------------------- |
-| **Source**       | https://helpcenter.veeam.com/docs/vbazure/           |
+| **Source**       | https://helpcenter.veeam.com/docs/vbazure/guide/     |
 | **Last Updated** | 2025-01-15                                           |
 | **Maintainer**   | [@comnam90](https://github.com/comnam90)             |
 
