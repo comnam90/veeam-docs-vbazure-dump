@@ -1,14 +1,14 @@
 ---
-title: "storage_location_settings"
+title: "Step 3. Configure Location Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/storage_location_settings.html"
-last_updated: "11/26/2025"
+last_updated: "1/19/2026"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Location Settings
 
-In this article
 
 At the Location step of the wizard, you can specify target locations where Veeam Backup for Microsoft Azure will keep restore points produced by all SLA-based backup policies that will have this storage template assigned.
 
@@ -36,9 +36,8 @@ For a repository to be displayed in the list of available repositories, it must 
 By default, Veeam Backup for Microsoft Azure will use the selected repository for all protected regions. To instruct Veeam Backup for Microsoft Azure to use separate repositories for each region:
 
 1. Set the Configure region-specific repositories toggle to On.
-
-1. In the Region-specific archive repository settings section, click Add Region.
-2. In the Configure Region Settings window, choose a region and a repository that you want to use for this region.
+2. In the Region-specific archive repository settings section, click Add Region.
+3. In the Configure Region Settings window, choose a region and a repository that you want to use for this region.
 
 For an archive repository to be displayed in the list of available repositories, it must be added to Veeam Backup for Microsoft Azure as described in section [Managing Repositories](repositories.md). If you have not added the repository to Veeam Backup for Microsoft Azure beforehand, you can do it without closing the Select Repository and Configure Region Settings windows. To do that, click Add and complete the Add Repository wizard.
 
@@ -49,6 +48,4 @@ For an archive repository to be displayed in the list of available repositories,
 
 [![Adding Storage Policy](images/storage_location_settings.webp)](images/storage_location_settings.webp "Adding Storage Policy")
 
-Page updated 11/26/2025
 
-Page content applies to build 8.0.1.202
