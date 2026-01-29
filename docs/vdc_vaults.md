@@ -1,14 +1,14 @@
 ---
-title: "vdc_vaults"
+title: "Veeam Data Cloud Storage Vaults"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vdc_vaults.html"
-last_updated: "1/13/2026"
+last_updated: "1/28/2026"
 product_version: "8.0.1.202"
 ---
 
+# Veeam Data Cloud Storage Vaults
 
-In this article
 
 Veeam Data Cloud Vault storage is a folder in an immutable blob container in the Cool access tier where Veeam Backup for Microsoft Azure stores image-level backups of Azure VMs, backups of Azure SQL databases, backups of Cosmos DB for PostgreSQL and Cosmos DB for MongoDB accounts, and backup copies of virtual network configurations. For more information, see the Veeam Data Cloud User Guide, section [Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault.html).
 
@@ -32,12 +32,10 @@ Limitations for Vaults
 
 Before you start creating storage vaults, keep in mind the following limitations:
 
-* To use a Veeam Data Cloud storage vault as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr_manage.html#connecting-backup-server-to-storage-vault) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
+* To use a Veeam Data Cloud storage vault as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
 
 Keep in mind that the Veeam account that you use to connect to Veeam Data Cloud Vault must be associated with the product subscription as described in section [Adding Storage Vaults Using Web UI](repository_vdc_ui_settings.md#location).
 
 * Since all Azure storage accounts where storage vaults reside are managed by Veeam, you cannot use the Veeam Backup for Microsoft Azure Web UI or Veeam Data Cloud Vault customer portal to configure settings for these accounts manually.
 
-Page updated 1/13/2026
 
-Page content applies to build 8.0.1.202
