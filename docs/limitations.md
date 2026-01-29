@@ -1,14 +1,14 @@
 ---
-title: "limitations"
+title: "Considerations and Limitations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/limitations.html"
-last_updated: "1/13/2026"
+last_updated: "1/28/2026"
 product_version: "8.0.1.202"
 ---
 
+# Considerations and Limitations
 
-In this article
 
 |  |
 | --- |
@@ -56,7 +56,7 @@ When managing repositories, consider the following:
 * Veeam Backup for Microsoft Azure does not support adding one backup repository to multiple backup appliances simultaneously.
 * If you move a storage account in which a backup repository was created to another resource group and remove the original resource group from Microsoft Azure, all operations related to that repository will fail.
 * It is recommended that you use a dedicated storage account for backup repositories where Veeam Backup for Microsoft Azure will store backed-up data. Otherwise, Veeam Backup for Microsoft Azure may fail to recover the data due to folder synchronization issues.
-* To use a [Veeam Data Cloud storage vault](vdc_vaults.md) as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr_manage.html#connecting-backup-server-to-storage-vault) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
+* To use a [Veeam Data Cloud storage vault](vdc_vaults.md) as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
 
 Network Settings for Worker Instances
 
@@ -191,6 +191,4 @@ Starting from version 8.1, Veeam Backup for Microsoft Azure supports the SureBac
 
 For more information on SureBackup, see the Veeam Backup & Replication User Guide, section [Recovery Verification](https://helpcenter.veeam.com/docs/vbr/userguide/surebackup_hiw.html?ver=13).
 
-Page updated 1/13/2026
 
-Page content applies to build 8.0.1.202

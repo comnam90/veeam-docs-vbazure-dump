@@ -1,14 +1,14 @@
 ---
-title: "application_items_restore"
+title: "Performing Application Item Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/application_items_restore.html"
-last_updated: "12/23/2025"
+last_updated: "1/27/2026"
 product_version: "8.0.1.202"
 ---
 
+# Performing Application Item Restore
 
-In this article
 
 Veeam Backup & Replication provides auxiliary tools — Veeam Explorers — that allow you to restore application items directly from image-level backups of Azure VMs. For more information on Veeam Explorers, see the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/vbr/explorers/explorers_introduction.html?ver=13).
 
@@ -41,6 +41,4 @@ To perform application restore, do the following:
 
 [![Restore application items](images/restore_application_items.webp)](images/restore_application_items.webp "Restore application items")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202
