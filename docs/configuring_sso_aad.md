@@ -1,5 +1,5 @@
 ---
-title: "configuring_sso_aad"
+title: "Configuring SSO Settings for Microsoft Entra ID"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_sso_aad.html"
@@ -7,8 +7,8 @@ last_updated: "2/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring SSO Settings for Microsoft Entra ID
 
-In this article
 
 For Veeam Backup for Microsoft Azure to be able to use Microsoft Entra ID as an identity provider, you must perform the following steps to configure SSO settings:
 
@@ -119,6 +119,4 @@ To add users that will be able to access Veeam Backup for Microsoft Azure using 
 
 [![Adding Users in AD Application](images/sso_aad_add_users.webp)](images/sso_aad_add_users.webp "Adding Users in AD Application")
 
-Page updated 2/18/2025
 
-Page content applies to build 8.0.1.202

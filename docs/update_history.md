@@ -1,5 +1,5 @@
 ---
-title: "update_history"
+title: "Viewing Update History"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/update_history.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Viewing Update History
 
-In this article
 
 To see the results of the update installation performed on the backup appliance, do the following:
 
@@ -24,6 +24,4 @@ To download logs for the installed updates, select the necessary date in the Dat
 
 [![Viewing Update History](images/update_history.webp)](images/update_history.webp "Viewing Update History")
 
-Page updated 5/30/2025
 
-Page content applies to build 8.0.1.202

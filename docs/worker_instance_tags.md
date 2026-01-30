@@ -1,5 +1,5 @@
 ---
-title: "worker_instance_tags"
+title: "Adding Worker Instance Tags"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_instance_tags.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Adding Worker Instance Tags
 
-In this article
 
 For all worker instances that are launched in specific Azure subscriptions for the duration of backup, restore and retention processes, you can assign custom Azure tags, which may help you differentiate worker instances that have the same or similar names:
 
@@ -34,6 +34,4 @@ For more information on tag limitations, see [Microsoft Docs](https://learn.micr
 
 [![Adding Tags to Workers](images/workers_tags.webp)](images/workers_tags.webp "Adding Tags to Workers")
 
-Page updated 5/30/2025
 
-Page content applies to build 8.0.1.202

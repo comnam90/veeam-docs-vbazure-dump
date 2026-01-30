@@ -1,5 +1,5 @@
 ---
-title: "sizing_appliance"
+title: "Backup Appliance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Appliance
 
-In this article
 
 You can choose the size of the Azure VM running Veeam Backup for Microsoft Azure during the deployment, or change it later as the environment grows.
 
@@ -38,6 +38,4 @@ When you connect a backup appliance to the backup infrastructure, its backup pol
 
 You can connect multiple backup appliances to a single Veeam Backup & Replication server. However, when working in an Azure subscription with cross-region data transfer, it is recommended that you use one Veeam Backup & Replication server per region, to help you avoid latency issues and meet potential data residency regulations.
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

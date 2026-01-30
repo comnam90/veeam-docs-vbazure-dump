@@ -1,5 +1,5 @@
 ---
-title: "integration_vbr"
+title: "Integration with Veeam Backup & Replication"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/integration_vbr.html"
@@ -7,8 +7,8 @@ last_updated: "7/22/2025"
 product_version: "8.0.1.202"
 ---
 
+# Integration with Veeam Backup & Replication
 
-In this article
 
 Starting from version 6.0, Veeam Backup for Microsoft Azure is part of the Veeam Backup & Replication solution. Veeam Plug-in for Microsoft Azure extends the Veeam Backup & Replication functionality and allows you to add backup appliances to Veeam Backup & Replication. With Veeam Plug-in for Microsoft Azure, you can manage data protection and recovery operations for all these appliances from a single Veeam Backup & Replication console.
 
@@ -35,6 +35,4 @@ Related Topics
 * [Protecting Cosmos DB Accounts](overview_cosmos_db.md)
 * [Protecting Virtual Network Configurations](overview_vnet.md)
 
-Page updated 7/22/2025
 
-Page content applies to build 8.0.1.202

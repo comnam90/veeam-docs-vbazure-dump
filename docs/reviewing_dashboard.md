@@ -1,5 +1,5 @@
 ---
-title: "reviewing_dashboard"
+title: "Reviewing Dashboard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/reviewing_dashboard.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Reviewing Dashboard
 
-In this article
 
 Veeam Backup for Microsoft Azure comes with an Overview dashboard that provides at-a-glance real-time overview of the protected Azure resources and allows you to estimate the overall backup performance. The dashboard includes the following widgets:
 
@@ -44,6 +44,4 @@ To learn how to resolve a bottleneck, click the '?' icon in the widget row.
 
 [![Viewing Dashboard](images/dashboard.webp)](images/dashboard.webp "Viewing Dashboard")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

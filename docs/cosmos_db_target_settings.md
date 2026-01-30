@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_target_settings"
+title: "Step 4. Configure Backup Target Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_target_settings.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Configure Backup Target Settings
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure protects Cosmos DB accounts using [continuous backup](https://learn.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-introduction) — a native Microsoft Azure capability that allows you to eliminate consumption of extra provisioned throughput without affecting the database performance and availability. The backups are created in Azure regions in which source Cosmos DB accounts reside and are kept for a specific retention period. At the Targets step of the wizard, you can configure that period and also choose to store backups of Cosmos DB for PostgreSQL or Cosmos DB for MongoDB accounts in a repository.
 
@@ -33,6 +33,4 @@ As soon as you start the backup policy, Veeam Backup for Microsoft Azure will ru
 
 [![Configuring Backup to Repository](images/cosmos_db_backup_to_repository.webp)](images/cosmos_db_backup_to_repository.webp "Configuring Backup to Repository")
 
-Page updated 4/29/2025
 
-Page content applies to build 8.0.1.202

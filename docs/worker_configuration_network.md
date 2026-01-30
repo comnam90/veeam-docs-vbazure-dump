@@ -1,5 +1,5 @@
 ---
-title: "worker_configuration_network"
+title: "Step 3. Specify Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_configuration_network.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Specify Network Settings
 
-In this article
 
 At the Network step of the wizard, do the following:
 
@@ -34,6 +34,4 @@ For a group to be displayed in the Network Security Group list, it must be creat
 
 [![Specifying Network Settings](images/adding_worker_network.webp)](images/adding_worker_network.webp "Specifying Network Settings")
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "temporary_restore_points"
+title: "Temporary Restore Points"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/temporary_restore_points.html"
@@ -7,8 +7,8 @@ last_updated: "8/22/2025"
 product_version: "8.0.1.202"
 ---
 
+# Temporary Restore Points
 
-In this article
 
 When running SLA-based backup policies, Veeam Backup for Microsoft Azure creates 2 types of temporary restore points — temporary snapshots and temporary backups.
 
@@ -37,6 +37,4 @@ Related Topics
 
 [Adding SLA Templates](sla_add.md)
 
-Page updated 8/22/2025
 
-Page content applies to build 8.0.1.202

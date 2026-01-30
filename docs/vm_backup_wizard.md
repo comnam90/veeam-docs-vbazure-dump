@@ -1,5 +1,5 @@
 ---
-title: "vm_backup_wizard"
+title: "Step 1. Launch Add VM Policy Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_backup_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "3/17/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Add VM Policy Wizard
 
-In this article
 
 To launch the Add VM Policy wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Add VM Policy wizard, do the following:
 
 [![Adding Backup Policy](images/policy_launch_wizard.webp)](images/policy_launch_wizard.webp "Adding Backup Policy")
 
-Page updated 3/17/2025
 
-Page content applies to build 8.0.1.202

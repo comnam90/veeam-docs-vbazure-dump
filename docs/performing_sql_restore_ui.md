@@ -1,5 +1,5 @@
 ---
-title: "performing_sql_restore_ui"
+title: "Performing SQL Restore Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_sql_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing SQL Restore Using Web UI
 
-In this article
 
 In case a disaster strikes, you can restore an entire Azure SQL database from an image-level backup. Veeam Backup for Microsoft Azure allows you to restore one or more databases at a time, to the original location or to a new location.
 
@@ -35,6 +35,4 @@ To restore an Azure SQL database, do the following:
 8. [Specify a restore reason](sql_restore_ui_reason.md).
 9. [Review summary information](sql_restore_ui_finish.md).
 
-Page updated 4/29/2024
 
-Page content applies to build 8.0.1.202

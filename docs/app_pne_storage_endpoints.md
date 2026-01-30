@@ -1,5 +1,5 @@
 ---
-title: "app_pne_storage_endpoints"
+title: "Creating Private Endpoints"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_storage_endpoints.html"
@@ -7,8 +7,8 @@ last_updated: "8/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Creating Private Endpoints
 
-In this article
 
 If the backup appliance resides in another region than the resources that you want to back up, or you do not want to add firewall rules, you can create private endpoints for your storage account to allow Veeam Backup for Microsoft Azure access to the resources.
 
@@ -23,6 +23,4 @@ You must create a separate private endpoint for every VNet to which the backup a
 7. [Finish working with the wizard](app_pne_storage_finish.md).
 8. [Configure network settings of the newly created private endpoint](pne_storage_peering.md).
 
-Page updated 8/27/2024
 
-Page content applies to build 8.0.1.202

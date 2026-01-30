@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_from_repository_point"
+title: "Step 2. Select Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_from_repository_point.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Restore Point step of the wizard, select a restore point that will be used to restore the database of the selected Cosmos DB for PostgreSQL account or databases and collections of a Cosmos DB for MongoDB account. By default, Veeam Backup for Microsoft Azure uses the most recent valid restore point. However, you can restore the database data to an earlier state.
 
@@ -48,6 +48,4 @@ To restore granular databases and collections of a Cosmos DB for MongoDB account
 
 [![Selecting Items To Restore](images/cosmos_db_restore_from_repository_items.webp)](images/cosmos_db_restore_from_repository_items.webp "Selecting Items To Restore")
 
-Page updated 4/29/2025
 
-Page content applies to build 8.0.1.202

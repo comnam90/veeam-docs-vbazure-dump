@@ -1,5 +1,5 @@
 ---
-title: "pne_dns_endpoints_queues"
+title: "Step 6c. Configure Private Endpoint for Azure Queue Storage"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_dns_endpoints_queues.html"
@@ -7,8 +7,8 @@ last_updated: "5/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6c. Configure Private Endpoint for Azure Queue Storage
 
-In this article
 
 To configure DNS settings for the private endpoint that Veeam Backup for Microsoft Azure automatically created for [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction), do the following:
 
@@ -38,6 +38,4 @@ To configure DNS settings for the private endpoint that Veeam Backup for Microso
 
 [![Configuring Private Endpoint for Queues](images/private_endpoint_queue_vnet_links.webp)](images/private_endpoint_queue_vnet_links.webp "Configuring Private Endpoint for Queues")
 
-Page updated 5/7/2025
 
-Page content applies to build 8.0.1.202

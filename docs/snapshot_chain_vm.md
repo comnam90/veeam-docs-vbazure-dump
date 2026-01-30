@@ -1,5 +1,5 @@
 ---
-title: "snapshot_chain_vm"
+title: "Snapshot Chain"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/snapshot_chain_vm.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Snapshot Chain
 
-In this article
 
 During every backup session, Veeam Backup for Microsoft Azure creates a cloud-native snapshot of each Azure VM added to a backup policy. The cloud-native snapshot itself is a collection of point-in-time snapshots of virtual disks that Veeam Backup for Microsoft Azure creates using native Microsoft Azure capabilities.
 
@@ -27,6 +27,4 @@ Cloud-native snapshots act as independent restore points for backed-up Azure VMs
 
 The number of cloud-native snapshots kept in the snapshot chain (and the period during which these snapshots are kept) is defined by retention policy settings. For more information, see [VM Snapshot Retention](vm_snapshot_retention.md).
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "connecting_appliance_console"
+title: "Connecting to Existing Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/connecting_appliance_console.html"
@@ -7,8 +7,8 @@ last_updated: "1/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Connecting to Existing Appliances
 
-In this article
 
 If you have already [deployed a backup appliance](deploying_appliance.md), you can add the appliance to the backup infrastructure:
 
@@ -23,6 +23,4 @@ If you have already [deployed a backup appliance](deploying_appliance.md), you c
 9. [Wait for the appliance to be added to the backup infrastructure](adding_appliance_apply.md).
 10. [Finish working with the wizard](adding_appliance_finish.md).
 
-Page updated 1/12/2024
 
-Page content applies to build 8.0.1.202

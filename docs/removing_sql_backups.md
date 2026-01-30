@@ -1,5 +1,5 @@
 ---
-title: "removing_sql_backups"
+title: "Removing SQL Backups"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_sql_backups.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing SQL Backups
 
-In this article
 
 Veeam Backup for Microsoft Azure applies the [configured retention policy settings](sql_backup_policy_schedule.md) to automatically remove backups created for SQL databases by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -32,6 +32,4 @@ To remove backed-up data manually, do the following:
 
 [![Removing Backups](images/remove_backups_sql.webp)](images/remove_backups_sql.webp "Removing Backups")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

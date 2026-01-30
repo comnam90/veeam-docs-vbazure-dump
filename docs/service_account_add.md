@@ -1,5 +1,5 @@
 ---
-title: "service_account_add"
+title: "Adding Service Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_add.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Adding Service Accounts
 
-In this article
 
 To add a new service account, do the following:
 
@@ -20,6 +20,4 @@ To add a new service account, do the following:
 6. [Check the required permissions](service_account_check_permissions.md).
 7. [Finish working with the wizard](service_account_finish.md).
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

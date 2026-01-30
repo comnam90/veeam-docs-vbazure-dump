@@ -1,5 +1,5 @@
 ---
-title: "deploying_appliance_subscription"
+title: "Step 4. Specify Subscription"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_appliance_subscription.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Subscription
 
-In this article
 
 At the Subscription step of the wizard, do the following:
 
@@ -29,6 +29,4 @@ You can create a new resource group or specify an existing one:
 
 ![Step 4. Specify Subscription](images/add_new_azure_apl_subscription.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "how_sql_backup_works"
+title: "SQL Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/how_sql_backup_works.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# SQL Backup
 
-In this article
 
 When processing an Azure SQL database added to a backup policy, Veeam Backup for Microsoft Azure can create a restore point of the database and transfer the point directly to a backup repository, or Veeam Backup for Microsoft Azure can copy the database to a staging server first, create a restore point and then transfer the point to a repository. In the latter case, Veeam Backup for Microsoft Azure creates a transactionally consistent backup. This guarantees the consistency of the database state during recovery but can increase costs associated with cross-region data transfer.
 
@@ -45,6 +45,4 @@ Related Topics
 
 [Backup Chain](backup_chain_sql.md)
 
-Page updated 11/28/2025
 
-Page content applies to build 8.0.1.202

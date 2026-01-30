@@ -1,5 +1,5 @@
 ---
-title: "workers"
+title: "Managing Worker Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/workers.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Managing Worker Instances
 
-In this article
 
 To perform most data protection and disaster recovery operations (such as creating backups in repositories and restoring backed-up data), Veeam Backup for Microsoft Azure uses worker instances. A worker instance is an auxiliary Linux-based virtual machine that is responsible for the interaction between the backup appliance and other Veeam Backup for Microsoft Azure components. Worker instances process backup workload and distribute backup traffic when transferring data to repositories.
 
@@ -26,6 +26,4 @@ In This Section
 * [Adding Tags to Worker Instances](worker_instance_tags.md)
 * [Removing Worker Instances](worker_instance_remove.md)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

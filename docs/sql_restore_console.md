@@ -1,5 +1,5 @@
 ---
-title: "sql_restore_console"
+title: "Performing SQL Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "5/29/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing SQL Restore Using Console
 
-In this article
 
 In case a disaster strikes, you can restore an Azure SQL database from an image-level backup. Veeam Backup & Replication allows you to restore one or more databases at a time, to the original location or to a new location. To learn how SQL restore works, see section [Performing SQL Restore Using Web UI](performing_sql_restore_ui.md).
 
@@ -22,6 +22,4 @@ To restore Azure SQL databases, do the following:
 6. [Specify a restore reason](restore_sql_reason.md).
 7. [Finish working with the wizard](restore_sql_summary.md).
 
-Page updated 5/29/2024
 
-Page content applies to build 8.0.1.202

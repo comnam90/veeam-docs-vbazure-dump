@@ -1,5 +1,5 @@
 ---
-title: "restoring_to_amazon"
+title: "Restoring to AWS"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restoring_to_amazon.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Restoring to AWS
 
-In this article
 
 Veeam Backup & Replication allows you to restore Azure VMs from image-level backups created with Veeam Backup for Microsoft Azure to AWS as EC2 instances. You can restore Azure VMs to any available restore point. For more information, see the Veeam Backup & Replication User Guide, section [Restore to Amazon EC2](https://helpcenter.veeam.com/docs/vbr/userguide/restore_amazon.html?ver=13).
 
@@ -27,6 +27,4 @@ To restore an Azure VM to AWS, do the following:
 
 [![Restore to Azure](images/restore_to_amazon.webp)](images/restore_to_amazon.webp "Restore to Azure")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

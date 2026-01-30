@@ -1,5 +1,5 @@
 ---
-title: "flr_restore_point"
+title: "Step 2. Select Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/flr_restore_point.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Restore Point step of the wizard, select a restore point that will be used to recover files and folders of the selected Azure VM. By default, Veeam Backup for Microsoft Azure uses the most recent valid restore point. However, you can restore the Azure VM data to an earlier state.
 
@@ -34,6 +34,4 @@ To help you choose a restore point, Veeam Backup for Microsoft Azure provides th
 
 [![File-Level Recovery Restore Point](images/flr_restore_point.webp)](images/flr_restore_point.webp "File-Level Recovery Restore Point")
 
-Page updated 5/30/2025
 
-Page content applies to build 8.0.1.202

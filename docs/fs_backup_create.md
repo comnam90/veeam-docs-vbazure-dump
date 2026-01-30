@@ -1,5 +1,5 @@
 ---
-title: "fs_backup_create"
+title: "Creating Azure Files Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_backup_create.html"
@@ -7,8 +7,8 @@ last_updated: "8/2/2024"
 product_version: "8.0.1.202"
 ---
 
+# Creating Azure Files Backup Policies
 
-In this article
 
 To create a backup policy, do the following:
 
@@ -20,6 +20,4 @@ To create a backup policy, do the following:
 6. [Review the estimated cost of protecting the selected Azure file shares](fs_backup_cost.md).
 7. [Finish working with the wizard](fs_backup_finish.md).
 
-Page updated 8/2/2024
 
-Page content applies to build 8.0.1.202

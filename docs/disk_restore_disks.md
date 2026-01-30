@@ -1,5 +1,5 @@
 ---
-title: "disk_restore_disks"
+title: "Step 6. Specify Disk Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/disk_restore_disks.html"
@@ -7,8 +7,8 @@ last_updated: "3/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Disk Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or different settings option at the Restore Mode step of the wizard]
 
@@ -40,6 +40,4 @@ For a storage account to be displayed in the Storage account list, it must be cr
 
 [![Performing Disk Restore](images/restoring_disk_disks.webp)](images/restoring_disk_disks.webp "Performing Disk Restore")
 
-Page updated 3/18/2025
 
-Page content applies to build 8.0.1.202

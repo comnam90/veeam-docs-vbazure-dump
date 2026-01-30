@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_hiw"
+title: "Cosmos DB Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cosmos DB Restore
 
-In this article
 
 Veeam Backup for Microsoft Azure offers the following restore operations:
 
@@ -27,6 +27,4 @@ To restore an item of a Cosmos DB account from a backup, Veeam Backup for Micros
 
 To learn how to restore a Cosmos DB account to a restorable timestamp, see [Performing Point-in-time Restore](cosmos_db_restore_point_in_time.md). To learn how to restore the database of a Cosmos DB for PostgreSQL account or databases and collections of a Cosmos DB for MongoDB account from a backup, see [Performing Restore From Repository](cosmos_db_restore_from_repository.md).
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

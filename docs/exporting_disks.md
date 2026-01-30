@@ -1,5 +1,5 @@
 ---
-title: "exporting_disks"
+title: "Exporting Disks"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/exporting_disks.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Exporting Disks
 
-In this article
 
 Veeam Backup & Replication allows you to export disks, that is, to restore virtual disks of Azure VMs from image-level backups created by Veeam Backup for Microsoft Azure and to convert them to the VMDK, VHD and VHDX formats. You can save the converted disks to any server added to the backup infrastructure or place the disks on a datastore connected to an ESXi host (for the VMDK disk format only). For more information, see the Veeam Backup & Replication User Guide, section [Disk Export](https://helpcenter.veeam.com/docs/vbr/userguide/disk_export.html?ver=13).
 
@@ -26,6 +26,4 @@ To restore disks of an Azure VM to the VMDK, VHD or VHDX format, do the followin
 
 [![Export disks](images/export_disks.webp)](images/export_disks.webp "Export disks")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

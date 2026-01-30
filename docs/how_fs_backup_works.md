@@ -1,5 +1,5 @@
 ---
-title: "how_fs_backup_works"
+title: "Azure Files Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/how_fs_backup_works.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure Files Backup
 
-In this article
 
 Veeam Backup for Microsoft Azure performs Azure Files backup in the following way:
 
@@ -36,6 +36,4 @@ Related Topics
 
 [Snapshot Chain](snapshot_chain_fs.md)
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

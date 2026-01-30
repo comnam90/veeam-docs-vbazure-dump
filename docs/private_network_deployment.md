@@ -1,5 +1,5 @@
 ---
-title: "private_network_deployment"
+title: "Private Network Deployment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/private_network_deployment.html"
@@ -7,8 +7,8 @@ last_updated: "9/19/2024"
 product_version: "8.0.1.202"
 ---
 
+# Private Network Deployment
 
-In this article
 
 The private deployment feature allows you to increase the security of your environment by retaining network traffic within a private network.
 
@@ -21,6 +21,4 @@ With Veeam Backup for Microsoft Azure, you can perform the following operations 
 
 When a backup appliance is deployed in a private environment, it is not assigned any public IPv4 address, and you will have to perform a number of additional configuration actions to allow private network access. For more information, see [Working in Private Environments](app_private_network.md).
 
-Page updated 9/19/2024
 
-Page content applies to build 8.0.1.202

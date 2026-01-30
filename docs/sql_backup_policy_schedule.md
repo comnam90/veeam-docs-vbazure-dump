@@ -1,5 +1,5 @@
 ---
-title: "sql_backup_policy_schedule"
+title: "Step 5. Specify Policy Scheduling Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_backup_policy_schedule.html"
@@ -7,8 +7,8 @@ last_updated: "2/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Specify Policy Scheduling Options
 
-In this article
 
 You can instruct Veeam Backup for Microsoft Azure to start the backup policy automatically according to a specific backup schedule. The backup schedule defines how often data of the Azure SQL databases added to the backup policy will be backed up.
 
@@ -21,6 +21,4 @@ To help you implement a comprehensive backup strategy, Veeam Backup for Microsof
 
 Combining multiple schedule types together allows you to retain restore points for longer periods of time — for more information, see [Enabling Harmonized Scheduling](sql_harmonized_scheduling.md). Combining multiple schedule types together also allows you to archive backups — for more information, see [Enabling Backup Archiving](sql_backup_archiving.md).
 
-Page updated 2/18/2025
 
-Page content applies to build 8.0.1.202

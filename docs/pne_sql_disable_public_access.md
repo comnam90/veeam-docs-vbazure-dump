@@ -1,5 +1,5 @@
 ---
-title: "pne_sql_disable_public_access"
+title: "Step 7. Disable Public Access to SQL Server"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_sql_disable_public_access.html"
@@ -7,8 +7,8 @@ last_updated: "4/26/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Disable Public Access to SQL Server
 
-In this article
 
 For the SQL Server that you want to protect to be inaccessible through public network, you must disable public access to this SQL Server:
 
@@ -21,6 +21,4 @@ For the SQL Server that you want to protect to be inaccessible through public ne
 
 [![Disabling Public Access to SQL Server](images/pne_sql_disable_public_access.webp)](images/pne_sql_disable_public_access.webp "Disabling Public Access to SQL Server")
 
-Page updated 4/26/2024
 
-Page content applies to build 8.0.1.202

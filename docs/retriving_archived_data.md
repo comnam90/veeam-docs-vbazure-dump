@@ -1,5 +1,5 @@
 ---
-title: "retriving_archived_data"
+title: "Retrieving Data from Archive"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/retriving_archived_data.html"
@@ -7,8 +7,8 @@ last_updated: "8/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Retrieving Data from Archive
 
-In this article
 
 Backups stored in archive repositories are not immediately accessible. If you want to restore an Azure VM from a backup that is stored in a repository of the Archive access tier, you must first retrieve the archived data.
 
@@ -58,6 +58,4 @@ Alternatively, you can right-click the VM and click Extend availability.
 
 [![Extend data availability](images/extend_availability_integr.webp)](images/extend_availability_integr.webp "Extend data availability")
 
-Page updated 8/25/2025
 
-Page content applies to build 8.0.1.202

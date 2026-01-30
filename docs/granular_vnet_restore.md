@@ -1,5 +1,5 @@
 ---
-title: "granular_vnet_restore"
+title: "Performing Granular Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/granular_vnet_restore.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Granular Restore
 
-In this article
 
 In case of unexpected configuration changes, you can restore specific items of the virtual network configuration from a virtual network configuration backup. Veeam Backup for Microsoft Azure allows you to restore these items to the original location only.
 
@@ -22,6 +22,4 @@ To restore specific items of the virtual network configuration, perform the foll
 4. [Specify a restore reason](granular_vnet_restore_reason.md).
 5. [Finish working with the wizard](granular_vnet_restore_finish.md).
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

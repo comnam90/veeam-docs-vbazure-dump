@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_file"
+title: "Step 2. Choose Backup File"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_file.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Choose Backup File
 
-In this article
 
 At the Configuration backup step of the wizard, do the following:
 
@@ -25,6 +25,4 @@ For a repository to be displayed in the list of available repositories, it must 
 
 ![Step 2. Choose Backup File](images/restore_config_backup.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

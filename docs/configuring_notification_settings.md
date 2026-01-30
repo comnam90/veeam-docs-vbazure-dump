@@ -1,5 +1,5 @@
 ---
-title: "configuring_notification_settings"
+title: "Configuring Global Notification Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_notification_settings.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Global Notification Settings
 
-In this article
 
 You can specify email notification settings for automated delivery of backup policy results and daily reports. Every daily report contains cumulative statistics for all backup policy and snapshot retention sessions run within the past 24-hour period.
 
@@ -91,6 +91,4 @@ When registering the application, make sure that the redirect URI specified for 
 
 [![Configuring Notification Settings](images/notification_settings_2.webp)](images/notification_settings_2.webp "Configuring Notification Settings")
 
-Page updated 5/30/2025
 
-Page content applies to build 8.0.1.202

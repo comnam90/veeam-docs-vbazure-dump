@@ -1,5 +1,5 @@
 ---
-title: "service_account_edit_roles"
+title: "Step 5. Update Account Roles"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_edit_roles.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Update Account Roles
 
-In this article
 
 At the Roles step of the wizard, you can modify the list of operations that Veeam Backup for Microsoft Azure will be able to perform using permissions of the service account:
 
@@ -31,6 +31,4 @@ At the Roles step of the wizard, you can modify the list of operations that Veea
 
   [![Editing Service Account Roles](images/edit_account_roles.webp)](images/edit_account_roles.webp "Editing Service Account Roles")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "overview"
+title: "Overview"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview.html"
@@ -7,8 +7,8 @@ last_updated: "10/21/2025"
 product_version: "8.0.1.202"
 ---
 
+# Overview
 
-In this article
 
 Veeam Backup for Microsoft Azure is a solution developed for protection and disaster recovery tasks for Microsoft Azure environments: Azure VMs, Azure SQL databases, Cosmos DB accounts and Azure Files. Veeam Backup for Microsoft Azure also allows you to back up and restore Azure Virtual Network configurations.
 
@@ -43,6 +43,4 @@ To recover backed-up data, you can perform the following operations:
 | Important |
 | Starting from Veeam Backup for Microsoft Azure version 6.0, Veeam Backup for Microsoft Azure is part of the Veeam Backup & Replication solution, and some features are available only for backup appliances managed by Veeam Backup & Replication. For more information, see [Integration with Veeam Backup & Replication](integration_vbr.md). |
 
-Page updated 10/21/2025
 
-Page content applies to build 8.0.1.202

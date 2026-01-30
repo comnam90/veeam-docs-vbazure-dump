@@ -1,5 +1,5 @@
 ---
-title: "managing_backups_ui"
+title: "Managing Backed-Up Data Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_backups_ui.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Managing Backed-Up Data Using Web UI
 
-In this article
 
 Veeam Backup for Microsoft Azure stores information on all protected Azure resources in the configuration database. Even if a resource is no longer protected by any configured backup policy and even if the resource no longer exists in Microsoft Azure, information on the backed-up data will not be deleted from the database until Veeam Backup for Microsoft Azure automatically removes all restore points associated with this resource according to the retention settings saved in the backup metadata. You can also remove the restore points manually on the Protected Data page.
 
@@ -25,6 +25,4 @@ In This Section
 * [Azure Files Data](managing_azure_files.md)
 * [Virtual Network Configuration Data](managing_vnet_data.md)
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

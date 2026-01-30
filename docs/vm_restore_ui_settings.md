@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_settings"
+title: "Step 6. Specify Instance Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Instance Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or different settings option at the Restore Mode step of the wizard]
 
@@ -49,6 +49,4 @@ Availability sets allow you to distribute VMs across multiple physical hardware 
 
 [![Restoring Azure VM](images/restore_vm_settings.webp)](images/restore_vm_settings.webp "Restoring Azure VM")
 
-Page updated 11/26/2025
 
-Page content applies to build 8.0.1.202

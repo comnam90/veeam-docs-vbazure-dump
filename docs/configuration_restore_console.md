@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console"
+title: "Restoring Configuration Data Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "2/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Restoring Configuration Data Using Console
 
-In this article
 
 To restore the configuration database of a backup appliance using the Veeam Backup & Replication console, do the following:
 
@@ -22,6 +22,4 @@ To restore the configuration database of a backup appliance using the Veeam Bac
 8. [Wait for the restore process to complete](configuration_restore_console_progress.md).
 9. [Finish working with the wizard](configuration_restore_console_finish.md).
 
-Page updated 2/5/2024
 
-Page content applies to build 8.0.1.202

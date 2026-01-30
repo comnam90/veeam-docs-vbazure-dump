@@ -1,5 +1,5 @@
 ---
-title: "vnet_backup_subscriptions_manual"
+title: "Adding Azure Subscriptions Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vnet_backup_subscriptions_manual.html"
@@ -7,8 +7,8 @@ last_updated: "1/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Adding Azure Subscriptions Manually
 
-In this article
 
 To add an Azure subscription to the Virtual Network Configuration Backup policy, or to choose another service account for collecting virtual network configuration data, do the following:
 
@@ -26,6 +26,4 @@ You can add, edit or remove additional Azure subscriptions from the Virtual Netw
 
 [![Adding Azure Subscriptions Manually](images/vnet_backup_subscriptions_manual.webp)](images/vnet_backup_subscriptions_manual.webp "Adding Azure Subscriptions Manually")
 
-Page updated 1/24/2025
 
-Page content applies to build 8.0.1.202

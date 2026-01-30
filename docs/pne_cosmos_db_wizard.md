@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_wizard"
+title: "Step 2a. Launch Create a Private Endpoint Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2a. Launch Create a Private Endpoint Wizard
 
-In this article
 
 To launch the Create a private endpoint wizard for a Cosmos DB for PostgreSQL account for which you want to create a private endpoint, do the following:
 
@@ -21,6 +21,4 @@ To launch the Create a private endpoint wizard for a Cosmos DB for PostgreSQL ac
 
 [![Launching Create a Private Endpoint Wizard](images/pne_cosmos_db_create_endpoint.webp)](images/pne_cosmos_db_create_endpoint.webp "Launching Create a Private Endpoint Wizard")
 
-Page updated 7/1/2024
 
-Page content applies to build 8.0.1.202

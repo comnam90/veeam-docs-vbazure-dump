@@ -1,5 +1,5 @@
 ---
-title: "pne_sql_manual_endpoint"
+title: "Step 9. Configure Private Endpoint for SQL Server"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_sql_manual_endpoint.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 9. Configure Private Endpoint for SQL Server
 
-In this article
 
 [This step applies only if you chose to create and manage the private DNS zones manually at [step 1](pne_sql_dns_zones.md)]
 
@@ -41,6 +41,4 @@ To allow worker instances to save the backup to the repository in the private en
 
 [![Configuring Private Endpoint for SQL](images/private_endpoint_sql_vnet_links.webp)](images/private_endpoint_sql_vnet_links.webp "Configuring Private Endpoint for SQL")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

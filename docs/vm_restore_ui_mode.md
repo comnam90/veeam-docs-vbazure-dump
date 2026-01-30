@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_mode"
+title: "Step 4. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_mode.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected Azure VM to the original or to a custom location.
 
@@ -27,6 +27,4 @@ For a subscription to be displayed in the list of available subscriptions, it mu
 
 [![Restoring Azure VM](images/restore_vm_mode.webp)](images/restore_vm_mode.webp "Restoring Azure VM")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_credentials"
+title: "Step 6. Specify User Credentials"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_credentials.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify User Credentials
 
-In this article
 
 [This step applies only if you have selected the Local users option at the Restore Options step of the wizard]
 
@@ -25,6 +25,4 @@ For a user to be displayed in the Credentials list, it must be added to the Cred
 
 ![Step 6. Specify User Credentials](images/restore_config_creds.webp)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

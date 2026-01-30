@@ -1,5 +1,5 @@
 ---
-title: "deploying_appliance_account"
+title: "Step 3. Specify Microsoft Azure Compute Account Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_appliance_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Specify Microsoft Azure Compute Account Settings
 
-In this article
 
 At the Account step of the wizard, select a Microsoft Azure compute account whose permissions will be used to deploy the new backup appliance. By default, Veeam Backup & Replication will also use the Microsoft Entra application associated with the Microsoft Azure compute account to create a default service account on the backup appliance. If you do not want Veeam Backup & Replication to create the default service account, make sure the Create the default service account by importing this compute account check box is not selected.
 
@@ -42,6 +42,4 @@ Related Topics
 
 [Editing Service Accounts](service_account_edit.md)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

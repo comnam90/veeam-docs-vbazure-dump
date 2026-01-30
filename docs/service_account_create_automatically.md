@@ -1,5 +1,5 @@
 ---
-title: "service_account_create_automatically"
+title: "Creating New Microsoft Entra Application"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_create_automatically.html"
@@ -7,8 +7,8 @@ last_updated: "6/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating New Microsoft Entra Application
 
-In this article
 
 [This step applies only if you have selected the Create service account automatically option at the Type step of the wizard]
 
@@ -38,6 +38,4 @@ At the Logon step of the wizard, do the following:
 
 [![Creating Account Automatically](images/service_account_auto.webp)](images/service_account_auto.webp "Creating Account Automatically")
 
-Page updated 6/24/2025
 
-Page content applies to build 8.0.1.202

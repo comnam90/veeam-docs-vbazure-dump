@@ -1,5 +1,5 @@
 ---
-title: "file_share_snapshot_retention"
+title: "File Share Snapshot Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/file_share_snapshot_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# File Share Snapshot Retention
 
-In this article
 
 For cloud-native snapshots, Veeam Backup for Microsoft Azure retains the number of latest restore points defined in backup scheduling settings as described in section [Creating Azure Files Backup Policies](fs_backup_policy_schedule.md).
 
@@ -21,6 +21,4 @@ During every successful backup session, Veeam Backup for Microsoft Azure creates
 | Note |
 | Consider that Veeam Backup for Microsoft Azure does not apply retention policy settings to cloud-native snapshots created manually. To learn how to remove these snapshots, see [Managing Azure Files Data](removing_fs_manual_snaphots.md). |
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

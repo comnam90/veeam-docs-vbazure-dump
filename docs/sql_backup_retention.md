@@ -1,5 +1,5 @@
 ---
-title: "sql_backup_retention"
+title: "SQL Backup Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_backup_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# SQL Backup Retention
 
-In this article
 
 For image-level backups, Veeam Backup for Microsoft Azure retains restore points for the number of days defined in backup scheduling settings as described in section [Creating SQL Backup Policies](sql_backup_policy_schedule.md).
 
@@ -34,6 +34,4 @@ Related Topics
 
 [Retention Policy for Archived Backups](sql_archive_backup_retention.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

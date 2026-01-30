@@ -1,5 +1,5 @@
 ---
-title: "cosmos_backup_pne"
+title: "Cosmos DB Backup in Private Environment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_backup_pne.html"
@@ -7,8 +7,8 @@ last_updated: "5/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cosmos DB Backup in Private Environment
 
-In this article
 
 If the private network deployment functionality is enabled for a backup appliance, Veeam Backup for Microsoft Azure performs Cosmos DB backup in the private environment using continuous backup — a native Microsoft Azure capability that allows you to eliminate consumption of extra provisioned throughput without affecting the database performance and availability. For more information on how continuous backup is performed, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-introduction).
 
@@ -29,6 +29,4 @@ Veeam Backup for Microsoft Azure also checks whether the following private endpo
 
 [![Cosmos DB Backup in Private Environment](images/cosmos_db_pne.webp)](images/cosmos_db_pne.webp "Cosmos DB Backup in Private Environment")
 
-Page updated 5/13/2025
 
-Page content applies to build 8.0.1.202

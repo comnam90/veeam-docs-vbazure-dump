@@ -1,5 +1,5 @@
 ---
-title: "smtp_database_account_password"
+title: "Step 3. Specify General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/smtp_database_account_password.html"
@@ -7,8 +7,8 @@ last_updated: "6/27/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Specify General Settings
 
-In this article
 
 At the Account step of the wizard, choose whether the account will be used to connect to SMTP servers or Azure databases, and specify credentials of a user account that will be used to authenticate against the servers or databases.
 
@@ -19,6 +19,4 @@ At the Account step of the wizard, choose whether the account will be used to co
 
 [![Specifying Credentials](images/sql_account_type.webp)](images/sql_account_type.webp "Specifying Credentials")
 
-Page updated 6/27/2025
 
-Page content applies to build 8.0.1.202

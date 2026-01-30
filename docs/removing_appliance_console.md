@@ -1,5 +1,5 @@
 ---
-title: "removing_appliance_console"
+title: "Removing Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_appliance_console.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Appliances
 
-In this article
 
 Veeam Plug-in for Microsoft Azure allows you to permanently remove backup appliances from the backup infrastructure.
 
@@ -52,6 +52,4 @@ Alternatively, right-click the appliance and select Remove.
 | Note |
 | If the selected appliance has been deployed from the Veeam Backup & Replication console and Veeam Backup & Replication uses a [newly created key pair](deploying_guest_os_credentials.md) to authenticate against the backup appliance, you must remove the key pair from the [resource group that holds resources](deploying_appliance_subscription.md) related to the appliance. |
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

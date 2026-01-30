@@ -1,5 +1,5 @@
 ---
-title: "worker_profile_edit"
+title: "Editing Worker Profiles"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_profile_edit.html"
@@ -7,8 +7,8 @@ last_updated: "1/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Editing Worker Profiles
 
-In this article
 
 For each set of worker profiles created for an Azure region, you can modify settings specified while creating the profile set:
 
@@ -27,6 +27,4 @@ For each set of worker profiles created for an Azure region, you can modify sett
 
 [![Editing Worker Profiles](images/editing_worker_profiles.webp)](images/editing_worker_profiles.webp "Editing Worker Profiles")
 
-Page updated 1/12/2024
 
-Page content applies to build 8.0.1.202

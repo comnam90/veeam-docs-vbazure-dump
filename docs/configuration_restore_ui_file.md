@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_ui_file"
+title: "Step 2. Choose Backup File"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_ui_file.html"
@@ -7,8 +7,8 @@ last_updated: "2/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Choose Backup File
 
-In this article
 
 At the Backup File step of the wizard, choose whether you want to use an exported backup file or a backup file stored in a backup repository:
 
@@ -32,6 +32,4 @@ For a backup repository to be displayed in the Repository list, it must be added
 
 [![Restoring Configuration Data](images/restoring_config_backup_file.webp)](images/restoring_config_backup_file.webp "Restoring Configuration Data")
 
-Page updated 2/5/2024
 
-Page content applies to build 8.0.1.202

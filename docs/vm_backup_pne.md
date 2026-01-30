@@ -1,5 +1,5 @@
 ---
-title: "vm_backup_pne"
+title: "VM Backup in Private Environment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_backup_pne.html"
@@ -7,8 +7,8 @@ last_updated: "5/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# VM Backup in Private Environment
 
-In this article
 
 If the private network deployment functionality is enabled for a backup appliance, Veeam Backup for Microsoft Azure performs VM backup in the following way:
 
@@ -41,6 +41,4 @@ To reduce the amount of data read from snapshots, Veeam Backup for Microsoft Azu
 
 [![VM Backup in Private Environment](images/vm_pne_one_subscription.webp)](images/vm_pne_one_subscription.webp "VM Backup in Private Environment")
 
-Page updated 5/13/2025
 
-Page content applies to build 8.0.1.202

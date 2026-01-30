@@ -1,5 +1,5 @@
 ---
-title: "configuring_backup_schedule"
+title: "Performing Scheduled Configuration Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_backup_schedule.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Scheduled Configuration Backup
 
-In this article
 
 While performing configuration backup, Veeam Backup for Microsoft Azure exports data from the configuration database and saves it to a backup file in a backup repository. To instruct Veeam Backup for Microsoft Azure to back up the configuration database of the backup appliance automatically by schedule, do the following:
 
@@ -28,6 +28,4 @@ If a restore point is older than the specified time limit, Veeam Backup for Micr
 
 [![Creating Configuration Backup Manually](images/config_backup_schedule.webp)](images/config_backup_schedule.webp "Creating Configuration Backup Manually")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

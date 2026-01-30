@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_from_repository"
+title: "Performing Restore From Repository"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_from_repository.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Restore From Repository
 
-In this article
 
 In case a disaster strikes, you can restore the database of a Cosmos DB for PostgreSQL account or databases and collections of a Cosmos DB for MongoDB account from a backup stored in a repository. Veeam Backup for Microsoft Azure allows you to restore one database at a time, to the original or to a new location.
 
@@ -31,6 +31,4 @@ To restore the database of a Cosmos DB for PostgreSQL account or databases and c
 6. [Specify a restore reason](cosmos_db_restore_from_repository_reason.md).
 7. [Finish working with the wizard](cosmos_db_restore_from_repository_finish.md).
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

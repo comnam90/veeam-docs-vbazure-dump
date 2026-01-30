@@ -1,5 +1,5 @@
 ---
-title: "app_pne_firewall"
+title: "Configuring Firewall Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_firewall.html"
@@ -7,8 +7,8 @@ last_updated: "9/19/2024"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Firewall Settings
 
-In this article
 
 To configure firewall rules for a storage account in which Azure resources that you want to protect reside, do the following:
 
@@ -38,6 +38,4 @@ To configure firewall rules for a storage account in which Azure resources that 
 
 1. Click Save.
 
-Page updated 9/19/2024
 
-Page content applies to build 8.0.1.202

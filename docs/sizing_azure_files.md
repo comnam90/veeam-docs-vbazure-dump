@@ -1,5 +1,5 @@
 ---
-title: "sizing_azure_files"
+title: "Azure Files"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_azure_files.html"
@@ -7,8 +7,8 @@ last_updated: "9/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Azure Files
 
-In this article
 
 You can adjust several configuration settings to improve the restore process by editing the configuration file /etc/veeam/azurebackup/Config.ini.
 
@@ -29,6 +29,4 @@ There are also other factors that may affect the restore performance:
 | Important |
 | If you encounter a throttling issue, modifying the values in the configuration file will not resolve it. In this case, it is recommended that you contact [Veeam](support_information.md) or Microsoft support for assistance. |
 
-Page updated 9/5/2024
 
-Page content applies to build 8.0.1.202

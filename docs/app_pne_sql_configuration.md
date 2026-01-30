@@ -1,5 +1,5 @@
 ---
-title: "app_pne_sql_configuration"
+title: "Step 8d. Specify Virtual Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_sql_configuration.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8d. Specify Virtual Network Settings
 
-In this article
 
 At the Virtual Network step of the Create a private endpoint wizard, do the following:
 
@@ -19,6 +19,4 @@ At the Virtual Network step of the Create a private endpoint wizard, do the foll
 
 [![Specifying Configuration Settings](images/app_pne_virtual_network_sql.webp)](images/app_pne_virtual_network_sql.webp "Specifying Configuration Settings")
 
-Page updated 4/29/2024
 
-Page content applies to build 8.0.1.202

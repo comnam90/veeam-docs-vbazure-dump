@@ -1,5 +1,5 @@
 ---
-title: "accessing_vb_console"
+title: "Accessing Web UI from Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/accessing_vb_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Accessing Web UI from Console
 
-In this article
 
 To access the Veeam Backup for Microsoft Azure Web UI from the Veeam Backup & Replication console, do the following:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the Veeam Backup for Microsoft Azure Web
 
 [![Open web console](images/open_web_console.webp)](images/open_web_console.webp "Open web console")
 
-Page updated 7/9/2025
 
-Page content applies to build 8.0.1.202

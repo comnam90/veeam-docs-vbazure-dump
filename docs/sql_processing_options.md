@@ -1,5 +1,5 @@
 ---
-title: "sql_processing_options"
+title: "Step 4. Configure Processing Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_processing_options.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Configure Processing Options
 
-In this article
 
 At the Processing Options step of the wizard, choose whether you want to use a staging server to perform backup. To learn how Veeam Backup for Microsoft Azure uses staging servers to protect Azure SQL databases, see [SQL Backup](how_sql_backup_works.md).
 
@@ -58,6 +58,4 @@ For an account to be displayed in the Account list, it must be added to Veeam Ba
 
 [![Step 4. Configure Processing Options](images/sql_backup_staging_server.webp)](images/sql_backup_staging_server.webp)
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

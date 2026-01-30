@@ -1,5 +1,5 @@
 ---
-title: "backup_policy_add_console"
+title: "Creating Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_policy_add_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating Backup Policies
 
-In this article
 
 You can create backup policies in the Veeam Backup for Microsoft Azure Web UI only. However, you can launch the Add Policy wizard directly from the Veeam Backup & Replication console — to do that, use either of the following options:
 
@@ -19,6 +19,4 @@ Veeam Backup & Replication will open the Add VM Policy, Add Azure SQL Policy,
 
 [![Create Azure policy](images/azure_policy_create.webp)](images/azure_policy_create.webp "Create Azure policy")
 
-Page updated 7/11/2025
 
-Page content applies to build 8.0.1.202

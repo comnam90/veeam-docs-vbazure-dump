@@ -1,5 +1,5 @@
 ---
-title: "creating_cosmos_db_backups_manually"
+title: "Creating Cosmos DB Backups Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/creating_cosmos_db_backups_manually.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating Cosmos DB Backups Manually
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to manually create backups of Cosmos DB for PostgreSQL and Cosmos DB for MongoDB accounts.
 
@@ -42,6 +42,4 @@ In the Choose repository window, select a repository where the created backups w
 
 [![Creating Backup Manually](images/creating_cosmos_db_backups_manually.webp)](images/creating_cosmos_db_backups_manually.webp "Creating Backup Manually")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

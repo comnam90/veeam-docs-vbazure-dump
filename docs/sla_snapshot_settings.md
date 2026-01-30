@@ -1,5 +1,5 @@
 ---
-title: "sla_snapshot_settings"
+title: "Step 3. Configure Snapshot Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_snapshot_settings.html"
@@ -7,8 +7,8 @@ last_updated: "3/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Snapshot Settings
 
-In this article
 
 At the Snapshots step of the wizard, you can configure the following snapshot settings:
 
@@ -24,6 +24,4 @@ When you combine multiple types of snapshot schedules, Veeam Backup for Microsof
 
 [![Adding SLA Policy](images/sla_snapshot_settings.webp)](images/sla_snapshot_settings.webp "Adding SLA Policy")
 
-Page updated 3/26/2025
 
-Page content applies to build 8.0.1.202

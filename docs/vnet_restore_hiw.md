@@ -1,5 +1,5 @@
 ---
-title: "vnet_restore_hiw"
+title: "Virtual Network Configuration Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vnet_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "12/4/2025"
 product_version: "8.0.1.202"
 ---
 
+# Virtual Network Configuration Restore
 
-In this article
 
 Veeam Backup for Microsoft Azure offers the following disaster recovery operations:
 
@@ -17,6 +17,4 @@ Veeam Backup for Microsoft Azure offers the following disaster recovery operatio
 
 You can restore the virtual network configuration data to the most recent state or to any available restore point.
 
-Page updated 12/4/2025
 
-Page content applies to build 8.0.1.202

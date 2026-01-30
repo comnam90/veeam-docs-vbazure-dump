@@ -1,5 +1,5 @@
 ---
-title: "entire_vm_restore_ui"
+title: "Performing Entire VM Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/entire_vm_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "11/1/2023"
 product_version: "8.0.1.202"
 ---
 
+# Performing Entire VM Restore
 
-In this article
 
 In case a disaster strikes, you can restore an entire Azure VM from a cloud-native snapshot or image-level backup. Veeam Backup for Microsoft Azure allows you to restore one or more Azure VMs at a time, to the original location or to a new location.
 
@@ -31,6 +31,4 @@ To restore an Azure VM, do the following:
 9. [Specify a restore reason](vm_restore_ui_reason.md).
 10. [Finish working with the wizard](vm_restore_ui_finish.md).
 
-Page updated 11/1/2023
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "service_account_edit_connect"
+title: "Step 3. Connect to Microsoft Entra Application"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_edit_connect.html"
@@ -7,8 +7,8 @@ last_updated: "9/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Connect to Microsoft Entra Application
 
-In this article
 
 At the Logon step of the wizard, you can review the authentication method that is currently used to connect to the Microsoft Entra application with which the service account is associated. You can also renew a client secret that is about to expire, or associate a new Microsoft Entra application with the service account in case the application that was previously used is no longer available.
 
@@ -59,6 +59,4 @@ If the Microsoft Entra application that has been used to create the service acco
 
 [![Connecting to Entra ID Application](images/edit_account_connect_auto.webp)](images/edit_account_connect_auto.webp "Connecting to Entra ID Application")
 
-Page updated 9/5/2024
 
-Page content applies to build 8.0.1.202

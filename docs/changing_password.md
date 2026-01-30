@@ -1,5 +1,5 @@
 ---
-title: "changing_password"
+title: "Changing User Passwords"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/changing_password.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Changing User Passwords
 
-In this article
 
 For Veeam Backup for Microsoft Azure user accounts, you can change the password specified while creating the account.
 
@@ -31,6 +31,4 @@ To change the password, do the following:
 
 [![Changing User Passwords](images/changing_password.webp)](images/changing_password.webp "Changing User Passwords")
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

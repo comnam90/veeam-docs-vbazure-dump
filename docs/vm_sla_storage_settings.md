@@ -1,5 +1,5 @@
 ---
-title: "vm_sla_storage_settings"
+title: "Step 5. Configure Protection Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_storage_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Protection Settings
 
-In this article
 
 At the Protection Settings step of the wizard, select an SLA and a storage template that will be assigned to the policy:
 
@@ -27,6 +27,4 @@ For a storage template to be displayed in the list, it must be added to Veeam Ba
 
 [![Adding Backup Policy](images/vm_protection_sla_storage_settings.webp)](images/vm_protection_sla_storage_settings.webp "Adding Backup Policy")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

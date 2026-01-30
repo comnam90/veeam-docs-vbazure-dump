@@ -1,5 +1,5 @@
 ---
-title: "guest_file_recovery"
+title: "Performing Guest OS File Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/guest_file_recovery.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Guest OS File Restore
 
-In this article
 
 Veeam Backup & Replication allows you to use image-level backups to restore files and folders of various VM guest OS file systems from the Veeam Backup & Replication console. For more information, see the Veeam Backup & Replication User Guide, section [Guest OS File Restore](https://helpcenter.veeam.com/docs/vbr/userguide/guest_file_recovery.html?ver=13).
 
@@ -32,6 +32,4 @@ To restore guest OS files and folders, do the following:
 
 [![Restore guest OS files](images/restore_guest_os_files.webp)](images/restore_guest_os_files.webp "Restore guest OS files")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

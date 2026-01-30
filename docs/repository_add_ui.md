@@ -1,5 +1,5 @@
 ---
-title: "repository_add_ui"
+title: "Adding Backup Repositories Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_add_ui.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Adding Backup Repositories Using Web UI
 
-In this article
 
 |  |
 | --- |
@@ -24,6 +24,4 @@ To add a new backup repository, do the following:
 5. [Configure load control settings for the backup repository](repository_ui_load.md).
 6. [Finish working with the wizard](repository_ui_finish.md).
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "architecture_overview"
+title: "Solution Architecture"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/architecture_overview.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Solution Architecture
 
-In this article
 
 The Veeam Backup for Microsoft Azure architecture includes the following components:
 
@@ -23,6 +23,4 @@ The Veeam Backup for Microsoft Azure architecture includes the following compone
 
 [![Backup Infrastructure](images/architecture_services_v7.webp)](images/architecture_services_v7.webp "Backup Infrastructure")
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

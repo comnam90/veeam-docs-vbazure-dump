@@ -1,5 +1,5 @@
 ---
-title: "vnet_backup_subscriptions_automatic"
+title: "Enabling Automatic Protection"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vnet_backup_subscriptions_automatic.html"
@@ -7,8 +7,8 @@ last_updated: "1/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Automatic Protection
 
-In this article
 
 To instruct Veeam Backup for Microsoft Azure to protect the virtual network configuration of all Azure subscriptions specified in Azure VM, Azure SQL and Azure Files backup policy settings, in the Automatically protected subscriptions section, set the Automatically collect network settings toggle to On.
 
@@ -24,6 +24,4 @@ Veeam Backup for Microsoft Azure will display the Permission Check window where 
 
 [![Enabling Automatic VNet Protection](images/vnet_backup_subscriptions_automatic.webp)](images/vnet_backup_subscriptions_automatic.webp "Enabling Automatic VNet Protection")
 
-Page updated 1/24/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "app_pne_second_policy_run"
+title: "Step 7. Launch Backup Policy for Disk Access"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_second_policy_run.html"
@@ -7,8 +7,8 @@ last_updated: "5/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Launch Backup Policy for Disk Access
 
-In this article
 
 [This step applies only if you chose to create and manage the private DNS zones manually at [step 1](app_pne_dns_zones.md)]
 
@@ -20,6 +20,4 @@ Related Topics
 
 [Performing VM Backup](performing_vm_backup.md)
 
-Page updated 5/7/2025
 
-Page content applies to build 8.0.1.202

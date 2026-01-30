@@ -1,5 +1,5 @@
 ---
-title: "block_generation"
+title: "Block Generation"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/block_generation.html"
@@ -7,8 +7,8 @@ last_updated: "2/4/2025"
 product_version: "8.0.1.202"
 ---
 
+# Block Generation
 
-In this article
 
 If you choose a repository with immutability settings enabled as the target location for image-level backups, Veeam Backup for Microsoft Azure creates an immutable backup chain in the repository instead of a regular backup chain. Immutable backup chains are built the same way as standard and archive backup chains, which means that each immutability chain is composed of a set of backups produced during a sequence of backup sessions, and that the same retention policies apply to these chains. The only difference is that files in immutable backup chains can be neither removed nor modified until the immutability period is over. Therefore, every time Veeam Backup for Microsoft Azure creates a new incremental backup containing modified data blocks, the retention period of the dependent unchanged data blocks (in the preceding incremental and full backups) is supposed to be extended. This can cause a substantial increase in I/O operations and incur additional associated costs in Microsoft Azure.
 
@@ -53,6 +53,4 @@ According to the specified scheduling settings, Veeam Backup for Microsoft Azure
 
 Then, all data blocks of the preceding backups whose retention period has not been extended will be removed by a retention session due to the immutability period expiration.
 
-Page updated 2/4/2025
 
-Page content applies to build 8.0.1.202

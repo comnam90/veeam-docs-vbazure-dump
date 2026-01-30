@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_create"
+title: "Creating Cosmos DB Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_create.html"
@@ -7,8 +7,8 @@ last_updated: "6/19/2024"
 product_version: "8.0.1.202"
 ---
 
+# Creating Cosmos DB Backup Policies
 
-In this article
 
 To create a backup policy, do the following:
 
@@ -22,6 +22,4 @@ To create a backup policy, do the following:
 8. [Specify automatic retry, health check and notification settings for the backup policy](cosmos_db_backup_retry_notifications.md).
 9. [Finish working with the wizard](cosmos_db_backup_finish.md).
 
-Page updated 6/19/2024
 
-Page content applies to build 8.0.1.202

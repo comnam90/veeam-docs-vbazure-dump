@@ -1,5 +1,5 @@
 ---
-title: "importing_vnet_backups"
+title: "Importing Virtual Network Configuration Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/importing_vnet_backups.html"
@@ -7,8 +7,8 @@ last_updated: "3/14/2025"
 product_version: "8.0.1.202"
 ---
 
+# Importing Virtual Network Configuration Data
 
-In this article
 
 The Protected Data page only shows configuration records saved to the configuration database of the backup appliance. That is why you can restore virtual network configuration from these records only.
 
@@ -21,6 +21,4 @@ You can also manually import any deleted virtual network configuration backups t
 
 [![Importing VNet Configuration Data](images/backups_import_vnet.webp)](images/backups_import_vnet.webp "Importing VNet Configuration Data")
 
-Page updated 3/14/2025
 
-Page content applies to build 8.0.1.202

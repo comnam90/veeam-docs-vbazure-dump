@@ -1,5 +1,5 @@
 ---
-title: "smtp_database_account_summary"
+title: "Step 4. Finish Working with Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/smtp_database_account_summary.html"
@@ -7,8 +7,8 @@ last_updated: "6/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -19,6 +19,4 @@ At the Summary step of the wizard, review summary information and click Finish.
 
 [![Reviewing Summary Info](images/sql_account_finish.webp)](images/sql_account_finish.webp "Reviewing Summary Info")
 
-Page updated 6/13/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "flr_restore_settings"
+title: "Step 3. Configure Restore Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/flr_restore_settings.html"
@@ -7,8 +7,8 @@ last_updated: "4/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Restore Settings
 
-In this article
 
 At the Restore Settings step of the wizard, choose whether you want to restore files to the original location. To do that, set the Restore to original location toggle to On and click the link in the Service account field. Then, select a service account that will be used for the restore operation. The specified service account must be assigned permissions listed in section [Azure VM Permissions](vm_permissions.md#restore).
 
@@ -16,6 +16,4 @@ For a service account to be displayed in the list of available accounts, it must
 
 [![File-Level Recovery Restore Settings](images/flr_original_location.webp)](images/flr_original_location.webp "File-Level Recovery Restore Settings")
 
-Page updated 4/7/2025
 
-Page content applies to build 8.0.1.202

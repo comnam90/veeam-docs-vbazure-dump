@@ -1,5 +1,5 @@
 ---
-title: "deploying_appliance"
+title: "Deploying Backup Appliance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "10/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Deploying Backup Appliance
 
-In this article
 
 Veeam Backup for Microsoft Azure is installed on an Azure VM that is created in a selected Azure subscription during the product installation. You can deploy Veeam Backup for Microsoft Azure from the Veeam Backup & Replication console only.
 
@@ -45,6 +45,4 @@ Related Topics
 
 [Connecting to Existing Appliances](connecting_appliance_console.md)
 
-Page updated 10/29/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "restore_sql_name"
+title: "Step 5. Specify SQL Database Name"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restore_sql_name.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Specify SQL Database Name
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -21,6 +21,4 @@ At the Name step of the wizard, specify a new name for the restored Azure SQL da
 
 [![Restore to Microsoft Azure SQL - Name](images/restore_sql_name.webp)](images/restore_sql_name.webp "Restore to Microsoft Azure SQL - Name")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

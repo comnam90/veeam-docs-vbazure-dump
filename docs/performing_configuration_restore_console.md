@@ -1,5 +1,5 @@
 ---
-title: "performing_configuration_restore_console"
+title: "Performing Configuration Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_configuration_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "2/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Configuration Restore
 
-In this article
 
 To restore the configuration database of a backup appliance, do the following:
 
@@ -21,6 +21,4 @@ To restore the configuration database of a backup appliance, do the following:
 7. [Wait for the restore process to complete](configuration_restore_console_progress.md).
 8. [Finish working with the wizard](configuration_restore_console_finish.md).
 
-Page updated 2/5/2024
 
-Page content applies to build 8.0.1.202

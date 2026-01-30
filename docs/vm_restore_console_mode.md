@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_console_mode"
+title: "Step 3. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_console_mode.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, do the following:
 
@@ -25,6 +25,4 @@ For a service account to be displayed in the list of available accounts, it must
 
 [![Restore to Microsoft Azure - Mode](images/restore_from_snapshot_restore_mode.webp)](images/restore_from_snapshot_restore_mode.webp "Restore to Microsoft Azure - Mode")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

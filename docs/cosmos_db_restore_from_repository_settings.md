@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_from_repository_settings"
+title: "Step 5. Configure Restore Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_from_repository_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Restore Settings
 
-In this article
 
 At the Settings step of the wizard, choose whether you want to restore the database to the original or to a custom location, and specify a region and an account to which the selected items will be restored.
 
@@ -64,6 +64,4 @@ Note that one database can share the throughput among a maximum of 25 collection
 
 [![Choosing Restore Mode](images/cosmos_db_restore_from_repository_throughput2.webp)](images/cosmos_db_restore_from_repository_throughput2.webp "Choosing Restore Mode")
 
-Page updated 9/1/2025
 
-Page content applies to build 8.0.1.202

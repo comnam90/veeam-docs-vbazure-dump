@@ -1,5 +1,5 @@
 ---
-title: "pne_sql_dns_endpoints_blobs"
+title: "Step 6b. Configure Private Endpoint for Azure Blob Storage"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_sql_dns_endpoints_blobs.html"
@@ -7,8 +7,8 @@ last_updated: "4/15/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6b. Configure Private Endpoint for Azure Blob Storage
 
-In this article
 
 To configure DNS settings for the private endpoint that Veeam Backup for Microsoft Azure automatically created for [Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview), do the following:
 
@@ -34,6 +34,4 @@ To configure DNS settings for the private endpoint that Veeam Backup for Microso
 
 [![Configuring Private Endpoint for Blobs](images/private_endpoint_blob_vnet_links.webp)](images/private_endpoint_blob_vnet_links.webp "Configuring Private Endpoint for Blobs")
 
-Page updated 4/15/2025
 
-Page content applies to build 8.0.1.202

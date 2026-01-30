@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_from_repository_retrieve"
+title: "Step 4. Specify Retrieval Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_from_repository_retrieve.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Retrieval Settings
 
-In this article
 
 [This step applies only if you have selected a restore point stored in an archive repository at the Restore Point step of the wizard]
 
@@ -25,6 +25,4 @@ At the Data retrieval step of the wizard, choose a retrieval mode and specify a 
 
 [![Specify Retrieval Settings](images/cosmos_db_restore_from_repository_retrieve.webp)](images/cosmos_db_restore_from_repository_retrieve.webp "Specify Retrieval Settings")
 
-Page updated 4/25/2025
 
-Page content applies to build 8.0.1.202

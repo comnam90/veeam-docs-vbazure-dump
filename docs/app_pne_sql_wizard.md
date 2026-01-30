@@ -1,5 +1,5 @@
 ---
-title: "app_pne_sql_wizard"
+title: "Step 8a. Launch Create a Private Endpoint Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_sql_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "6/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8a. Launch Create a Private Endpoint Wizard
 
-In this article
 
 To launch the Create a private endpoint wizard for a SQL Server for which you want to create a private endpoint, do the following:
 
@@ -21,6 +21,4 @@ To launch the Create a private endpoint wizard for a SQL Server for which you wa
 
 [![Launching Create a Private Endpoint Wizard](images/pne_sql_private_endpoint_create.webp)](images/pne_sql_private_endpoint_create.webp "Launching Create a Private Endpoint Wizard")
 
-Page updated 6/27/2024
 
-Page content applies to build 8.0.1.202

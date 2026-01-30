@@ -1,5 +1,5 @@
 ---
-title: "editing_appliance_console"
+title: "Editing Appliance Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/editing_appliance_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing Appliance Settings
 
-In this article
 
 For each backup appliance managed by the backup server, you can modify the settings configured while adding the appliance to the backup infrastructure.
 
@@ -36,6 +36,4 @@ Alternatively, right-click the appliance and select Properties.
 
 [![Edit appliance settings](images/edit_appliance.webp)](images/edit_appliance.webp "Edit appliance settings")
 
-Page updated 7/10/2025
 
-Page content applies to build 8.0.1.202

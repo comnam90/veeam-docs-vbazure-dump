@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_configuration"
+title: "Step 2d. Specify Virtual Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_configuration.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2d. Specify Virtual Network Settings
 
-In this article
 
 At the Virtual Network step of the Create a private endpoint wizard, do the following:
 
@@ -19,6 +19,4 @@ At the Virtual Network step of the Create a private endpoint wizard, do the foll
 
 [![Specifying Configuration Settings](images/app_pne_cosmos_db_configuration.webp)](images/app_pne_cosmos_db_configuration.webp "Specifying Configuration Settings")
 
-Page updated 7/1/2024
 
-Page content applies to build 8.0.1.202

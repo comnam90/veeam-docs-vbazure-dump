@@ -1,5 +1,5 @@
 ---
-title: "repository_add_console_existing"
+title: "Connecting to Existing Repositories"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_add_console_existing.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Connecting to Existing Repositories
 
-In this article
 
 When you connect to a backup appliance, all repositories that have already been configured on the appliance are automatically added to the backup infrastructure.
 
@@ -33,6 +33,4 @@ Open the Backup Infrastructure view to verify that the repository is displayed u
 | Note |
 | If you do not specify credentials of any Microsoft Azure storage account for a standard repository, you will only be able to use the Veeam Backup & Replication console to perform [entire VM restore](entire_vm_restore_console.md) and [SQL database restore](sql_restore_console.md) from backups stored in this repository. Moreover, information on the repository displayed in the Backup Infrastructure view under the External Repositories node will not include statistics on the amount of storage space that is currently consumed by restore points created by Veeam Backup for Microsoft Azure. |
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

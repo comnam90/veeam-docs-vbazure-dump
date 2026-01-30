@@ -1,5 +1,5 @@
 ---
-title: "working_with_certificates"
+title: "Replacing Security Certificates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/working_with_certificates.html"
@@ -7,8 +7,8 @@ last_updated: "9/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Replacing Security Certificates
 
-In this article
 
 To establish secure data communications between the backup appliance and web browsers running on user workstations, Veeam Backup for Microsoft Azure uses Transport Layer Security (TLS) certificates.
 
@@ -35,6 +35,4 @@ When you install Veeam Backup for Microsoft Azure, it automatically generates a 
 
 [![Replacing Security Certificate](images/replace_web_certificate.webp)](images/replace_web_certificate.webp "Replacing Security Certificate")
 
-Page updated 9/5/2024
 
-Page content applies to build 8.0.1.202

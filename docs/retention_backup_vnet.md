@@ -1,5 +1,5 @@
 ---
-title: "retention_backup_vnet"
+title: "Virtual Network Configuration Backup Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/retention_backup_vnet.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Virtual Network Configuration Backup Retention
 
-In this article
 
 For virtual network configuration backups, Veeam Backup for Microsoft Azure retains restore points for the period of time specified in [backup retention settings](vnet_backup_retention.md).
 
@@ -21,6 +21,4 @@ During every successful backup session, Veeam Backup for Microsoft Azure creates
 
 [![Virtual Network Configuration Backup Retention](images/vnet_backup_retention.webp)](images/vnet_backup_retention.webp "Virtual Network Configuration Backup Retention")
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

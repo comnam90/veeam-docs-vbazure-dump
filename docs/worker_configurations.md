@@ -1,5 +1,5 @@
 ---
-title: "worker_configurations"
+title: "Managing Worker Configurations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_configurations.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Managing Worker Configurations
 
-In this article
 
 A configuration is a group of network settings that Veeam Backup for Microsoft Azure uses to launch worker instances in a specific Azure region to perform data protection and disaster recovery operations. Veeam Backup for Microsoft Azure launches one worker instance per each Azure resource added to a backup policy or restore task.
 
@@ -26,6 +26,4 @@ In This Section
 * [Editing Worker Configurations](worker_configuration_edit.md)
 * [Removing Worker Configurations](worker_configuration_remove.md)
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

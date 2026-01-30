@@ -1,5 +1,5 @@
 ---
-title: "vm_sla_notifications"
+title: "Step 7. Configure General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_notifications.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Configure General Settings
 
-In this article
 
 At the Settings step of the wizard, you can enable automatic retries and specify notification settings for the SLA-based backup policy policy.
 
@@ -40,6 +40,4 @@ If you set the toggle to Off, Veeam Backup for Microsoft Azure will not send any
 
 [![Adding Backup Policy](images/vm_protection_notifications.webp)](images/vm_protection_notifications.webp "Adding Backup Policy")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "granular_vnet_restore_account"
+title: "Step 3. Specify Service Account"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/granular_vnet_restore_account.html"
@@ -7,8 +7,8 @@ last_updated: "9/11/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Specify Service Account
 
-In this article
 
 At the Account step of the wizard, choose a service account whose permissions will be used to perform the restore operation. To do that, click the link to the right of Service account and choose the necessary account from the list. The specified service account must be assigned permissions listed in section [Virtual Network Configuration Permissions](vnet_permissions.md#restore).
 
@@ -21,6 +21,4 @@ For a service account to be displayed in the list of available accounts, it must
 
 [![Selecting Service Account for Virtual Network Configuration Granular Restore](images/vnet_restore_granular_account.webp)](images/vnet_restore_granular_account.webp "Selecting Service Account for Virtual Network Configuration Granular Restore")
 
-Page updated 9/11/2024
 
-Page content applies to build 8.0.1.202

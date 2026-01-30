@@ -1,5 +1,5 @@
 ---
-title: "repository_console_storage_account"
+title: "Step 3. Configure Repository Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_console_storage_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Repository Settings
 
-In this article
 
 At the Account step of the wizard, do the following:
 
@@ -32,6 +32,4 @@ For a server to be displayed in the Gateway server list, it must be added to the
 
 ![Step 3. Configure Repository Settings](images/add_repo_azure_account_settings.webp)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

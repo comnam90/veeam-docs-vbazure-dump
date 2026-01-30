@@ -1,5 +1,5 @@
 ---
-title: "sizing_object_storage"
+title: "Backup Repository"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_object_storage.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Repository
 
-In this article
 
 Veeam Backup for Microsoft Azure compresses all backed-up data when saving it to backup repositories. The compression rate depends on the type and structure of source data and usually varies from 50% to 60%. This means that the compressed data typically consumes 50% less storage space than the source data.
 
@@ -42,6 +42,4 @@ Cost Estimation
 
 Veeam Backup for Microsoft Azure comes with a built-in cost calculator that allows you to estimate your Azure expenses. It uses publicly available Microsoft Azure price lists, so it may not reflect your exact cost in case of custom pricing or an enterprise agreement. Full details can be found at the cost estimation step of the Add Policy wizard.
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

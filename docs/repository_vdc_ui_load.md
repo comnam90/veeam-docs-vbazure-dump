@@ -1,5 +1,5 @@
 ---
-title: "repository_vdc_ui_load"
+title: "Step 5. Configure General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_ui_load.html"
@@ -7,8 +7,8 @@ last_updated: "7/22/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure General Settings
 
-In this article
 
 At the Options step of the wizard, you can configure additional storage vault settings such as the storage size and the maximum number of allowed connections.
 
@@ -38,6 +38,4 @@ To limit the number of concurrent connections, select the Limit concurrent back
 
 [![Configuring Repository Options](images/repository_vdc_ui_load.webp)](images/repository_vdc_ui_load.webp "Configuring Repository Options")
 
-Page updated 7/22/2025
 
-Page content applies to build 8.0.1.202

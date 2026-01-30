@@ -1,5 +1,5 @@
 ---
-title: "repository_ui_encryption"
+title: "Step 4. Enable Data Encryption"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_ui_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Enable Data Encryption
 
-In this article
 
 At the Encryption step of the wizard, choose whether you want to encrypt backups stored in the selected blob container.
 
@@ -41,6 +41,4 @@ For an Azure vault to be displayed in the list of available vaults, it must be c
 
 [![Enabling Data Encryption](images/repository_encryption.webp)](images/repository_encryption.webp "Enabling Data Encryption")
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

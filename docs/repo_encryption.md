@@ -1,5 +1,5 @@
 ---
-title: "repo_encryption"
+title: "Repository Encryption"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repo_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Repository Encryption
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to encrypt backed-up data in repositories (both backup repositories and Veeam Data Cloud storage vaults) using Veeam encryption mechanisms. Veeam Backup for Microsoft Azure encrypts backup files stored in repositories the same way as Veeam Backup & Replication encrypts backup files stored in backup repositories. To learn what algorithms Veeam Backup & Replication uses to encrypt backup files, see the Veeam Backup & Replication User Guide, section [Data Encryption](https://helpcenter.veeam.com/docs/vbr/userguide/data_encryption.html?ver=13).
 
@@ -19,6 +19,4 @@ To enable encryption for a backup repository or a Veeam Data Cloud storage vault
 
 [![Data Encryption](images/encryption.webp)](images/encryption.webp "Data Encryption")
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

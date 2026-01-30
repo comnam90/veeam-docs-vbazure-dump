@@ -1,5 +1,5 @@
 ---
-title: "removing_cosmos_db_backups"
+title: "Removing Cosmos DB Backups"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_cosmos_db_backups.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Cosmos DB Backups
 
-In this article
 
 Veeam Backup for Microsoft Azure applies the [configured retention policy settings](cosmos_db_backup_policy_schedule.md) to automatically remove backups created for Cosmos DB accounts by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -32,6 +32,4 @@ To remove backed-up data manually, do the following:
 
 [![Removing Cosmos DB Backups](images/remove_backups_cosmos_db.webp)](images/remove_backups_cosmos_db.webp "Removing Cosmos DB Backups")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

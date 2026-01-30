@@ -1,5 +1,5 @@
 ---
-title: "app_private_network"
+title: "Working in Private Environments"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_private_network.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "8.0.1.202"
 ---
 
+# Working in Private Environments
 
-In this article
 
 For Veeam Backup for Microsoft Azure to be able to work with Azure resources that operate in private environments, do the following:
 
@@ -43,6 +43,4 @@ To back up and restore Azure resources operating within private virtual networks
 * [Configure network settings for a Cosmos DB account](app_pne_cosmos_db.md).
 * [Configure network settings for a repository, an unmanaged Azure VM or an Azure file share](app_pne_storage_account.md).
 
-Page updated 9/2/2025
 
-Page content applies to build 8.0.1.202

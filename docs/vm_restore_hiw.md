@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_hiw"
+title: "VM Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "6/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# VM Restore
 
-In this article
 
 Veeam Backup for Microsoft Azure offers the following restore options:
 
@@ -18,6 +18,4 @@ Veeam Backup for Microsoft Azure offers the following restore options:
 
 You can restore Azure VM data to the most recent state or to any available restore point.
 
-Page updated 6/10/2025
 
-Page content applies to build 8.0.1.202

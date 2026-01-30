@@ -1,5 +1,5 @@
 ---
-title: "adding_appliance_connection"
+title: "Step 6. Specify Connection Type"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/adding_appliance_connection.html"
@@ -7,8 +7,8 @@ last_updated: "7/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Connection Type
 
-In this article
 
 At the Connection Type step of the wizard, specify the way Veeam Backup & Replication will connect to the backup appliance:
 
@@ -17,6 +17,4 @@ At the Connection Type step of the wizard, specify the way Veeam Backup & Rep
 
 ![Step 6. Specify Connection Type](images/connect_azure_appliance_connection.webp)
 
-Page updated 7/10/2025
 
-Page content applies to build 8.0.1.202

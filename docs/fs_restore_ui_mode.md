@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_mode"
+title: "Step 3. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_mode.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore files of the file share to the original or to a custom location.
 
@@ -30,6 +30,4 @@ For a file share to be displayed in the list of available shares, it must be dep
 
 [![Performing File Share Restore](images/fs_restore_mode.webp)](images/fs_restore_mode.webp "Performing File Share Restore")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

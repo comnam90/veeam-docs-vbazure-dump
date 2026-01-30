@@ -1,5 +1,5 @@
 ---
-title: "general_settings"
+title: "Configuring General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/general_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Configuring General Settings
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to configure general settings that are applied to all performed operations and deployed architecture components:
 
@@ -20,6 +20,4 @@ Veeam Backup for Microsoft Azure allows you to configure general settings that a
 * [Change the time zone set on the backup appliance](changing_time_zone.md).
 * [Configure single sign-on settings to retrieve user identities from an identity provider](configuring_sso.md).
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

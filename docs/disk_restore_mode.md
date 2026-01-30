@@ -1,5 +1,5 @@
 ---
-title: "disk_restore_mode"
+title: "Step 4. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/disk_restore_mode.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected virtual disks to the original or to a custom location.
 
@@ -27,6 +27,4 @@ For a subscription to be displayed in the list of available subscriptions, it mu
 
 [![Performing Disk Restore](images/restoring_disk_mode.webp)](images/restoring_disk_mode.webp "Performing Disk Restore")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

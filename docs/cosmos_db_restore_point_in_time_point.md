@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_point_in_time_point"
+title: "Step 2. Select Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_point_in_time_point.html"
@@ -7,8 +7,8 @@ last_updated: "7/16/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Restore Point step of the wizard, select a timestamp that will be used to restore the selected Cosmos DB account. By default, Veeam Backup for Microsoft Azure uses the most recent valid timestamp. However, you can restore the account data to an earlier state.
 
@@ -29,6 +29,4 @@ To adjust the timestamp, you can use the slider below the Date and time field.
 
 [![Selecting Restore Point](images/cosmos_db_restore_point_in_time_point.webp)](images/cosmos_db_restore_point_in_time_point.webp "Selecting Restore Point")
 
-Page updated 7/16/2024
 
-Page content applies to build 8.0.1.202

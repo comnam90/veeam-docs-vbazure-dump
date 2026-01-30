@@ -1,5 +1,5 @@
 ---
-title: "service_account_check"
+title: "Checking Service Account Permissions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_check.html"
@@ -7,8 +7,8 @@ last_updated: "8/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Checking Service Account Permissions
 
-In this article
 
 For each service account, you can check whether the account has all the permissions required to access Azure resources that you want to protect:
 
@@ -53,6 +53,4 @@ To make sure that the missing permissions have been successfully granted, click 
 
 [![Checking Azure Account Permissions](images/checking_account_permissions.webp)](images/checking_account_permissions.webp "Checking Azure Account Permissions")
 
-Page updated 8/27/2024
 
-Page content applies to build 8.0.1.202

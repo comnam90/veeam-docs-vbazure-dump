@@ -1,5 +1,5 @@
 ---
-title: "backup_policy_edit"
+title: "Editing Backup Policy Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_policy_edit.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing Backup Policy Settings
 
-In this article
 
 For each backup policy, you can modify settings configured while creating the policy:
 
@@ -25,6 +25,4 @@ For each backup policy, you can modify settings configured while creating the po
 
 [![Editing Backup Policy Settings](images/policy_edit.webp)](images/policy_edit.webp "Editing Backup Policy Settings")
 
-Page updated 4/29/2025
 
-Page content applies to build 8.0.1.202

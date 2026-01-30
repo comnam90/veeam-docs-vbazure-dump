@@ -1,5 +1,5 @@
 ---
-title: "updates_install"
+title: "Installing Updates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/updates_install.html"
@@ -7,8 +7,8 @@ last_updated: "11/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Installing Updates
 
-In this article
 
 To download and install new product versions and available software package updates, you can do either of the following:
 
@@ -92,6 +92,4 @@ If you select the Next Week option, Veeam Backup for Microsoft Azure will send t
 
 [![Sending Reminder](images/update_reminder.webp)](images/update_reminder.webp "Sending Reminder")
 
-Page updated 11/25/2025
 
-Page content applies to build 8.0.1.202

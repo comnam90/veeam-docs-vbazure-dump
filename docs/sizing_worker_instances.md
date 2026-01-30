@@ -1,5 +1,5 @@
 ---
-title: "sizing_worker_instances"
+title: "Worker Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_worker_instances.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Worker Instances
 
-In this article
 
 Each worker instance is deployed as an Ubuntu image, and the binaries are downloaded from the provisioning Azure storage account. Azure VM sizes of worker instances depend on the total size of virtual disks attached to the processed Azure VM, on the total size of the processed Azure SQL database, or on the total size of the processed Cosmos DB for PostgreSQL cluster or the processed Cosmos DB for MongoDB account.
 
@@ -48,6 +48,4 @@ Related Topics
 * [Managing Worker Profiles](worker_profiles.md)
 * [Solution Architecture](architecture_overview.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

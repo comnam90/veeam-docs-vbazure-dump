@@ -1,5 +1,5 @@
 ---
-title: "archive_chain_sql"
+title: "Archive Backup Chain"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/archive_chain_sql.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Archive Backup Chain
 
-In this article
 
 If you enable backup archiving for a backup policy, Veeam Backup for Microsoft Azure creates a new backup in an archive repository during every archive session. A sequence of backups created during a set of archive sessions makes up an archive backup chain.
 
@@ -28,6 +28,4 @@ Full and incremental archive backups act as restore points for backed-up Azure S
 
 If some backup in the archive backup chain is missing, you will not be able to roll back to the necessary state. For this reason, you must not delete individual backups from the archive repository manually. Instead, you must specify retention policy settings that will let you maintain the necessary number of backups in the archive repository. For more information, see [Retention Policy for Archived Backups](sql_archive_backup_retention.md).
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

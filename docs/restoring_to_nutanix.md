@@ -1,5 +1,5 @@
 ---
-title: "restoring_to_nutanix"
+title: "Restoring to Nutanix AHV"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restoring_to_nutanix.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Restoring to Nutanix AHV
 
-In this article
 
 Veeam Backup & Replication allows you to restore Azure VMs from image-level backups created with Veeam Backup for Microsoft Azure to Nutanix AHV as Nutanix AHV VMs. You can restore VMs to any available restore point. For more information, see the Veeam Backup for Nutanix AHV User Guide, section [Performing Restore](https://helpcenter.veeam.com/docs/vbahv/userguide/data_recovery.html?ver=7).
 
@@ -35,6 +35,4 @@ To restore an Azure VM to a Nutanix AHV cluster, do the following:
 
 [![Restore to Nutanix AHV](images/restore_to_nutanix.webp)](images/restore_to_nutanix.webp "Restore to Nutanix AHV")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

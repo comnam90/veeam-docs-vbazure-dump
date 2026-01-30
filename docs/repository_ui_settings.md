@@ -1,5 +1,5 @@
 ---
-title: "repository_ui_settings"
+title: "Step 3. Configure Repository Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_ui_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Repository Settings
 
-In this article
 
 At the Container step of the wizard, select a service account that will be used to access the created repository, specify a location where the repository will be created, and configure immutability settings for the repository.
 
@@ -84,6 +84,4 @@ As soon as you select a blob container, Veeam Backup for Microsoft Azure verifie
 
 [![Configuring Repository Settings](images/repository_select_account.webp)](images/repository_select_account.webp "Configuring Repository Settings")
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

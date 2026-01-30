@@ -1,5 +1,5 @@
 ---
-title: "configuring_backup_settings"
+title: "Performing Manual Configuration Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_backup_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Manual Configuration Backup
 
-In this article
 
 While performing configuration backup, Veeam Backup for Microsoft Azure exports data from the configuration database and saves it to a backup file in a repository. To back up the configuration database of the backup appliance manually, do the following:
 
@@ -23,6 +23,4 @@ As soon as you click Create, Veeam Backup for Microsoft Azure will start creatin
 
 [![Creating Configuration Backup Manually](images/config_backup_manual.webp)](images/config_backup_manual.webp "Creating Configuration Backup Manually")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

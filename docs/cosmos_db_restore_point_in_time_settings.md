@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_point_in_time_settings"
+title: "Step 4. Configure Restore Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_point_in_time_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Configure Restore Settings
 
-In this article
 
 At the Settings step of the wizard, do the followng:
 
@@ -23,6 +23,4 @@ At the Settings step of the wizard, do the followng:
 
 [![Configuring Restore Settings](images/cosmos_db_restore_point_in_time_settings.webp)](images/cosmos_db_restore_point_in_time_settings.webp "Configuring Restore Settings")
 
-Page updated 7/18/2024
 
-Page content applies to build 8.0.1.202

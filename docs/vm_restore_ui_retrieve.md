@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_retrieve"
+title: "Step 5. Specify Retrieval Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_retrieve.html"
@@ -7,8 +7,8 @@ last_updated: "2/2/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Specify Retrieval Settings
 
-In this article
 
 [This step applies only if you have selected a restore point stored in an archive repository at the Virtual Machines step of the wizard]
 
@@ -39,6 +39,4 @@ At the Data retrieval step of the wizard, choose a retrieval mode and specify a 
 
 [![Restoring Azure VM](images/restore_vm_availability.webp)](images/restore_vm_availability.webp "Restoring Azure VM")
 
-Page updated 2/2/2024
 
-Page content applies to build 8.0.1.202

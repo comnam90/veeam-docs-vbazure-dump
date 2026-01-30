@@ -1,5 +1,5 @@
 ---
-title: "removing_vm_backups_and_snapshots"
+title: "Removing VM Backups and Snapshots"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_vm_backups_and_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing VM Backups and Snapshots
 
-In this article
 
 Veeam Backup for Microsoft Azure applies the [configured retention policy settings](vm_backup_policy_schedule.md) to automatically remove cloud-native snapshots and image-level backups created for Azure VMs by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -33,6 +33,4 @@ To remove backed-up data manually, do the following:
 
 [![Removing Backups and Snapshots](images/remove_backups_vm.webp)](images/remove_backups_vm.webp "Removing Backups and Snapshots")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

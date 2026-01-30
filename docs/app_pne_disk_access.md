@@ -1,5 +1,5 @@
 ---
-title: "app_pne_disk_access"
+title: "Step 8. Configure Disk Access Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_disk_access.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Configure Disk Access Settings
 
-In this article
 
 [This step applies only if you chose to create and manage the private DNS zones manually at [step 1](app_pne_dns_zones.md)]
 
@@ -30,6 +30,4 @@ To allow worker instances to export the snapshot to the repository in the privat
 
 [![Configuring Disk Access Resources](images/app_pne_disk_access_2.webp)](images/app_pne_disk_access_2.webp "Configuring Disk Access Resources")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

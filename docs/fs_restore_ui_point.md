@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_point"
+title: "Step 6. Select Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_point.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Select Restore Point
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure uses the most recent valid restore point. However, you can restore files and folders to an earlier state.
 
@@ -19,6 +19,4 @@ To select a restore point in the file-level recovery browser, do the following:
 
 [![Selecting Restore Point](images/fs_select_restore_point.webp)](images/fs_select_restore_point.webp "Selecting Restore Point")
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "performing_vnet_backup"
+title: "Performing Virtual Network Configuration Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_vnet_backup.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Virtual Network Configuration Backup
 
-In this article
 
 |  |
 | --- |
@@ -27,6 +27,4 @@ In This Section
 * [Enabling and Disabling Virtual Network Configuration Backup Policy](policies_disable_enable_vnet.md)
 * [Starting and Stopping Virtual Network Configuration Backup Policy](policies_start_stop_vnet.md)
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

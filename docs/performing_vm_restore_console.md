@@ -1,5 +1,5 @@
 ---
-title: "performing_vm_restore_console"
+title: "Performing VM Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_vm_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/15/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing VM Restore Using Console
 
-In this article
 
 Veeam Backup & Replication offers the following restore operations:
 
@@ -18,6 +18,4 @@ Veeam Backup & Replication offers the following restore operations:
 
 You can restore VM data to the most recent state or to any available restore point.
 
-Page updated 7/15/2024
 
-Page content applies to build 8.0.1.202

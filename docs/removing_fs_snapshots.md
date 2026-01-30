@@ -1,5 +1,5 @@
 ---
-title: "removing_fs_snapshots"
+title: "Removing File Share Snapshots"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_fs_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "3/14/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing File Share Snapshots
 
-In this article
 
 Veeam Backup for Microsoft Azure applies the [configured retention policy settings](fs_backup_policy_schedule.md) to automatically remove cloud-native snapshots created by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -29,6 +29,4 @@ To remove backed-up data manually, do the following:
 
 [![Removing Snapshots](images/remove_backups_fs.webp)](images/remove_backups_fs.webp "Removing Snapshots")
 
-Page updated 3/14/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "overview_cosmos_db"
+title: "Protecting Cosmos DB Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_cosmos_db.html"
@@ -7,8 +7,8 @@ last_updated: "6/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Protecting Cosmos DB Accounts
 
-In this article
 
 To produce backups of Cosmos DB accounts, Veeam Backup for Microsoft Azure runs backup policies. A backup policy is a collection of settings that define the way backup operations are performed: what data to back up, where to store backups, when to start the backup process, and so on.
 
@@ -30,6 +30,4 @@ Related Topics
 
 [Cosmos DB Restore](cosmos_db_restore_hiw.md)
 
-Page updated 6/10/2025
 
-Page content applies to build 8.0.1.202

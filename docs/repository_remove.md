@@ -1,5 +1,5 @@
 ---
-title: "repository_remove"
+title: "Removing Repositories"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_remove.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Repositories
 
-In this article
 
 The consequences of actions performed with a repository depend on whether the repository has been added to the backup infrastructure using the Veeam Backup & Replication console or the Veeam Backup for Microsoft Azure Web UI.
 
@@ -48,6 +48,4 @@ To remove a repository, do the following:
 
 [![Removing Repositories](images/removing_backup_repositories.webp)](images/removing_backup_repositories.webp "Removing Repositories")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

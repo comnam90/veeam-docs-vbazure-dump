@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_ui_wizard"
+title: "Step 1. Launch Configuration Restore Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_ui_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "2/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Configuration Restore Wizard
 
-In this article
 
 To launch the Configuration Restore wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Configuration Restore wizard, do the following:
 
 [![Restoring Configuration Data](images/restoring_config_backup_wizard.webp)](images/restoring_config_backup_wizard.webp "Restoring Configuration Data")
 
-Page updated 2/5/2024
 
-Page content applies to build 8.0.1.202

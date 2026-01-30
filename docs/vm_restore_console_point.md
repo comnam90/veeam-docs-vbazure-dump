@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_console_point"
+title: "Step 2. Select VM and Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_console_point.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select VM and Restore Point
 
-In this article
 
 At the Virtual Machine step of the wizard, choose a restore point that will be used to restore the selected Azure VM. By default, Veeam Backup & Replication uses the most recent valid restore point. However, you can restore the VM data to an earlier state.
 
@@ -32,6 +32,4 @@ Note that if you want to restore an Azure VM from a backup that is stored in a r
 
 [![Restore to Microsoft Azure - VMs](images/restore_from_snapshot_vm.webp)](images/restore_from_snapshot_vm.webp "Restore to Microsoft Azure - VMs")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

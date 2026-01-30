@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_ui_check"
+title: "Step 6. View Configuration Check Results"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_ui_check.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. View Configuration Check Results
 
-In this article
 
 After the restore process is over, Veeam Backup for Microsoft Azure will run a number of verification checks to confirm that the configuration data has been restored successfully. At the Configuration Check step of the wizard, wait for the verification checks to complete and check whether Veeam Backup for Microsoft Azure encountered any configuration issues.
 
@@ -21,6 +21,4 @@ If Veeam Backup for Microsoft Azure encounters an issue while performing a verif
 
 [![Restoring Configuration Data](images/restoring_config_backup_results.webp)](images/restoring_config_backup_results.webp "Restoring Configuration Data")
 
-Page updated 4/1/2025
 
-Page content applies to build 8.0.1.202

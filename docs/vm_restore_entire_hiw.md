@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_entire_hiw"
+title: "Entire VM Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_entire_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Entire VM Restore
 
-In this article
 
 To restore an Azure VM from a cloud-native snapshot, Veeam Backup for Microsoft Azure uses [native Microsoft Azure capabilities](https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms). To restore an Azure VM from an image-level backup, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -27,6 +27,4 @@ To restore an Azure VM from a cloud-native snapshot, Veeam Backup for Microsoft 
 
 To learn how to restore an entire Azure VM from a cloud-native snapshot or an image-level backup, see [Performing Entire VM Restore](entire_vm_restore_ui.md).
 
-Page updated 11/28/2025
 
-Page content applies to build 8.0.1.202

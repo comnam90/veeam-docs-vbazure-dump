@@ -1,5 +1,5 @@
 ---
-title: "adding_appliance_subscription"
+title: "Step 4. Specify Subscription and Region"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/adding_appliance_subscription.html"
@@ -7,8 +7,8 @@ last_updated: "8/5/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Subscription and Region
 
-In this article
 
 At the Subscription step of the wizard, do the following:
 
@@ -22,6 +22,4 @@ For more information on regions and zones, see [Microsoft Docs](https://learn.mi
 
 ![Step 4. Specify Subscription and Region](images/connect_azure_appliance_subscription.webp)
 
-Page updated 8/5/2025
 
-Page content applies to build 8.0.1.202

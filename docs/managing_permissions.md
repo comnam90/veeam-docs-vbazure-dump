@@ -1,5 +1,5 @@
 ---
-title: "managing_permissions"
+title: "Managing User Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Managing User Accounts
 
-In this article
 
 Veeam Backup for Microsoft Azure controls access to its functionality with the help of user roles. A role defines what operations users can perform and what range of data is available to them in the Veeam Backup for Microsoft Azure UI.
 
@@ -54,6 +54,4 @@ In This Section
 * [Changing Default Admin Password](changing_default_admin_password.md)
 * [Enabling Multi-Factor Authentication](configuring_mfa_settings.md)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

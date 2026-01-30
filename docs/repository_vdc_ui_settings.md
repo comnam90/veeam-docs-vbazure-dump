@@ -1,5 +1,5 @@
 ---
-title: "repository_vdc_ui_settings"
+title: "Step 3. Configure Vault Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_ui_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/21/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Vault Settings
 
-In this article
 
 At the Account step of the wizard, connect to the Veeam Data Cloud Vault storage and specify a location where the storage vault will be created.
 
@@ -33,6 +33,4 @@ For a folder to be displayed in the Folder list, it must be created in the selec
 
 [![Configuring Repository Settings](images/repository_vdc_ui_settings.webp)](images/repository_vdc_ui_settings.webp "Configuring Repository Settings")
 
-Page updated 10/21/2025
 
-Page content applies to build 8.0.1.202

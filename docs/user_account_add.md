@@ -1,5 +1,5 @@
 ---
-title: "user_account_add"
+title: "Adding User Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/user_account_add.html"
@@ -7,8 +7,8 @@ last_updated: "2/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Adding User Accounts
 
-In this article
 
 To manage access to Veeam Backup for Microsoft Azure, you can create local user accounts or add user accounts of your identity provider. To be able to retrieve user identities from the identity provider, you must first [configure single sign-on settings](configuring_sso.md).
 
@@ -39,6 +39,4 @@ If you have selected the Veeam Backup for Microsoft Azure account option at step
 
 [![Adding User Accounts](images/add_user.webp)](images/add_user.webp "Adding User Accounts")
 
-Page updated 2/12/2024
 
-Page content applies to build 8.0.1.202

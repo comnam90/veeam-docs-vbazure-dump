@@ -1,5 +1,5 @@
 ---
-title: "pne_storage_peering"
+title: "Step 8. Configure Private Endpoint Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_storage_peering.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Configure Private Endpoint Network Settings
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure components to communicate in private environment, you must configure peering connections between the VNet to which the backup appliance is connected and the VNet to which the newly created private endpoint is connected.
 
@@ -30,6 +30,4 @@ To create a peering, perform the following steps:
 
 [![Peering Virtual Networks](images/vnet_peering.webp)](images/vnet_peering.webp "Peering Virtual Networks")
 
-Page updated 8/26/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "app_pne_cosmos_db"
+title: "Configuring Networking Settings for Cosmos DB Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_cosmos_db.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Networking Settings for Cosmos DB Accounts
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure to back up a Cosmos DB account in a private environment, you must disable public access to this account:
 
@@ -29,6 +29,4 @@ If you enable backup to a repository, you must perform the following steps:
 2. [Create private endpoints for the Cosmos DB for PostgreSQL account](pne_cosmos_db_endpoints.md).
 3. [Configure network settings for the private endpoints](pne_cosmos_db_endpoints_vnet_links.md).
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

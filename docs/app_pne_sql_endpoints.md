@@ -1,5 +1,5 @@
 ---
-title: "app_pne_sql_endpoints"
+title: "Step 8. Create Private Endpoint for SQL Server"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_sql_endpoints.html"
@@ -7,8 +7,8 @@ last_updated: "8/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Create Private Endpoint for SQL Server
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure access to the databases that you want to protect, you must create private endpoints for your SQL Server.
 
@@ -22,6 +22,4 @@ You must create a separate private endpoint for every VNet to which worker insta
 6. [Assign tags](app_pne_sql_tags.md).
 7. [Finish working with the wizard](app_pne_sql_finish.md).
 
-Page updated 8/27/2024
 
-Page content applies to build 8.0.1.202

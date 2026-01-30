@@ -1,5 +1,5 @@
 ---
-title: "adding_appliance_credentials"
+title: "Step 7. Specify User Credentials"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/adding_appliance_credentials.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Specify User Credentials
 
-In this article
 
 At the Credentials step of the wizard, specify a user whose credentials Veeam Backup & Replication will use to connect to the backup appliance.
 
@@ -33,6 +33,4 @@ When you add a backup appliance to the backup infrastructure, Veeam Backup & 
 
 ![Step 7. Specify User Credentials](images/connect_azure_appliance_credentials.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

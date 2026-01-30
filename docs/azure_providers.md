@@ -1,5 +1,5 @@
 ---
-title: "azure_providers"
+title: "Azure Resource Providers"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/azure_providers.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure Resource Providers
 
-In this article
 
 To perform operations, Veeam Backup for Microsoft Azure requires the following providers to be registered in your subscriptions:
 
@@ -24,6 +24,4 @@ To perform operations, Veeam Backup for Microsoft Azure requires the following p
 
 For more information on Azure resource providers, see [Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-services-resource-providers#registration).
 
-Page updated 5/21/2025
 
-Page content applies to build 8.0.1.202

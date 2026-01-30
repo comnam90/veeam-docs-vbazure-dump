@@ -1,5 +1,5 @@
 ---
-title: "sla_edit"
+title: "Editing SLA Templates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_edit.html"
@@ -7,8 +7,8 @@ last_updated: "7/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing SLA Templates
 
-In this article
 
 For each SLA template, you can modify settings configured while creating the template:
 
@@ -31,6 +31,4 @@ Note that modifying snapshot and backup settings for SLA templates that are alre
 
 [![Editing Backup Policy Settings](images/sla_edit.webp)](images/sla_edit.webp "Editing Backup Policy Settings")
 
-Page updated 7/28/2025
 
-Page content applies to build 8.0.1.202

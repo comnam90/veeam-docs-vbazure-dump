@@ -1,5 +1,5 @@
 ---
-title: "app_pne_managed_instance"
+title: "Configuring Network Settings for SQL Managed Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_managed_instance.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2024"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Network Settings for SQL Managed Instances
 
-In this article
 
 |  |
 | --- |
@@ -31,6 +31,4 @@ To allow Veeam Backup for Microsoft Azure to back up a SQL Managed Instance, you
 1. From the Virtual networks drop-down list, select the virtual network to which worker instances are connected.
 2. Click Add.
 
-Page updated 4/25/2024
 
-Page content applies to build 8.0.1.202

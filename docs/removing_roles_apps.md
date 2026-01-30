@@ -1,5 +1,5 @@
 ---
-title: "removing_roles_apps"
+title: "Removing IAM Roles and Microsoft Entra Applications"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_roles_apps.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2024"
 product_version: "8.0.1.202"
 ---
 
+# Removing IAM Roles and Microsoft Entra Applications
 
-In this article
 
 |  |
 | --- |
@@ -39,6 +39,4 @@ On the subscription page, do the following:
 1. Navigate to Access control (IAM) > Roles.
 2. Select check boxes next to each Veeam Service Account role you want to remove and click Remove.
 
-Page updated 8/26/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "removing_cosmos_db_manual_backups"
+title: "Removing Cosmos DB Backups Created Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_cosmos_db_manual_backups.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Cosmos DB Backups Created Manually
 
-In this article
 
 To remove all backups created for a Cosmos DB for PostgreSQL or Cosmos DB for MongoDB account manually, follow the instructions provided in [Removing Cosmos DB Backups](removing_cosmos_db_backups.md). If you want to remove a specific image-level backup created manually, do the following:
 
@@ -22,6 +22,4 @@ Related Topics
 
 [Creating Cosmos DB Backups Manually](creating_cosmos_db_backups_manually.md)
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_retry_notifications"
+title: "Step 7. Configure General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_retry_notifications.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Configure General Settings
 
-In this article
 
 At the Settings step of the wizard, you can enable automatic retries, schedule health checks and specify notification settings for the backup policy.
 
@@ -63,6 +63,4 @@ If you set the toggle to Off, Veeam Backup for Microsoft Azure will not send any
 
 [![Adding Backup Policy](images/cosmos_db_backup_settings.webp)](images/cosmos_db_backup_settings.webp "Adding Backup Policy")
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

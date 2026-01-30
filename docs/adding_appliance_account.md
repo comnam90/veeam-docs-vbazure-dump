@@ -1,5 +1,5 @@
 ---
-title: "adding_appliance_account"
+title: "Step 3. Specify Microsoft Azure Compute Account Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/adding_appliance_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Specify Microsoft Azure Compute Account Settings
 
-In this article
 
 At the Account step of the wizard, select a Microsoft Azure compute account whose permissions will be used to connect the backup appliance.
 
@@ -23,6 +23,4 @@ For each newly created account, Veeam Backup & Replication creates a new Micr
 
 ![Step 3. Specify Microsoft Azure Compute Account Settings](images/connect_azure_appliance_account.webp)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

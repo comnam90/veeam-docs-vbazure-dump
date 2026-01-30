@@ -1,5 +1,5 @@
 ---
-title: "repository_edit"
+title: "Editing Repository Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_edit.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing Repository Settings
 
-In this article
 
 The settings that you can modify for a repository depend on whether the repository has been added to the backup infrastructure using the Veeam Backup & Replication console or the Veeam Backup for Microsoft Azure Web UI.
 
@@ -64,6 +64,4 @@ For each repository, you can modify settings configured while adding the reposit
 
 [![Editing Repository Settings](images/editing_backup_repository.webp)](images/editing_backup_repository.webp "Editing Repository Settings")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

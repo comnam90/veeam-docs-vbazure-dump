@@ -1,5 +1,5 @@
 ---
-title: "managing_sql_data"
+title: "Azure SQL Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_sql_data.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure SQL Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an Azure SQL database according to the specified schedule, or after you create a backup of a database manually, Veeam Backup for Microsoft Azure adds the database to the resource list on the Protected Data page.
 
@@ -43,6 +43,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing SQL Data](images/manage_sql_backup.webp)](images/manage_sql_backup.webp "Managing SQL Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

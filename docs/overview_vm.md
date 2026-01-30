@@ -1,5 +1,5 @@
 ---
-title: "overview_vm"
+title: "Protecting Azure VMs"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_vm.html"
@@ -7,8 +7,8 @@ last_updated: "12/4/2025"
 product_version: "8.0.1.202"
 ---
 
+# Protecting Azure VMs
 
-In this article
 
 To produce cloud-native snapshots and image-level backups of Azure VMs, Veeam Backup for Microsoft Azure runs backup policies of the following types:
 
@@ -55,6 +55,4 @@ Related Topics
 * [SLA-Based Backup Policies](sla_policies.md)
 * [VM Restore](vm_restore_hiw.md)
 
-Page updated 12/4/2025
 
-Page content applies to build 8.0.1.202

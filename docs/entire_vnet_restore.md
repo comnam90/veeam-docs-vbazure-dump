@@ -1,5 +1,5 @@
 ---
-title: "entire_vnet_restore"
+title: "Performing Entire Virtual Network Configuration Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/entire_vnet_restore.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Entire Virtual Network Configuration Restore
 
-In this article
 
 In case of unexpected configuration changes, you can restore the entire virtual network configuration from a virtual network configuration backup. Veeam Backup for Microsoft Azure allows you to restore the virtual network configuration to the original location or to a new location.
 
@@ -22,6 +22,4 @@ To restore the entire virtual network configuration, perform the following steps
 6. [Specify a restore reason](entire_vnet_restore_reason.md).
 7. [Finish working with the wizard](entire_vnet_restore_finish.md).
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

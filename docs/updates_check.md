@@ -1,5 +1,5 @@
 ---
-title: "updates_check"
+title: "Checking for Updates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/updates_check.html"
@@ -7,8 +7,8 @@ last_updated: "5/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Checking for Updates
 
-In this article
 
 Veeam Backup for Microsoft Azure automatically notifies you about newly released product versions and software package updates available for the operating system running on your backup appliance. However, you can check for the available updates manually if required:
 
@@ -28,6 +28,4 @@ Related Topics
 * [Installing Updates](updates_install.md)
 * [Viewing Update History](update_history.md)
 
-Page updated 5/19/2025
 
-Page content applies to build 8.0.1.202

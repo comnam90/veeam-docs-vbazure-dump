@@ -1,5 +1,5 @@
 ---
-title: "ports"
+title: "Ports"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/ports.html"
@@ -7,8 +7,8 @@ last_updated: "1/6/2026"
 product_version: "8.0.1.202"
 ---
 
+# Ports
 
-In this article
 
 As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veeam Backup & Replication runs, it uses the same ports as those described in the Veeam Backup & Replication User Guide, section [Ports](https://helpcenter.veeam.com/docs/vbr/userguide/used_ports.html?ver=13). In addition, Veeam Plug-in for Microsoft Azure also uses ports listed in the following table.
 
@@ -59,6 +59,4 @@ As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veea
 | Note |
 | When you deploy a backup appliance from the Veeam Backup & Replication console, Veeam Backup & Replication automatically creates firewall rules for the required ports to allow communication between the backup server and the appliance components. |
 
-Page updated 1/6/2026
 
-Page content applies to build 8.0.1.202

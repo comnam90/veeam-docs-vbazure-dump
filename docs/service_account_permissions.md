@@ -1,5 +1,5 @@
 ---
-title: "service_account_permissions"
+title: "Service Account Permissions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "9/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Service Account Permissions
 
-In this article
 
 Veeam Backup for Microsoft Azure uses service accounts to perform the following operations:
 
@@ -47,6 +47,4 @@ In This Section
 * [Virtual Network Configuration Permissions](vnet_permissions.md)
 * [Permissions Changelog](permissions_changelog.md)
 
-Page updated 9/10/2025
 
-Page content applies to build 8.0.1.202

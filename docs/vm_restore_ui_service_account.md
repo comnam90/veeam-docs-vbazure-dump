@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_service_account"
+title: "Step 3. Select Service Account"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_service_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Select Service Account
 
-In this article
 
 At the Account step of the wizard, select a service account whose permissions Veeam Backup for Microsoft Azure will use to perform the restore operation.
 
@@ -19,6 +19,4 @@ For a service account to be displayed in the list of available accounts, it must
 
 [![Restoring Azure VM](images/restore_vms_account.webp)](images/restore_vms_account.webp "Restoring Azure VM")
 
-Page updated 8/12/2024
 
-Page content applies to build 8.0.1.202

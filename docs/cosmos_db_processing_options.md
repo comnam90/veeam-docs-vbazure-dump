@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_processing_options"
+title: "Step 5. Configure Processing Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_processing_options.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Processing Options
 
-In this article
 
 [This step applies only if you set the Backup to repository toggle to On at the Targets step of the wizard]
 
@@ -31,6 +31,4 @@ By default, the selected database account will be used to access all databases o
 
 [![Step 5. Configure Processing Options](images/cosmos_db_processing_options.webp)](images/cosmos_db_processing_options.webp)
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

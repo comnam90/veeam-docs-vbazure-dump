@@ -1,5 +1,5 @@
 ---
-title: "storage_finish"
+title: "Step 4. Finish Working with Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/storage_finish.html"
@@ -7,8 +7,8 @@ last_updated: "3/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -19,6 +19,4 @@ At the Summary step of the wizard, review summary information and click Finish.
 
 [![Adding Storage Policy](images/storage_finish.webp)](images/storage_finish.webp "Adding Storage Policy")
 
-Page updated 3/10/2025
 
-Page content applies to build 8.0.1.202

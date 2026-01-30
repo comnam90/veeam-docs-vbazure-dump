@@ -1,5 +1,5 @@
 ---
-title: "licensing_limitations"
+title: "Limitations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/licensing_limitations.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Limitations
 
-In this article
 
 Keep in mind the following limitations and considerations:
 
@@ -22,6 +22,4 @@ To obtain an additional license, contact a Veeam sales representative at [Sales 
 
 * If an instance has not been backed up within the past 31 days, Veeam Backup for Microsoft Azure automatically revokes the license unit from the instance. If you need to manually revoke a license unit, follow the instructions provided in section [Revoking License Units](license_revoke.md).
 
-Page updated 11/11/2025
 
-Page content applies to build 8.0.1.202

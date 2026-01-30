@@ -1,5 +1,5 @@
 ---
-title: "removing_vm_manual_snapshots"
+title: "Removing VM Snapshots Created Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_vm_manual_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing VM Snapshots Created Manually
 
-In this article
 
 To remove all cloud-native snapshots created for an Azure VM manually, follow the instructions provided in [Removing VM Backups and Snapshots](removing_vm_backups_and_snapshots.md). If you want to remove a specific cloud-native snapshot created manually, do the following:
 
@@ -22,6 +22,4 @@ Related Topics
 
 [Creating VM Snapshots Manually](creating_vm_snapshots_manually.md)
 
-Page updated 3/13/2025
 
-Page content applies to build 8.0.1.202

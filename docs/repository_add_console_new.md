@@ -1,5 +1,5 @@
 ---
-title: "repository_add_console_new"
+title: "Creating New Backup Repositories"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_add_console_new.html"
@@ -7,8 +7,8 @@ last_updated: "6/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating New Backup Repositories
 
-In this article
 
 To add a new repository, do the following:
 
@@ -21,6 +21,4 @@ To add a new repository, do the following:
 7. [Wait for the repository to be added to the backup infrastructure](repository_console_progress.md).
 8. [Finish working with the wizard](repository_console_finish.md).
 
-Page updated 6/19/2025
 
-Page content applies to build 8.0.1.202

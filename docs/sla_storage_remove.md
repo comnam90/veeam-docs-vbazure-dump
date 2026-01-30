@@ -1,5 +1,5 @@
 ---
-title: "sla_storage_remove"
+title: "Removing SLA and Storage Templates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_storage_remove.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing SLA and Storage Templates
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to permanently remove a policy template from the configuration database if you no longer need it:
 
@@ -24,6 +24,4 @@ Veeam Backup for Microsoft Azure allows you to permanently remove a policy templ
 
 [![Removing Accounts](images/sla_storage_remove.webp)](images/sla_storage_remove.webp "Removing Accounts")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

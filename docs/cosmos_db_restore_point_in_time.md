@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_point_in_time"
+title: "Performing Point-in-time Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_point_in_time.html"
@@ -7,8 +7,8 @@ last_updated: "9/11/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Point-in-time Restore
 
-In this article
 
 In case a disaster strikes, you can restore an entire Cosmos DB account or its specific items from a timestamp. Veeam Backup for Microsoft Azure allows you to restore one Cosmos DB account at a time to a new location.
 
@@ -28,6 +28,4 @@ To restore a Cosmos DB account, do the following:
 5. [Specify a restore reason](cosmos_db_restore_point_in_time_reason.md).
 6. [Finish working with the wizard](cosmos_db_restore_point_in_time_finish.md).
 
-Page updated 9/11/2024
 
-Page content applies to build 8.0.1.202

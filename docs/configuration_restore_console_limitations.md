@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_limitations"
+title: "Considerations and Limitations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_limitations.html"
@@ -7,8 +7,8 @@ last_updated: "10/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Considerations and Limitations
 
-In this article
 
 Before you restore configuration of a backup appliance, consider the following:
 
@@ -22,6 +22,4 @@ Before you restore configuration of a backup appliance, consider the following:
 
 * [Applies only if you restore the configuration of the backup appliance to another one] During restore, Veeam Backup & Replication removes the appliance and its repositories from the backup infrastructure. If the restore operation fails, re-add the appliance and its repositories to the backup infrastructure.
 
-Page updated 10/29/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "disk_restore_point"
+title: "Step 2. Select Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/disk_restore_point.html"
@@ -7,8 +7,8 @@ last_updated: "1/27/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Restore Point step of the wizard, select a restore point that will be used to restore virtual disks of the selected Azure VM. By default, Veeam Backup for Microsoft Azure uses the most recent valid restore point. However, you can restore the disks to an earlier state.
 
@@ -39,6 +39,4 @@ To help you choose a restore point, Veeam Backup for Microsoft Azure provides th
 
 [![Performing Disk Restore](images/restoring_disk_restore_point.webp)](images/restoring_disk_restore_point.webp "Performing Disk Restore")
 
-Page updated 1/27/2025
 
-Page content applies to build 8.0.1.202

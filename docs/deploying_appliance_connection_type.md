@@ -1,5 +1,5 @@
 ---
-title: "deploying_appliance_connection_type"
+title: "Step 6. Specify Connection Type"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_appliance_connection_type.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Connection Type
 
-In this article
 
 At the Connection Type step of the wizard, choose whether you want to assign a dynamic or a static public IP address, or a private IP address to the backup appliance. After the backup appliance is deployed, Veeam Backup & Replication will use the specified connection type to connect to the appliance.
 
@@ -26,6 +26,4 @@ If you choose the Private IP address option, you must allow communication betwee
 
 ![Step 6. Specify Connection Type](images/add_new_appliance_connection.webp)
 
-Page updated 7/9/2025
 
-Page content applies to build 8.0.1.202

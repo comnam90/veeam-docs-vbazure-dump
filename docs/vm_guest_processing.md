@@ -1,5 +1,5 @@
 ---
-title: "vm_guest_processing"
+title: "Step 4. Specify Guest Processing Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_guest_processing.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Guest Processing Settings
 
-In this article
 
 If you want to back up Azure VMs that are currently running, you can configure guest processing settings at the Guest Processing step of the wizard. These settings allow you to specify what actions Veeam Backup for Microsoft Azure will perform when communicating with the guest OSes.
 
@@ -32,6 +32,4 @@ When creating transactionally consistent backups, Veeam Backup for Microsoft Azu
 
 In case firewall rules configured for the Azure VMs do not allow outbound access using the 443 port, you must allow HTTPS traffic over 443 port for <FQDN>.blob.core.windows.net and <FQDN>.queue.core.windows.net, where <FQDN> is the name of the storage account used by the Veeam backup service.
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

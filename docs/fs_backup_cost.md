@@ -1,5 +1,5 @@
 ---
-title: "fs_backup_cost"
+title: "Step 6. Review Estimated Cost"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_backup_cost.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Review Estimated Cost
 
-In this article
 
 [This step applies only if you have created a schedule for the backup policy at the Schedule step of the wizard]
 
@@ -29,6 +29,4 @@ The estimated cost may occur to be significantly higher due to the backup freque
 
 [![Adding Backup Policy](images/fs_backup_cost.webp)](images/fs_backup_cost.webp "Adding Backup Policy")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sql_restore_ui_retrieve"
+title: "Step 6. Specify Retrieval Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_ui_retrieve.html"
@@ -7,8 +7,8 @@ last_updated: "2/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Retrieval Settings
 
-In this article
 
 [This step applies only if you have selected a restore point stored in an archive repository at the Databases step of the wizard]
 
@@ -39,6 +39,4 @@ At the Data retrieval step of the wizard, choose a retrieval mode and specify a 
 
 [![Step 6. Specify Retrieval Settings](images/sql_restore_availability.webp)](images/sql_restore_availability.webp)
 
-Page updated 2/20/2025
 
-Page content applies to build 8.0.1.202

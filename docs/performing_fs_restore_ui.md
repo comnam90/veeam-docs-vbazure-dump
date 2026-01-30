@@ -1,5 +1,5 @@
 ---
-title: "performing_fs_restore_ui"
+title: "Performing File Share Restore Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_fs_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "4/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing File Share Restore Using Web UI
 
-In this article
 
 In case a disaster strikes, you can recover corrupted or missing files of an Azure file share from a cloud-native snapshot. Veeam Backup for Microsoft Azure allows you to restore files and folders to the original file share or to another file share.
 
@@ -30,6 +30,4 @@ To restore files and folders of a protected Azure file share, do the following:
 7. [Choose files and folders to restore](fs_restore_ui_items.md).
 8. [Stop the restore session](fs_restore_ui_stop.md).
 
-Page updated 4/1/2025
 
-Page content applies to build 8.0.1.202
