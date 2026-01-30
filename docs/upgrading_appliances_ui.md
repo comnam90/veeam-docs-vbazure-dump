@@ -1,16 +1,16 @@
 ---
-title: "upgrading_appliances_ui"
+title: "Upgrading Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/upgrading_appliances_ui.html"
-last_updated: "6/6/2025"
+last_updated: "1/29/2026"
 product_version: "8.0.1.202"
 ---
 
+# Upgrading Appliances
 
-In this article
 
-Starting from Veeam Backup for Microsoft Azure version 5a, you can upgrade backup appliances from the Veeam Backup & Replication console only. Direct upgrade to Veeam Backup for Microsoft Azure version 8.1 is supported from Veeam Backup for Microsoft Azure version 6.0 or 7.0. To upgrade from an earlier version, you must first perform upgrade to Veeam Backup for Microsoft Azure version 6.0 or 7.0 as described in section [Upgrading to Version 6.0 or 7.0 from Version 5.0 or Earlier](upgrading_appliances_console.md).
+Starting from Veeam Backup for Microsoft Azure version 5a, you can upgrade backup appliances from the Veeam Backup & Replication console only. Direct upgrade to Veeam Backup for Microsoft Azure version 8.1 is supported from Veeam Backup for Microsoft Azure version 6.0 or 7.0. To upgrade from an earlier version, you must first [upgrade to Veeam Backup for Microsoft Azure version 6.0 or 7.0](https://helpcenter.veeam.com/archive/vbazure/70/guide/upgrading_appliances_console.html).
 
 |  |
 | --- |
@@ -43,6 +43,4 @@ Related Topics
 
 [Checking for Updates](updates_check.md)
 
-Page updated 6/6/2025
 
-Page content applies to build 8.0.1.202
