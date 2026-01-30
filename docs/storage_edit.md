@@ -1,5 +1,5 @@
 ---
-title: "storage_edit"
+title: "Editing Storage Templates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/storage_edit.html"
@@ -7,8 +7,8 @@ last_updated: "7/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing Storage Templates
 
-In this article
 
 |  |
 | --- |
@@ -32,6 +32,4 @@ For each storage template, you can modify settings configured while creating the
 
 [![Editing Backup Policy Settings](images/storage_edit.webp)](images/storage_edit.webp "Editing Backup Policy Settings")
 
-Page updated 7/28/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "overview_fs"
+title: "Protecting Azure File Shares"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_fs.html"
@@ -7,8 +7,8 @@ last_updated: "9/19/2024"
 product_version: "8.0.1.202"
 ---
 
+# Protecting Azure File Shares
 
-In this article
 
 To produce snapshots of Azure file shares, Veeam Backup for Microsoft Azure runs backup policies. A backup policy is a collection of settings that define the way snapshots are created: what data to protect, when to start the snapshot creation process, and so on.
 
@@ -29,6 +29,4 @@ Related Topics
 
 [File Share Restore](fs_restore_hiw.md)
 
-Page updated 9/19/2024
 
-Page content applies to build 8.0.1.202

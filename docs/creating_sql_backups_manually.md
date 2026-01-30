@@ -1,5 +1,5 @@
 ---
-title: "creating_sql_backups_manually"
+title: "Creating SQL Backups Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/creating_sql_backups_manually.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating SQL Backups Manually
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to manually create backups of Azure SQL databases.
 
@@ -42,6 +42,4 @@ In the Specify the backup repository window, select a repository where the creat
 
 [![Creating Backup Manually](images/sql_manual.webp)](images/sql_manual.webp "Creating Backup Manually")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

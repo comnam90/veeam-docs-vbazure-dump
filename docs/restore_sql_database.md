@@ -1,5 +1,5 @@
 ---
-title: "restore_sql_database"
+title: "Step 2. Select SQL Database and Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restore_sql_database.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select SQL Database and Restore Point
 
-In this article
 
 At the SQL database step of the wizard, choose a restore point that will be used to restore the selected Azure SQL database. By default, Veeam Backup & Replication uses the most recent valid restore point. However, you can restore the database data to an earlier state.
 
@@ -31,6 +31,4 @@ To help you choose a restore point, Veeam Backup & Replication provides the f
 
 [![Restore to Microsoft Azure SQL - Databases](images/restore_sql_database.webp)](images/restore_sql_database.webp "Restore to Microsoft Azure SQL - Databases")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

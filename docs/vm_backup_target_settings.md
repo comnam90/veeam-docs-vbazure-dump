@@ -1,5 +1,5 @@
 ---
-title: "vm_backup_target_settings"
+title: "Step 5. Configure Backup Target Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_backup_target_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/10/2023"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Backup Target Settings
 
-In this article
 
 By default, backup policies create only cloud-native snapshots of processed Azure VMs. At the Targets step of the wizard, you can enable the following additional data protection scenarios:
 
@@ -25,6 +25,4 @@ By default, backup policies create only cloud-native snapshots of processed Azur
 
 [![Adding Backup Policy](images/policy_tags.webp)](images/policy_tags.webp "Adding Backup Policy")
 
-Page updated 11/10/2023
 
-Page content applies to build 8.0.1.202

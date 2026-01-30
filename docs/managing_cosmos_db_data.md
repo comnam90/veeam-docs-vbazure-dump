@@ -1,5 +1,5 @@
 ---
-title: "managing_cosmos_db_data"
+title: "Cosmos DB Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_cosmos_db_data.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cosmos DB Data
 
-In this article
 
 After a backup policy successfully creates a restore point of a Cosmos DB account according to the specified schedule, after Veeam Backup for Microsoft Azure runs a configuration session, or after you create a backup of a Cosmos DB for PostgreSQL or a Cosmos DB for MongoDB account manually, Veeam Backup for Microsoft Azure adds the database to the resource list on the Protected Data page.
 
@@ -42,6 +42,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Cosmos DB Data](images/manage_cosmos_db_backup.webp)](images/manage_cosmos_db_backup.webp "Managing Cosmos DB Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

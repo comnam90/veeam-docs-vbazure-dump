@@ -1,5 +1,5 @@
 ---
-title: "granular_vnet_restore_wizard"
+title: "Step 1. Launch Virtual Network Restore Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/granular_vnet_restore_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Virtual Network Restore Wizard
 
-In this article
 
 To launch the Virtual Network Restore wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Virtual Network Restore wizard, do the following:
 
 [![Performing Granular Virtual Network Configuration Restore](images/vnet_restore_granular.webp)](images/vnet_restore_granular.webp "Performing Granular Virtual Network Configuration Restore")
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

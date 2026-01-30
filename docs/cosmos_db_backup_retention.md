@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_retention"
+title: "Cosmos DB Backup Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cosmos DB Backup Retention
 
-In this article
 
 For protected Cosmos DB accounts, Veeam Backup for Microsoft Azure retains records in the configuration database for the number of days defined in backup target settings as described in section [Creating Cosmos DB Backup Policies](cosmos_db_target_settings.md).
 
@@ -29,6 +29,4 @@ The forever forward incremental backup method is not implemented for Cosmos DB f
 
 [![Cosmos DB Backup Retention](images/snapshot_retention.webp)](images/snapshot_retention.webp)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

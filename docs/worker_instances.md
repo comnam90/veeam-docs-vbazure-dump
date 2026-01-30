@@ -1,5 +1,5 @@
 ---
-title: "worker_instances"
+title: "Worker Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_instances.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Worker Instances
 
-In this article
 
 A worker instance is an auxiliary Linux-based virtual machine that is responsible for the interaction between the backup appliance and other Veeam Backup for Microsoft Azure components. Worker instances process backup workload and distribute backup traffic when transferring data to repositories.
 
@@ -66,6 +66,4 @@ Requirements for Worker Instances
 
 By default, Veeam Backup for Microsoft Azure creates a new network configuration for each Azure region in which it launches worker instances. However, you can add custom worker configurations to provide network settings that will be used to launch worker instances in a specific region. In this case, for every Azure region where worker instances will be launched, you must specify a virtual network and a subnet to which the worker instances will be connected. You can also specify a security group that will be associated with the specified subnet. To learn how to configure network settings for worker instances, see [Adding Worker Configurations](worker_configuration_add.md).
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

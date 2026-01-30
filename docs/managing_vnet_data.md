@@ -1,5 +1,5 @@
 ---
-title: "managing_vnet_data"
+title: "Virtual Network Configuration Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_vnet_data.html"
@@ -7,8 +7,8 @@ last_updated: "3/14/2025"
 product_version: "8.0.1.202"
 ---
 
+# Virtual Network Configuration Data
 
-In this article
 
 After the Virtual Network Configuration Backup policy successfully creates a restore point for the virtual network configuration of an Azure subscription within a Microsoft Entra tenant, the configuration record is automatically added to the resource list on the Protected Data page.
 
@@ -35,6 +35,4 @@ Related Topics
 * [Removing Virtual Network Configuration Backups](removing_vnet_backups.md)
 * [Comparing Virtual Network Configuration Backups](comparing_vnet_backups.md)
 
-Page updated 3/14/2025
 
-Page content applies to build 8.0.1.202

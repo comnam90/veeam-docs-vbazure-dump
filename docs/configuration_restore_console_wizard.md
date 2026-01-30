@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_wizard"
+title: "Step 1. Launch Configuration Restore Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Configuration Restore Wizard
 
-In this article
 
 To launch the Configuration Restore wizard, do the following:
 
@@ -20,6 +20,4 @@ Alternatively, you can right-click the necessary appliance and select Restore Co
 
 [![Restore configuration - Launch](images/restore_config_launch.webp)](images/restore_config_launch.webp "Restore configuration - Launch")
 
-Page updated 7/11/2025
 
-Page content applies to build 8.0.1.202

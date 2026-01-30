@@ -1,5 +1,5 @@
 ---
-title: "overview_vnet"
+title: "Protecting Virtual Network Configurations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_vnet.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Protecting Virtual Network Configurations
 
-In this article
 
 To protect Azure virtual network configurations, Veeam Backup for Microsoft Azure retrieves configuration data through API and saves this data to the configuration database. For more information on how virtual network configuration backup works, see [Virtual Network Configuration Backup](how_vnet_backup_works.md).
 
@@ -27,6 +27,4 @@ Related Topics
 
 [Virtual Network Configuration Restore](vnet_restore_hiw.md)
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

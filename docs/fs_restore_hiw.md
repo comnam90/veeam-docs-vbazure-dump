@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_hiw"
+title: "Azure Files Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure Files Restore
 
-In this article
 
 To restore files and folders of an Azure file share, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -21,6 +21,4 @@ The file-level recovery browser displays the file tree of the backed-up file sha
 
 To learn how to restore individual files and folders stored in a file system from an Azure Files backup, see [File Share Restore](fs_restore.md).
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

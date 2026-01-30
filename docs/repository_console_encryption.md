@@ -1,5 +1,5 @@
 ---
-title: "repository_console_encryption"
+title: "Step 6. Enable Data Encryption"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_console_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Enable Data Encryption
 
-In this article
 
 At the Encryption step of the wizard, choose whether you want to encrypt backups stored in the created repository.
 
@@ -49,6 +49,4 @@ For a password to be displayed in the list of available passwords, it must be ad
 
 ![Step 6. Enable Data Encryption](images/add_repo_encryption.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_endpoints_vnet_links"
+title: "Step 3. Configure Private Endpoints"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_endpoints_vnet_links.html"
@@ -7,8 +7,8 @@ last_updated: "3/27/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Private Endpoints
 
-In this article
 
 To configure DNS settings for the private endpoints created at [step 2](pne_cosmos_db_endpoints.md), do the following:
 
@@ -34,6 +34,4 @@ To configure DNS settings for the private endpoints created at [step 2](pne_cosm
 
 [![Configuring Private Endpoint for Cosmos DB](images/private_endpoint_cosmos_db_vnet_links.webp)](images/private_endpoint_cosmos_db_vnet_links.webp "Configuring Private Endpoint for Cosmos DB")
 
-Page updated 3/27/2025
 
-Page content applies to build 8.0.1.202

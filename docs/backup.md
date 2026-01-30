@@ -1,5 +1,5 @@
 ---
-title: "backup"
+title: "Performing Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Backup
 
-In this article
 
 With Veeam Backup for Microsoft Azure, you can protect data in the following ways:
 
@@ -60,6 +60,4 @@ In This Section
 * [Performing Backup Using Console](performing_backup_console.md)
 * [Performing Backup Using Web UI](performing_backup_ui.md)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

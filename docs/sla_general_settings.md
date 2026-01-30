@@ -1,5 +1,5 @@
 ---
-title: "sla_general_settings"
+title: "Step 5. Configure Template General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_general_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Template General Settings
 
-In this article
 
 At the Settings step of the wizard, you can specify SLA threshold settings and schedule health checks for the SLA template.
 
@@ -32,6 +32,4 @@ To instruct Veeam Backup for Microsoft Azure to perform a health check, do the f
 
 [![Adding SLA Policy](images/sla_general_settings.webp)](images/sla_general_settings.webp "Adding SLA Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

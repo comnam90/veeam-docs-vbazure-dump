@@ -1,5 +1,5 @@
 ---
-title: "performing_vnet_restore_console"
+title: "Performing Virtual Network Configuration Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_vnet_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Virtual Network Configuration Restore Using Console
 
-In this article
 
 Veeam Backup & Replication allows you to restore the entire Azure virtual network configuration from a virtual network configuration backup to any available restore point. To learn how entire virtual network configuration restore works, see [Entire Virtual Network Configuration Restore](entire_vnet_restore_hiw.md).
 
@@ -29,6 +29,4 @@ Veeam Backup & Replication will open the Virtual Network Restore wizard in a 
 
 [![Performing Virtual Network Configuration Restore Using Console](images/restore_vnet_console.webp)](images/restore_vnet_console.webp "Performing Virtual Network Configuration Restore Using Console")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

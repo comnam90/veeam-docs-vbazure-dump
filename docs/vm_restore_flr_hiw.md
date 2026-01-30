@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_flr_hiw"
+title: "File-Level Recovery"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_flr_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# File-Level Recovery
 
-In this article
 
 To recover files and folders of a backed-up Azure VM, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -32,6 +32,4 @@ The file-level recovery browser displays the file system tree of the backed-up A
 
 To learn how to restore individual files and folders of an Azure VM from a cloud-native snapshot or an image-level backup, see [Performing File-Level Recovery](performing_flr.md).
 
-Page updated 11/28/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_finish"
+title: "Step 10. Finish Working with Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_finish.html"
@@ -7,8 +7,8 @@ last_updated: "2/2/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 10. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Restore.
 
@@ -19,6 +19,4 @@ At the Summary step of the wizard, review summary information and click Restore.
 
 [![Restoring Azure VM](images/restore_vm_finish.webp)](images/restore_vm_finish.webp "Restoring Azure VM")
 
-Page updated 2/2/2024
 
-Page content applies to build 8.0.1.202

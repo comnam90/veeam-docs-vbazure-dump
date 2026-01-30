@@ -1,5 +1,5 @@
 ---
-title: "removing_sql_manual_backups"
+title: "Removing SQL Backups Created Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_sql_manual_backups.html"
@@ -7,8 +7,8 @@ last_updated: "3/14/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing SQL Backups Created Manually
 
-In this article
 
 To remove all backups created for a SQL database manually, follow the instructions provided in [Removing SQL Backups](removing_sql_backups.md). If you want to remove a specific image-level backup created manually, do the following:
 
@@ -22,6 +22,4 @@ Related Topics
 
 [Creating SQL Backups Manually](creating_sql_backups_manually.md)
 
-Page updated 3/14/2025
 
-Page content applies to build 8.0.1.202

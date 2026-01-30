@@ -1,5 +1,5 @@
 ---
-title: "service_account_remove"
+title: "Removing Service Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_remove.html"
@@ -7,8 +7,8 @@ last_updated: "7/29/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Service Accounts
 
-In this article
 
 You can remove a service account from Veeam Backup for Microsoft Azure if it is no longer used to perform data protection and disaster recovery operations.
 
@@ -25,6 +25,4 @@ To remove a service account, do the following:
 
 [![Removing Azure Service Account](images/remove_service_account.webp)](images/remove_service_account.webp "Removing Azure Service Account")
 
-Page updated 7/29/2025
 
-Page content applies to build 8.0.1.202

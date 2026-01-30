@@ -1,5 +1,5 @@
 ---
-title: "cosmos_configuring_conditions"
+title: "Configuring Conditions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_configuring_conditions.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Conditions
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure uses the OR operator to link all the subscriptions, resource groups and tags that you include into the backup scope — meaning that all the related Cosmos DB accounts will be protected by the policy. To narrow down the backup scope, you can configure conditions that will allow Veeam Backup for Microsoft Azure to link the selected resources using the AND operator.
 
@@ -31,6 +31,4 @@ When configuring conditions, you can add the same resource to the list of protec
 
 [![Adding Backup Policy](images/cosmos_db_protection_resources.webp)](images/cosmos_db_protection_resources.webp "Adding Backup Policy")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

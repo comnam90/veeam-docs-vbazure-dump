@@ -1,5 +1,5 @@
 ---
-title: "entire_vnet_restore_zone_mapping"
+title: "Step 5. Configure Additional Restore Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/entire_vnet_restore_zone_mapping.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Additional Restore Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -21,6 +21,4 @@ At the Settings step of the wizard, you can choose whether to add a suffix to re
 
 [![Configuring Additional Restore Settings](images/vnet_restore_settings.webp)](images/vnet_restore_settings.webp "Configuring Additional Restore Settings")
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

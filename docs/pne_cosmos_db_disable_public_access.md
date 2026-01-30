@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_disable_public_access"
+title: "Step 1. Disable Public Access Cosmos DB Account"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_disable_public_access.html"
@@ -7,8 +7,8 @@ last_updated: "6/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Disable Public Access Cosmos DB Account
 
-In this article
 
 For the Cosmos DB for PostgreSQL account that you want to protect to be inaccessible through public network, you must disable public access to this account:
 
@@ -21,6 +21,4 @@ For the Cosmos DB for PostgreSQL account that you want to protect to be inaccess
 
 [![Disabling Public Access to SQL Server](images/pne_cosmos_db_disable_public.webp)](images/pne_cosmos_db_disable_public.webp "Disabling Public Access to SQL Server")
 
-Page updated 6/27/2024
 
-Page content applies to build 8.0.1.202

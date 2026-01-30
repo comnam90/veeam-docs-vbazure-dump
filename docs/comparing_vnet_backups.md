@@ -1,5 +1,5 @@
 ---
-title: "comparing_vnet_backups"
+title: "Comparing Virtual Network Configuration Backups"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/comparing_vnet_backups.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Comparing Virtual Network Configuration Backups
 
-In this article
 
 You can compare the current Azure virtual network configuration of an Azure subscription and the virtual network configuration contained in any available restore point. To do that:
 
@@ -22,6 +22,4 @@ If you want Veeam Backup for Microsoft Azure to display only backed-up virtual n
 
 [![Comparing VNet Configuration Data](images/backups_compare_vnet.webp)](images/backups_compare_vnet.webp "Comparing VNet Configuration Data")
 
-Page updated 9/16/2025
 
-Page content applies to build 8.0.1.202

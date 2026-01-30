@@ -1,5 +1,5 @@
 ---
-title: "sla_calculation"
+title: "How Veeam Backup for Microsoft Azure Estimates SLA Compliance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_calculation.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# How Veeam Backup for Microsoft Azure Estimates SLA Compliance
 
-In this article
 
 To estimate SLA compliance for an SLA-based backup policy, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -39,6 +39,4 @@ For example, if an SLA-based backup policy configured to produce daily snapshots
 | Important |
 | Modifying snapshot or backup settings for an SLA template or assigning another template to an SLA-based backup policy may cause Veeam Backup for Microsoft Azure to incorrectly calculate the SLA compliance ratio for the policy on the day when this modification is made. To learn how to edit SLA template settings, see [Managing SLA Templates](sla_edit.md). |
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "license_view_information"
+title: "Viewing License Information"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/license_view_information.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Viewing License Information
 
-In this article
 
 After you add a backup appliance to the backup infrastructure, you can view the number of protected workloads in the Veeam Backup & Replication console.
 
@@ -71,6 +71,4 @@ Related Topics
 * [Removing License](license_remove.md)
 * [Revoking License Units](license_revoke.md)
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

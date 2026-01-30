@@ -1,5 +1,5 @@
 ---
-title: "repositories"
+title: "Managing Repositories"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repositories.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Managing Repositories
 
-In this article
 
 Veeam Backup for Microsoft Azure uses blob containers as target locations for image-level backups of Azure VMs, backups of Azure SQL databases Cosmos DB for PostgreSQL accounts and Cosmos DB for MongoDB accounts, and backup copies of virtual network configurations. To store backups in blob containers, configure repositories. Veeam Backup for Microsoft Azure version 8.1 comes with 2 types of repositories:
 
@@ -29,6 +29,4 @@ In This Section
 * [Rescanning Repositories](repository_rescan.md)
 * [Removing Repositories](repository_remove.md)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

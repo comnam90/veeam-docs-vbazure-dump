@@ -1,5 +1,5 @@
 ---
-title: "entire_vnet_restore_point"
+title: "Step 2. Select Region and Restore Point"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/entire_vnet_restore_point.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Region and Restore Point
 
-In this article
 
 At the Restore List step of the wizard, select an Azure region and a restore point that will be used to restore the virtual network configuration items. By default, Veeam Backup for Microsoft Azure uses the most recent valid restore point. However, you can restore the virtual network configuration data to an earlier state.
 
@@ -24,6 +24,4 @@ To view the full list of the virtual network configuration items that will be re
 
 [![Selecting Virtual Network Restore Point](images/vnet_restore_list.webp)](images/vnet_restore_list.webp "Selecting Virtual Network Restore Point")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

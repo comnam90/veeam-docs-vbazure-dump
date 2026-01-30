@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_endpoint"
+title: "Step 2b. Configure Private Endpoint Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_endpoint.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2b. Configure Private Endpoint Settings
 
-In this article
 
 At the Basics step of the Create a private endpoint wizard, do the following:
 
@@ -23,6 +23,4 @@ For more information on the Azure regions, see [Microsoft Docs](https://docs.mic
 
 [![Configuring Private Endpoint Settings](images/app_pne_cosmos_db_endpoint.webp)](images/app_pne_cosmos_db_endpoint.webp "Configuring Private Endpoint Settings")
 
-Page updated 7/1/2024
 
-Page content applies to build 8.0.1.202

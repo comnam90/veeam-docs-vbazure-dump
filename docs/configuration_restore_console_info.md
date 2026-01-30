@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_info"
+title: "Step 3. Review Backup File Info"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_info.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Review Backup File Info
 
-In this article
 
 At the Backup Contents step of the wizard, Veeam Backup & Replication will analyze the content of the selected backup and display the following information:
 
@@ -21,6 +21,4 @@ At the Backup Contents step of the wizard, review the provided information and c
 
 ![Step 3. Review Backup File Info](images/restore_config_info.webp)
 
-Page updated 7/11/2025
 
-Page content applies to build 8.0.1.202

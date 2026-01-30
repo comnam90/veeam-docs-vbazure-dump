@@ -1,5 +1,5 @@
 ---
-title: "flr_wizard"
+title: "Step 1. Launch File-Level Recovery Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/flr_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch File-Level Recovery Wizard
 
-In this article
 
 To launch the File-Level Recovery wizard, do the following:
 
@@ -20,6 +20,4 @@ Alternatively, click the link in the Restore Points column. Then, in the Availab
 
 [![Performing File-Level Recovery](images/flr_wizard.webp)](images/flr_wizard.webp "Performing File-Level Recovery")
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "adding_appliance_repository"
+title: "Step 8. Configure Repository Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/adding_appliance_repository.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Configure Repository Settings
 
-In this article
 
 The Repositories step of the wizard, a list of all standard and archive repositories already configured on the selected backup appliance will be displayed. After you complete the wizard, Veeam Backup & Replication will automatically add these repositories to the backup infrastructure.
 
@@ -61,6 +61,4 @@ Related Topics
 
 [Managing Backed-Up Data Using Console](managing_backups_console.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sizing_service_providers"
+title: "Service Providers"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_service_providers.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Service Providers
 
-In this article
 
 You can connect multiple backup appliances to one backup server. Normally, one backup appliance is deployed per customer, but it is possible to deploy more appliances, depending on the scale. This can be managed with [Veeam Cloud Connect](https://helpcenter.veeam.com/docs/backup/cloud/cloud_overview.html?ver=120) and the [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html?ver=81).
 
@@ -30,6 +30,4 @@ Related Topics
 * [Veeam Cloud Connect](https://helpcenter.veeam.com/docs/backup/cloud/cloud_overview.html?ver=120)
 * [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html?ver=81)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sql_backup_create"
+title: "Creating SQL Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_backup_create.html"
@@ -7,8 +7,8 @@ last_updated: "2/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating SQL Backup Policies
 
-In this article
 
 |  |
 | --- |
@@ -26,6 +26,4 @@ To create a backup policy, do the following:
 7. [Review the estimated cost of protecting the selected Azure SQL databases](sql_backup_cost.md).
 8. [Finish working with the wizard](sql_backup_finish.md).
 
-Page updated 2/18/2025
 
-Page content applies to build 8.0.1.202

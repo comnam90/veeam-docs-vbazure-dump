@@ -1,5 +1,5 @@
 ---
-title: "vm_sla_custom_script"
+title: "Enabling Guest Scripting"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_custom_script.html"
@@ -7,8 +7,8 @@ last_updated: "3/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Guest Scripting
 
-In this article
 
 [Applies for users that have the Portal Administrator role only]
 
@@ -48,6 +48,4 @@ You can use runtime variables as arguments for the script. To see the list of av
 
 [![Adding Backup Policy](images/vm_protection_custom_script.webp)](images/vm_protection_custom_script.webp "Adding Backup Policy")
 
-Page updated 3/24/2025
 
-Page content applies to build 8.0.1.202

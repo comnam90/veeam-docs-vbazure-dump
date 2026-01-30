@@ -1,5 +1,5 @@
 ---
-title: "app_pne_vb_peering"
+title: "Step 4. Configure Peering Connections for Backup Appliance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_vb_peering.html"
@@ -7,8 +7,8 @@ last_updated: "4/15/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Configure Peering Connections for Backup Appliance
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure components to communicate in the private environment, you must configure peering connections between the following VNets:
 
@@ -34,6 +34,4 @@ To create a peering connection, perform the following steps:
 
 [![Peering Virtual Networks](images/vnet_peering.webp)](images/vnet_peering.webp "Peering Virtual Networks")
 
-Page updated 4/15/2025
 
-Page content applies to build 8.0.1.202

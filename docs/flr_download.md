@@ -1,5 +1,5 @@
 ---
-title: "flr_download"
+title: "Step 6. Choose Items to Recover"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/flr_download.html"
@@ -7,8 +7,8 @@ last_updated: "5/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Choose Items to Recover
 
-In this article
 
 In the file-level recovery browser, you can find and recover items (files and folders) of the selected Azure VM. All recovered items will be saved in a single .ZIP archive to the default download directory on a local machine from which you access the file-level recovery browser, or will be restored to the original Azure VM.
 
@@ -39,6 +39,4 @@ As soon as you click Restore or Download, Veeam Backup for Microsoft Azure will 
 
 [![Adding Files and Folders to Recovery List](images/flr_adding_to_recovery_list.webp)](images/flr_adding_to_recovery_list.webp "Adding Files and Folders to Recovery List")
 
-Page updated 5/23/2025
 
-Page content applies to build 8.0.1.202

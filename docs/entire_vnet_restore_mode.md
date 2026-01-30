@@ -1,5 +1,5 @@
 ---
-title: "entire_vnet_restore_mode"
+title: "Step 4. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/entire_vnet_restore_mode.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected virtual network configuration to the original or to a custom location. If you select the Restore to new location, or with different settings option, specify the target Azure subscription and Azure region where to restore the virtual network configuration.
 
@@ -19,6 +19,4 @@ At the Restore Mode step of the wizard, choose whether you want to restore the s
 
 [![Selecting Restore Mode For Virtual Network Configuration Restore](images/vnet_restore_mode.webp)](images/vnet_restore_mode.webp "Selecting Restore Mode For Virtual Network Configuration Restore")
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "backup_policy_priority"
+title: "Setting Backup Policy Priority"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_policy_priority.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Setting Backup Policy Priority
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure runs backup policies in the order you create them. However, you can set the backup policy priority manually:
 
@@ -27,6 +27,4 @@ By default, Veeam Backup for Microsoft Azure runs backup policies in the order y
 
 [![Setting Backup Policy Priority](images/policy_priority.webp)](images/policy_priority.webp "Setting Backup Policy Priority")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

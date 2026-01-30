@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_cosmos_db"
+title: "Backup Chain"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_chain_cosmos_db.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Chain
 
-In this article
 
 If you enable backup to a repository for a backup policy, Veeam Backup for Microsoft Azure creates a new backup for the database of each processed Cosmos DB for PostgreSQL or Cosmos DB for MongoDB account in a standard repository during every backup session. A sequence of backups created during a set of backup sessions makes up a regular backup chain.
 
@@ -26,6 +26,4 @@ Related Topics
 * [Archive Backup Chain](archive_chain_cosmos_db.md)
 * [Cosmos DB Backup Retention](cosmos_db_backup_retention.md)
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

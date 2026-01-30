@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_sql"
+title: "Backup Chain"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_chain_sql.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for Microsoft Azure creates a new backup for each Azure SQL database added to a backup policy. A sequence of backups created during a set of backup sessions makes up a backup chain.
 
@@ -37,6 +37,4 @@ Related Topics
 
 [Archive Backup Chain](archive_chain_sql.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "configuration_backup_and_restore"
+title: "Performing Configuration Backup and Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_backup_and_restore.html"
@@ -7,8 +7,8 @@ last_updated: "9/10/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Configuration Backup and Restore
 
-In this article
 
 You can back up and restore the configuration database that stores data collected from a backup appliance configuration for the existing backup policies, protected Azure VMs, Azure SQL databases, Cosmos DB accounts, Azure file shares, virtual network configurations, worker instance configurations, logged session records and so on. If the backup appliance goes down for some reason, you can reinstall it and quickly restore its configuration from a configuration backup. You can also use a configuration backup to migrate the configuration of one backup appliance to another appliance in Microsoft Azure.
 
@@ -21,6 +21,4 @@ In This Section
 * [Performing Configuration Backup](performing_configuration_backup.md)
 * [Performing Configuration Restore](configuration_restore.md)
 
-Page updated 9/10/2024
 
-Page content applies to build 8.0.1.202

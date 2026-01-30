@@ -1,5 +1,5 @@
 ---
-title: "configuration"
+title: "Configuring Veeam Backup for Microsoft Azure"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Veeam Backup for Microsoft Azure
 
-In this article
 
 To start working with Veeam Backup for Microsoft Azure, perform a number of steps for its configuration:
 
@@ -33,6 +33,4 @@ If you do not configure settings for worker instances, Veeam Backup for Microsof
 | Note |
 | Even after you add accounts that manage your Azure resources and configure all the necessary settings, Veeam Backup for Microsoft Azure will populate neither the list of Azure VMs nor the list of Azure SQL databases nor the list of Cosmos DB accounts nor the list of Azure file shares on the [Resources](viewing_resources.md) page — unless you create backup policies and specify regions where the Azure resources belong, as described in section [Performing Backup](backup.md). |
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

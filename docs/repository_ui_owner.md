@@ -1,5 +1,5 @@
 ---
-title: "repository_ui_owner"
+title: "Repository Ownership Alert"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_ui_owner.html"
@@ -7,8 +7,8 @@ last_updated: "6/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Repository Ownership Alert
 
-In this article
 
 To prevent the same backup repository from being used simultaneously on different backup appliances, Veeam Backup for Microsoft Azure verifies whether the backup repository is managed by any backup appliance when you add an existing folder as a target backup repository. Retention sessions running on different appliances may corrupt backup files stored in this repository, which may result in unpredictable data loss.
 
@@ -21,6 +21,4 @@ If the backup repository is already connected to any backup appliance, Veeam Bac
 
 [![Repository Ownership Alert](images/repository_ownership_alert.webp)](images/repository_ownership_alert.webp "Repository Ownership Alert")
 
-Page updated 6/10/2025
 
-Page content applies to build 8.0.1.202

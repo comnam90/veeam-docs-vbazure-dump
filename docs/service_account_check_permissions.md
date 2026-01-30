@@ -1,5 +1,5 @@
 ---
-title: "service_account_check_permissions"
+title: "Step 6. Check Account Permissions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_check_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Check Account Permissions
 
-In this article
 
 [This step applies only if you have selected the Specify existing service account option at the Type step of the wizard]
 
@@ -29,6 +29,4 @@ To make sure that the missing permissions have been successfully granted, click 
 
 [![Permissions Check](images/azure_account_permissions_check.webp)](images/azure_account_permissions_check.webp "Permissions Check")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

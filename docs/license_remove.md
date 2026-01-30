@@ -1,5 +1,5 @@
 ---
-title: "license_remove"
+title: "Removing License"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/license_remove.html"
@@ -7,8 +7,8 @@ last_updated: "6/3/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing License
 
-In this article
 
 To remove the license installed on a backup appliance that was previously deployed from the Microsoft Azure Marketplace:
 
@@ -30,6 +30,4 @@ Related Topics
 
 [Viewing License Information](license_view_information.md)
 
-Page updated 6/3/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sql_harmonized_scheduling"
+title: "Enabling Harmonized Scheduling"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_harmonized_scheduling.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Harmonized Scheduling
 
-In this article
 
 When you combine multiple types of schedules, Veeam Backup for Microsoft Azure applies the harmonization mechanism that allows you to leverage restore points for long-term retentions instead of taking a new restore point every time. The mechanism simplifies the backup schedule, optimizes the backup performance and reduces the cost of storing restore points in repositories.
 
@@ -62,6 +62,4 @@ By this moment, the restore point created on Tuesday with the (D) flag will get 
 | Note |
 | This section does not explain how Veeam Backup for Microsoft Azure rebuilds the backup chain when applying the configured retention policy settings — it focuses on the harmonization mechanism itself only. To learn what types of backups Veeam Backup for Microsoft Azure includes in the backup chain and how it transforms the chain when removing outdated restore points, see sections [Backup Chain](backup_chain_sql.md) and [SQL Backup Retention](sql_backup_retention.md). |
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

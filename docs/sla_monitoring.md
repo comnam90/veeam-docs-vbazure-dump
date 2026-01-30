@@ -1,5 +1,5 @@
 ---
-title: "sla_monitoring"
+title: "Monitoring SLA-Based Policy Performance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_monitoring.html"
@@ -7,8 +7,8 @@ last_updated: "4/22/2025"
 product_version: "8.0.1.202"
 ---
 
+# Monitoring SLA-Based Policy Performance
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to monitor the protection status of all Azure VMs included into a specific SLA-based backup policy. As soon as Veeam Backup for Microsoft Azure finalizes the data protection window in all the protected regions, the SLA details for this window are automatically added to the SLA Compliance Overview chart on the Sessions page. The chart shows whether the target SLA was met for different types of restore points (snapshots, backups and archived backups) created by the SLA-based backup policy.
 
@@ -36,6 +36,4 @@ To view session details for a protected VM, click the necessary VM in the list: 
 
 [![Monitoring SLA-Based Policy Performance](images/sla_drilldown.webp)](images/sla_drilldown.webp "Monitoring SLA-Based Policy Performance")
 
-Page updated 4/22/2025
 
-Page content applies to build 8.0.1.202

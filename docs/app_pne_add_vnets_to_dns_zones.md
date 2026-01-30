@@ -1,5 +1,5 @@
 ---
-title: "app_pne_add_vnets_to_dns_zones"
+title: "Step 3. Add VNets to Private DNS Zones"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_add_vnets_to_dns_zones.html"
@@ -7,8 +7,8 @@ last_updated: "5/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Add VNets to Private DNS Zones
 
-In this article
 
 [This step applies only if you chose to create and manage the private DNS zones manually at [step 1](app_pne_dns_zones.md)]
 
@@ -31,6 +31,4 @@ To add a VNet to a DNS zone, do the following:
 
 [![Adding VNets to Private DNS Zones](images/app_pne_add_vnets_to_dns_zones.webp)](images/app_pne_add_vnets_to_dns_zones.webp "Adding VNets to Private DNS Zones")
 
-Page updated 5/7/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "vm_schedule_yearly"
+title: "Specifying Yearly Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_yearly.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Yearly Schedule
 
-In this article
 
 [This step applies only if you have instructed Veeam Backup for Microsoft Azure to create image-level backups at the Targets step of the wizard]
 
@@ -41,6 +41,4 @@ For a repository to be displayed in the Repository list, it must be added to Vee
 
 [![Adding Backup Policy](images/policy_yearly.webp)](images/policy_yearly.webp "Adding Backup Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

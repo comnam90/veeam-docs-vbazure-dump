@@ -1,5 +1,5 @@
 ---
-title: "app_pne_storage_configuration"
+title: "Step 4. Specify Virtual Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_storage_configuration.html"
@@ -7,8 +7,8 @@ last_updated: "1/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Virtual Network Settings
 
-In this article
 
 At the Virtual Network step of the Create a private endpoint wizard, do the following:
 
@@ -19,6 +19,4 @@ At the Virtual Network step of the Create a private endpoint wizard, do the foll
 
 [![Specifying Configuration Settings](images/app_pne_virtual_network.webp)](images/app_pne_virtual_network.webp "Specifying Configuration Settings")
 
-Page updated 1/12/2024
 
-Page content applies to build 8.0.1.202

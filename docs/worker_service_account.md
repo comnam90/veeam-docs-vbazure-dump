@@ -1,5 +1,5 @@
 ---
-title: "worker_service_account"
+title: "Specifying Destination for Worker Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_service_account.html"
@@ -7,8 +7,8 @@ last_updated: "3/21/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Destination for Worker Instances
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure launches worker instances in the same Microsoft Entra tenant, Azure subscription and resource group in which the backup appliance is deployed. However, you can specify another destination for the worker instances, as well as a service account that will be used to launch the instances:
 
@@ -38,6 +38,4 @@ If you change the service account, it is recommended that you check whether the 
 
 [![Specifying Worker Account](images/worker_account.webp)](images/worker_account.webp "Specifying Worker Account")
 
-Page updated 3/21/2025
 
-Page content applies to build 8.0.1.202

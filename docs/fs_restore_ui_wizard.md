@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_wizard"
+title: "Step 1. Launch Azure Files File-Level Recovery Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Azure Files File-Level Recovery Wizard
 
-In this article
 
 To launch the Azure Files File-Level Recovery wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Azure Files File-Level Recovery wizard, do the following:
 
 [![Performing File Share Restore](images/fs_restore_launch.webp)](images/fs_restore_launch.webp "Performing File Share Restore")
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

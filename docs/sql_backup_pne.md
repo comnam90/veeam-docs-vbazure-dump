@@ -1,5 +1,5 @@
 ---
-title: "sql_backup_pne"
+title: "SQL Backup in Private Environment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_backup_pne.html"
@@ -7,8 +7,8 @@ last_updated: "5/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# SQL Backup in Private Environment
 
-In this article
 
 If the private network deployment functionality is enabled for a backup appliance, Veeam Backup for Microsoft Azure performs SQL backup in the following way:
 
@@ -48,6 +48,4 @@ Veeam Backup for Microsoft Azure also checks whether the following private endpo
 
 [![SQL Backup in Private Environment](images/sql_pne_unmanaged.webp)](images/sql_pne_unmanaged.webp "SQL Backup in Private Environment")
 
-Page updated 5/13/2025
 
-Page content applies to build 8.0.1.202

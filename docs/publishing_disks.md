@@ -1,5 +1,5 @@
 ---
-title: "publishing_disks"
+title: "Publishing Disks"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/publishing_disks.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Publishing Disks
 
-In this article
 
 Veeam Backup & Replication allows you to publish point-in-time disks, that is, to attach specific virtual disks of backed-up Azure VMs to any server to instantly access data in the read-only mode. You can copy the necessary files and folders to the target server, and perform an antivirus scan of the backed-up data. For more information, see the Veeam Backup & Replication User Guide, section [Disk Publishing (Data Integration API)](https://helpcenter.veeam.com/docs/vbr/userguide/data_integration_api.html?ver=13).
 
@@ -26,6 +26,4 @@ To publish virtual disks of an Azure VM, do the following:
 
 [![Publishing Disks](images/disk_publishing.webp)](images/disk_publishing.webp "Publishing Disks")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

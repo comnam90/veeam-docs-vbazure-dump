@@ -1,5 +1,5 @@
 ---
-title: "vm_sla_create"
+title: "Creating SLA-Based VM Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_create.html"
@@ -7,8 +7,8 @@ last_updated: "7/3/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating SLA-Based VM Backup Policies
 
-In this article
 
 To create an SLA-based backup policy, do the following:
 
@@ -22,6 +22,4 @@ To create an SLA-based backup policy, do the following:
 8. [Review the estimated cost of protecting the selected Azure VMs](vm_sla_cost.md).
 9. [Finish working with the wizard](vm_sla_finish.md).
 
-Page updated 7/3/2025
 
-Page content applies to build 8.0.1.202

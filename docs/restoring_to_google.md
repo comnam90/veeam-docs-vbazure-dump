@@ -1,5 +1,5 @@
 ---
-title: "restoring_to_google"
+title: "Restoring to Google Cloud"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restoring_to_google.html"
@@ -7,8 +7,8 @@ last_updated: "12/23/2025"
 product_version: "8.0.1.202"
 ---
 
+# Restoring to Google Cloud
 
-In this article
 
 Veeam Backup & Replication allows you to restore Azure VMs from image-level backups created with Veeam Backup for Microsoft Azure to Google Cloud as VM instances. You can restore VMs to any available restore point. For more information, see the Veeam Backup & Replication User Guide, section [Restore to Google Compute Engine](https://helpcenter.veeam.com/docs/vbr/userguide/restore_google.html?ver=13).
 
@@ -27,6 +27,4 @@ To restore an Azure VM to Google Cloud, do the following:
 
 [![Restore to Google Cloud Platform](images/restore_to_google.webp)](images/restore_to_google.webp "Restore to Google Cloud Platform")
 
-Page updated 12/23/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_disk_hiw"
+title: "Disk Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_disk_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "9/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Disk Restore
 
-In this article
 
 In case a disaster strikes, you can restore corrupted virtual disks of an Azure VM from a cloud-native snapshot or image-level backup. Veeam Backup for Microsoft Azure allows you to restore virtual disks to the original location or to a new location.
 
@@ -35,6 +35,4 @@ To restore virtual disks from a cloud-native snapshot, Veeam Backup for Microsof
 
 To learn how to restore virtual disks attached to an Azure VM from a cloud-native snapshot or an image-level backup, see [Performing Disk Restore](performing_disk_restore.md).
 
-Page updated 9/5/2024
 
-Page content applies to build 8.0.1.202

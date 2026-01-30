@@ -1,5 +1,5 @@
 ---
-title: "repository_console_container"
+title: "Step 5. Specify Blob Container"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_console_container.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Specify Blob Container
 
-In this article
 
 At the Container step of the wizard, do the following:
 
@@ -36,6 +36,4 @@ If the storage account and blob container meet the immutability requirements, th
 
 ![Step 5. Specify Blob Container](images/add_repo_container.webp)
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

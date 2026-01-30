@@ -1,5 +1,5 @@
 ---
-title: "performing_sql_backup"
+title: "Performing SQL Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_sql_backup.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing SQL Backup
 
-In this article
 
 One backup policy can be used to process one or more Azure SQL databases within one Microsoft Entra tenant. The scope of data that you can protect in a tenant is limited by permissions of a service account that is specified in the backup policy settings.
 
@@ -24,6 +24,4 @@ To schedule data protection tasks to run automatically, [create backup policies]
 | Important |
 | Veeam Backup for Microsoft Azure does not allow you to protect databases hosted by Azure Arc-enabled SQL Managed Instances and SQL Servers on Azure Arc-enabled servers. |
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

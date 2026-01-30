@@ -1,5 +1,5 @@
 ---
-title: "vm_how_health_check_works"
+title: "How Health Check Works"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_how_health_check_works.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# How Health Check Works
 
-In this article
 
 When Veeam Backup for Microsoft Azure saves a new backup restore point to a backup repository, it calculates CRC values for metadata in the backup chain and saves these values to the chain metadata, together with the instance data. When performing a health check, Veeam Backup for Microsoft Azure verifies the availability of data blocks and uses the saved values to ensure that the restore points being verified are consistent.
 
@@ -31,6 +31,4 @@ Depending on the detected data inconsistency, Veeam Backup for Microsoft Azure p
 
 * If the health check detects corrupted disk blocks in a full or an incremental restore point, Veeam Backup for Microsoft Azure marks the restore point that includes the corrupted data blocks and all subsequent incremental restore points as incomplete in the configuration database. During the next backup policy session, Veeam Backup for Microsoft Azure copies not only those data blocks that have changed since the previous backup session but also data blocks that have been corrupted, and saves these data blocks to the latest restore point that has been created during the current session.
 
-Page updated 9/16/2025
 
-Page content applies to build 8.0.1.202

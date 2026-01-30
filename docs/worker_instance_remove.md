@@ -1,5 +1,5 @@
 ---
-title: "worker_instance_remove"
+title: "Removing Worker Instances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_instance_remove.html"
@@ -7,8 +7,8 @@ last_updated: "11/10/2023"
 product_version: "8.0.1.202"
 ---
 
+# Removing Worker Instances
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to permanently remove worker instances created based on worker configurations and profiles if you no longer need them.
 
@@ -25,6 +25,4 @@ To remove a worker instance from Veeam Backup for Microsoft Azure, do the follow
 
 [![Removing Workers](images/removing_workers.webp)](images/removing_workers.webp "Removing Workers")
 
-Page updated 11/10/2023
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "changed_block_tracking"
+title: "Changed Block Tracking"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/changed_block_tracking.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Changed Block Tracking
 
-In this article
 
 The changed block tracking (CBT) mechanism allows Veeam Backup for Microsoft Azure to reduce the amount of data read from cloud-native snapshots, and to increase the speed and efficiency of incremental backups:
 
@@ -33,6 +33,4 @@ Consider the following example. You want a schedule-based backup policy to daily
 2. From 9:00 AM to 3:00 PM, backup sessions will create only cloud-native snapshots.
 3. After a backup session runs at 5:00 PM, the first cloud-native snapshot (created at 7:00 AM) will still be present in the snapshot chain until the next backup session.
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

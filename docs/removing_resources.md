@@ -1,5 +1,5 @@
 ---
-title: "removing_resources"
+title: "Removing Azure Resources"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_resources.html"
@@ -7,8 +7,8 @@ last_updated: "3/21/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Azure Resources
 
-In this article
 
 Veeam Backup for Microsoft Azure creates a number of resources while operating in Microsoft Azure, and these resources are not removed from Microsoft Azure automatically when you uninstall the solution. That is why you must perform the following steps to remove the backup appliance and all resources created by Veeam Backup for Microsoft Azure:
 
@@ -46,6 +46,4 @@ In the Delete Resources window, type Yes to confirm the action and click Delete.
 | Tips |
 | * You can filter resources by the Veeam backup appliance ID tag. To find all resources associated with a backup appliance, navigate to the Overview page of the appliance and click the Veeam backup appliance ID tag. * If you have specified a [custom destination](worker_service_account.md) for worker instances, you will have to perform additional steps after you remove the Azure VM running Veeam Backup for Microsoft Azure. First, go back to Resource groups, click the resource group in which worker instances reside, and then repeat step 3b to remove the worker instances. |
 
-Page updated 3/21/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "configuring_http_proxy"
+title: "Appendix A. Configuring HTTP Proxy for Backup Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_http_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "8.0.1.202"
 ---
 
+# Appendix A. Configuring HTTP Proxy for Backup Appliances
 
-In this article
 
 To manage the inbound and outbound traffic of your backup appliance, you can route connections through an HTTP proxy. Using an HTTP proxy provides access to the required services and resources, enhancing the security, efficiency and privacy of your backup environment.
 
@@ -52,6 +52,4 @@ The list must include the following addresses: 169.254.169.254 — the IP addres
 | Important |
 | * For Veeam Backup for Microsoft Azure to be able to create and manage repositories when using the configured HTTP proxy, open a [support case](support_information.md). * The provided instruction applies to backup appliances that operate public virtual networks. If you want to use an HTTP proxy for a backup appliance deployed in a private environment, open a [support case](support_information.md). * Veeam Backup for Microsoft Azure version 8.1 does not support connection to email server specified in the notification settings through an HTTP proxy. If you plan to configure these settings, you must allow inbound and outbound access to the Azure VM on which Veeam Backup for Microsoft Azure is installed for the necessary email server. |
 
-Page updated 9/2/2025
 
-Page content applies to build 8.0.1.202

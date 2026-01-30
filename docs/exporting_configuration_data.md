@@ -1,5 +1,5 @@
 ---
-title: "exporting_configuration_data"
+title: "Exporting Configuration Backup Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/exporting_configuration_data.html"
@@ -7,8 +7,8 @@ last_updated: "2/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# Exporting Configuration Backup Data
 
-In this article
 
 Once Veeam Backup for Microsoft Azure creates a successful configuration backup, you can export the configuration backup file and use it to [restore configuration data](configuration_restore_ui.md) on another backup appliance.
 
@@ -33,6 +33,4 @@ As soon as you click Export, Veeam Backup for Microsoft Azure will save the expo
 
 [![Exporting Configuration Backup Data](images/config_backup_export.webp)](images/config_backup_export.webp "Exporting Configuration Backup Data")
 
-Page updated 2/5/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "accounts_smtp_database_remove"
+title: "Removing SMTP and Database Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/accounts_smtp_database_remove.html"
@@ -7,8 +7,8 @@ last_updated: "3/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing SMTP and Database Accounts
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to permanently remove an SMTP or database account from the configuration database if you no longer need it:
 
@@ -23,6 +23,4 @@ Veeam Backup for Microsoft Azure allows you to permanently remove an SMTP or dat
 
 [![Removing Accounts](images/smtp_db_account_delete.webp)](images/smtp_db_account_delete.webp "Removing Accounts")
 
-Page updated 3/7/2025
 
-Page content applies to build 8.0.1.202

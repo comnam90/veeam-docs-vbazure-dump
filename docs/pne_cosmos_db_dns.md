@@ -1,5 +1,5 @@
 ---
-title: "pne_cosmos_db_dns"
+title: "Step 2e. Specify DNS Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_cosmos_db_dns.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2e. Specify DNS Settings
 
-In this article
 
 At the DNS step of the Create a private endpoint wizard, do the following:
 
@@ -22,6 +22,4 @@ It is recommended that you create the DNS zones in the same resource group where
 
 [![Specifying Configuration Settings](images/app_pne_cosmos_db_dns.webp)](images/app_pne_cosmos_db_dns.webp "Specifying Configuration Settings")
 
-Page updated 7/1/2024
 
-Page content applies to build 8.0.1.202

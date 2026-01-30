@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_wizard"
+title: "Step 1. Launch Add Cosmos DB Policy Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "3/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Add Cosmos DB Policy Wizard
 
-In this article
 
 To launch the Add Cosmos DB Policy wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Add Cosmos DB Policy wizard, do the following:
 
 [![Adding Cosmos DB Backup Policy](images/cosmos_db_backup_launch.webp)](images/cosmos_db_backup_launch.webp "Adding Cosmos DB Backup Policy")
 
-Page updated 3/18/2025
 
-Page content applies to build 8.0.1.202

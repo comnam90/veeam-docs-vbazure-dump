@@ -1,5 +1,5 @@
 ---
-title: "session_statistics"
+title: "Viewing Session Statistics"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/session_statistics.html"
@@ -7,8 +7,8 @@ last_updated: "8/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Viewing Session Statistics
 
-In this article
 
 For each performed data protection or disaster recovery operation, Veeam Backup for Microsoft Azure starts a new session and stores its records in the configuration database.
 
@@ -41,6 +41,4 @@ You can track real-time statistics of all running and completed operations on th
 
 [![Viewing Session Statistics](images/viewing_sessions.webp)](images/viewing_sessions.webp "Viewing Session Statistics")
 
-Page updated 8/25/2025
 
-Page content applies to build 8.0.1.202

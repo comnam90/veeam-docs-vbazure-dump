@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_console_zone"
+title: "Step 6. Specify VM Configuration Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_console_zone.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify VM Configuration Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -30,6 +30,4 @@ If you choose to restore the VM with unmanaged disks, select credentials of a Mi
 
 [![Restore to Microsoft Azure - Availability zone](images/restore_from_snapshot_availability_zone.webp)](images/restore_from_snapshot_availability_zone.webp "Restore to Microsoft Azure - Availability zone")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

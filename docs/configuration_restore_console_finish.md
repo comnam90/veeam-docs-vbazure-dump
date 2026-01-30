@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_finish"
+title: "Step 8. Finish Working with Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_finish.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, click Finish to finalize the process of configuration data restore.
 
@@ -16,6 +16,4 @@ If Veeam Backup & Replication encounters an issue while performing configurat
 
 ![Step 8. Finish Working with Wizard](images/restore_config_summary.webp)
 
-Page updated 7/11/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "deploying_vb"
+title: "Deployment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_vb.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Deployment
 
-In this article
 
 To deploy Veeam Backup for Microsoft Azure, do the following:
 
@@ -22,6 +22,4 @@ This step applies only to Veeam Backup & Replication versions prior to 12. Ve
 
 1. [Deploy a backup appliance in Microsoft Azure](deploying_appliance.md).
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

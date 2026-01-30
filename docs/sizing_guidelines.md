@@ -1,5 +1,5 @@
 ---
-title: "sizing_guidelines"
+title: "Sizing and Scalability Guidelines"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_guidelines.html"
@@ -7,8 +7,8 @@ last_updated: "6/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Sizing and Scalability Guidelines
 
-In this article
 
 This section is intended for professionals who search for a best practice answer to sizing-related issues, and assumes you have already read the whole Veeam Backup for Microsoft Azure User Guide.
 
@@ -19,6 +19,4 @@ Be aware that a best practice is not the only answer available. It will fit in t
 | Important |
 | You must also consider the following:   * The [Azure service quotas](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) associated with your Microsoft Entra tenants and subscriptions, as well as the performance of [Azure VMs of specific sizes](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes). Some of the options may look good; however, make sure to take into account disk size, speed and burst credits.  * The [performance of Azure Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/scalability-targets-standard-account) specific to your region. Storage accounts with different redundancy options (LRS, ZRS, GRS) in different regions have different speeds, and there is a maximum throughput per storage account. |
 
-Page updated 6/12/2024
 
-Page content applies to build 8.0.1.202

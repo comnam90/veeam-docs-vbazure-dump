@@ -1,5 +1,5 @@
 ---
-title: "vm_sla_tags_snapshot_location"
+title: "Step 6. Configure Snapshot Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_tags_snapshot_location.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Configure Snapshot Settings
 
-In this article
 
 At the Snapshot Settings step of the wizard, you can enable tag assignment for cloud-native snapshots created by the policy and select a custom target location for the snapshots.
 
@@ -31,6 +31,4 @@ For a subscription to be displayed in the list of available subscriptions, the s
 
 [![Configure Location Settings](images/vm_sla_snapshot_location.webp)](images/vm_sla_snapshot_location.webp "Configure Location Settings")
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

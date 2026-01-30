@@ -1,5 +1,5 @@
 ---
-title: "fs_harmonized_scheduling"
+title: "Enabling Harmonized Scheduling"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_harmonized_scheduling.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Harmonized Scheduling
 
-In this article
 
 When you combine multiple types of schedules, Veeam Backup for Microsoft Azure applies the harmonization mechanism that allows you to leverage restore points for long-term retentions instead of taking a new restore point every time. The mechanism simplifies the backup schedule, optimizes the backup performance and reduces the cost of storing restore points in repositories.
 
@@ -55,6 +55,4 @@ At the moment the backup session completes, the number of restore points with th
 
 [![Enabling Harmonized Scheduling](images/retention_snapshots_weekly_rp_removed_fs.webp)](images/retention_snapshots_weekly_rp_removed_fs.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_items"
+title: "Step 7. Choose Items to Recover"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_items.html"
@@ -7,8 +7,8 @@ last_updated: "12/1/2023"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Choose Items to Recover
 
-In this article
 
 In the file-level recovery browser, you can find and restore items (files and folders) of the selected Azure file share. All restored items will be saved to the specified file share.
 
@@ -29,6 +29,4 @@ As soon as you click Restore, Veeam Backup for Microsoft Azure will recover the 
 
 [![Adding Files and Folders to Recovery List](images/fs_adding_to_recovery_list.webp)](images/fs_adding_to_recovery_list.webp "Adding Files and Folders to Recovery List")
 
-Page updated 12/1/2023
 
-Page content applies to build 8.0.1.202

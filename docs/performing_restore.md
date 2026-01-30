@@ -1,5 +1,5 @@
 ---
-title: "performing_restore"
+title: "Performing Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_restore.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Restore
 
-In this article
 
 In various disaster recovery scenarios, you can perform the following restore operations using backed-up data:
 
@@ -31,6 +31,4 @@ In various disaster recovery scenarios, you can perform the following restore op
 | Note |
 | You can perform all recovery operations using restore points stored in standard repositories. For restore points stored in archive repositories, only restore of Azure VMs, Azure SQL databases, databases of Cosmos DB for PostgreSQL accounts and databases and collections of Cosmos DB for MongoDB accounts to Microsoft Azure is supported. |
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_ui"
+title: "Restoring Configuration Data Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "3/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Restoring Configuration Data Using Web UI
 
-In this article
 
 To restore the configuration database of a backup appliance using the Veeam Backup for Microsoft Azure Web UI, do the following:
 
@@ -27,6 +27,4 @@ To restore the configuration database of a backup appliance using the Veeam Back
 
 After Veeam Backup for Microsoft Azure performs configuration restore, it rescans the whole infrastructure to detect obsolete snapshots. These snapshots are then removed from the configuration database according to the specified [global retention settings](configuring_global_retention_settings.md).
 
-Page updated 3/24/2025
 
-Page content applies to build 8.0.1.202

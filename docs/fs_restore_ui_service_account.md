@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_service_account"
+title: "Step 2. Select Service Account"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_service_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/12/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 2. Select Service Account
 
-In this article
 
 At the Account step of the wizard, select a service account whose permissions Veeam Backup for Microsoft Azure will use to perform the restore operation.
 
@@ -19,6 +19,4 @@ For a service account to be displayed in the list of available accounts, it must
 
 [![Performing File Share Restore](images/fs_restore_account.webp)](images/fs_restore_account.webp "Performing File Share Restore")
 
-Page updated 8/12/2024
 
-Page content applies to build 8.0.1.202

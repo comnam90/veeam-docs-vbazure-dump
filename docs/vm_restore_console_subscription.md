@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_console_subscription"
+title: "Step 4. Specify Azure Subscription and Region"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_console_subscription.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Azure Subscription and Region
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -29,6 +29,4 @@ If the selected region differs from the original location of Azure VM, Veeam Ba
 
 [![Restore to Microsoft Azure - Subscription and region](images/restore_from_snapshot_subscription.webp)](images/restore_from_snapshot_subscription.webp "Restore to Microsoft Azure - Subscription and region")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

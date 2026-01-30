@@ -1,5 +1,5 @@
 ---
-title: "sql_restore_ui_settings"
+title: "Step 7. Configure Restore Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_ui_settings.html"
@@ -7,8 +7,8 @@ last_updated: "1/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Configure Restore Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -33,6 +33,4 @@ For an Azure SQL Server account to be displayed in the list of available account
 
 [![Performing SQL Restore](images/sql_restore_new_location_settings.webp)](images/sql_restore_new_location_settings.webp "Performing SQL Restore")
 
-Page updated 1/28/2025
 
-Page content applies to build 8.0.1.202

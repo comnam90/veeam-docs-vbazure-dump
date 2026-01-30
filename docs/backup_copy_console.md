@@ -1,5 +1,5 @@
 ---
-title: "backup_copy_console"
+title: "Creating Backup Copy Jobs"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_copy_console.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating Backup Copy Jobs
 
-In this article
 
 Backup copy is a technology that helps you copy and store backed-up data of Azure VMs in different locations. Storing data in different locations increases its availability and ensures that data can be recovered in case a disaster strikes.
 
@@ -27,6 +27,4 @@ To create a backup copy job, do the following:
 
 [![Copy Azure policies](images/backup_copy.webp)](images/backup_copy.webp "Copy Azure policies")
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

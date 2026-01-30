@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_network"
+title: "Step 8. Configure Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_network.html"
@@ -7,8 +7,8 @@ last_updated: "2/2/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Configure Network Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or different settings option at the Restore Mode step of the wizard]
 
@@ -22,6 +22,4 @@ You can also specify a security group (virtual firewall) that will be associated
 
 [![Restoring Azure VM](images/restore_vm_network.webp)](images/restore_vm_network.webp "Restoring Azure VM")
 
-Page updated 2/2/2024
 
-Page content applies to build 8.0.1.202

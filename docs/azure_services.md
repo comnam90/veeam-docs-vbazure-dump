@@ -1,5 +1,5 @@
 ---
-title: "azure_services"
+title: "Azure Services"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/azure_services.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure Services
 
-In this article
 
 To perform backup and restore operations in both public and private environments, [Veeam Plug-in for Microsoft Azure](plug_in.md), [backup appliance](backup_appliances.md) and [worker instances](worker_instances.md) must have outbound network access to the following Microsoft Azure services.
 
@@ -44,6 +44,4 @@ Azure Services Required for Worker Instances
 
 [![Backup Infrastructure](images/architecture_services_v7.webp)](images/architecture_services_v7.webp "Backup Infrastructure")
 
-Page updated 10/24/2025
 
-Page content applies to build 8.0.1.202

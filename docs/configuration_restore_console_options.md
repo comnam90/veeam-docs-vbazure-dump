@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_options"
+title: "Step 5. Choose Restore Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_options.html"
@@ -7,8 +7,8 @@ last_updated: "7/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Choose Restore Options
 
-In this article
 
 By default, Veeam Backup & Replication restores configuration data for the existing infrastructure components, created backup policies, configured global settings.
 
@@ -23,6 +23,4 @@ If you select the Local users check box, Veeam Backup & Replication will rest
 
 ![Step 5. Choose Restore Options](images/restore_config_data.webp)
 
-Page updated 7/11/2025
 
-Page content applies to build 8.0.1.202

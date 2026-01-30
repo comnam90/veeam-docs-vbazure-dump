@@ -1,5 +1,5 @@
 ---
-title: "licensing"
+title: "Licensing"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/licensing.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Licensing
 
-In this article
 
 Veeam Backup for Microsoft Azure is licensed per protected instance. An instance is defined as a single Azure resource — an Azure VM, Azure SQL Server, Cosmos DB account or Azure file share. An instance is considered to be protected if it has a restore point (snapshot or backup) created by a backup policy during the past 31 days. Each protected instance consumes 1 license unit. However, if an instance has only manually created snapshots or backups, it does not consume any license units.
 
@@ -40,6 +40,4 @@ In This Section
 * [Revoking License Units](license_revoke.md)
 * [Removing License](license_remove.md)
 
-Page updated 11/11/2025
 
-Page content applies to build 8.0.1.202

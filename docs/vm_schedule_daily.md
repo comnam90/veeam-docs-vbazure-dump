@@ -1,5 +1,5 @@
 ---
-title: "vm_schedule_daily"
+title: "Specifying Daily Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_daily.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Daily Schedule
 
-In this article
 
 To create a daily schedule for the backup policy, do the following at the Schedule step of the wizard:
 
@@ -54,6 +54,4 @@ To learn how the CBT mechanism works, see [Changed Block Tracking](changed_block
 
 [![Adding Backup Policy](images/policy_daily.webp)](images/policy_daily.webp "Adding Backup Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

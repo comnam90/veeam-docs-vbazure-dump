@@ -1,5 +1,5 @@
 ---
-title: "vm_backup_archiving"
+title: "Enabling Backup Archiving"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_backup_archiving.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Backup Archiving
 
-In this article
 
 When you combine multiple types of schedules, you can enable the archiving mechanism to instruct Veeam Backup for Microsoft Azure to store backed-up data in the low-cost, long-term Archive access tier. The mechanism is the most useful in the following cases:
 
@@ -87,6 +87,4 @@ For more information on how Veeam Backup for Microsoft Azure transforms archive 
 
 Consider that data encryption must be either enabled or disabled for both backup and archive backup repositories selected within the same backup archiving configuration. For example, you cannot select an encrypted standard backup repository and an unencrypted archive backup repository to store backups. However, you can select repositories with different data encryption configurations in one backup policy. That is, you can select an encrypted standard backup repository, an encrypted archive backup repository, an unencrypted standard backup repository and an unencrypted archive backup repository. In this case, backups created in the encrypted standard backup repository will be copied to the encrypted archive backup repository, and backups created in the unencrypted standard backup repository will be copied to the unencrypted archive backup repository. Also, the selected repositories can have different encryption options (password and Azure Key Vault cryptographic key encryption).
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

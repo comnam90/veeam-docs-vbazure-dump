@@ -1,5 +1,5 @@
 ---
-title: "understanding_retention_policy"
+title: "Retention Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/understanding_retention_policy.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Retention Policies
 
-In this article
 
 Cloud-native snapshots and image-level backups are not kept forever — they are removed according to retention policy settings specified while creating the policies.
 
@@ -36,6 +36,4 @@ Related Topics
 * [Creating Cosmos DB Backup Policies](cosmos_db_backup_create.md)
 * [Creating Azure Files Backup Policies](fs_backup_create.md)
 
-Page updated 7/1/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sql_schedule_yearly"
+title: "Specifying Yearly Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_schedule_yearly.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Yearly Schedule
 
-In this article
 
 To create a yearly schedule for the backup policy, do the following at the Schedule step of the wizard:
 
@@ -37,6 +37,4 @@ For a repository to be displayed in the Repository list, it must be added to Vee
 
 [![Adding Backup Policy](images/sql_yearly.webp)](images/sql_yearly.webp "Adding Backup Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

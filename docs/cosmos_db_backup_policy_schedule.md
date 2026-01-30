@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_policy_schedule"
+title: "Step 6. Specify Policy Scheduling Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_policy_schedule.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Specify Policy Scheduling Options
 
-In this article
 
 [This step applies only if you set the Backup to repository toggle on the Targets step of the wizard to On]
 
@@ -28,6 +28,4 @@ Combining multiple schedule types together allows you to retain restore points f
 | Note |
 | When scheduling backup policies, it is recommended that you take into account the load in your Cosmos DB clusters since a large number of backup operations may affect the overall cluster performance. |
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

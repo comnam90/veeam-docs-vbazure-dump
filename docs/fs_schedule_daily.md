@@ -1,5 +1,5 @@
 ---
-title: "fs_schedule_daily"
+title: "Specifying Daily Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_schedule_daily.html"
@@ -7,8 +7,8 @@ last_updated: "7/22/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Daily Schedule
 
-In this article
 
 To create a daily schedule for the backup policy, do the following at the Schedule step of the wizard:
 
@@ -34,6 +34,4 @@ If the restore point limit is exceeded, Veeam Backup for Microsoft Azure removes
 
 [![Adding Backup Policy](images/fs_daily.webp)](images/fs_daily.webp "Adding Backup Policy")
 
-Page updated 7/22/2025
 
-Page content applies to build 8.0.1.202

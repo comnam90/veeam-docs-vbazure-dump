@@ -1,5 +1,5 @@
 ---
-title: "repository_ui_finish"
+title: "Step 6. Finish Working with Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_ui_finish.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 6. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information, choose whether you want to proceed to the [Session Log page](session_statistics.md) to track the progress of repository creation, and click Finish.
 
@@ -21,6 +21,4 @@ As soon as you click Finish, Veeam Backup for Microsoft Azure will check whether
 
 [![Reviewing Summary Info](images/br_review_summary_information.webp)](images/br_review_summary_information.webp "Reviewing Summary Info")
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

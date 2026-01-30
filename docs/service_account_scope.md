@@ -1,5 +1,5 @@
 ---
-title: "service_account_scope"
+title: "Step 4. Select Account Scope"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_scope.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Select Account Scope
 
-In this article
 
 At the Scope step of the wizard, specify the account scope — select subscriptions whose data you want to protect.
 
@@ -43,6 +43,4 @@ If you have selected the Specify existing service account option at the Type ste
 
 [![Configuring Scope of Existing Accounts](images/azure_account_scope_existing.webp)](images/azure_account_scope_existing.webp "Configuring Scope of Existing Accounts")
 
-Page updated 12/11/2024
 
-Page content applies to build 8.0.1.202

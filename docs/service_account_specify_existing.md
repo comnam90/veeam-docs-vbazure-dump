@@ -1,5 +1,5 @@
 ---
-title: "service_account_specify_existing"
+title: "Specifying Existing Microsoft Entra Application"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_specify_existing.html"
@@ -7,8 +7,8 @@ last_updated: "2/12/2025"
 product_version: "8.0.1.202"
 ---
 
+# Specifying Existing Microsoft Entra Application
 
-In this article
 
 [This step applies only if you have selected the Specify existing service account option at the Type step of the wizard]
 
@@ -39,6 +39,4 @@ You can find the tenant ID on the Overview page of your Microsoft Entra applicat
 
 [![Specifying Existing Account](images/service_account_existing.webp)](images/service_account_existing.webp "Specifying Existing Account")
 
-Page updated 2/12/2025
 
-Page content applies to build 8.0.1.202

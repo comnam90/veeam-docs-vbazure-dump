@@ -1,5 +1,5 @@
 ---
-title: "vnet_backup_notifications"
+title: "Step 5. Specify Email Notification Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vnet_backup_notifications.html"
@@ -7,8 +7,8 @@ last_updated: "1/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Specify Email Notification Settings
 
-In this article
 
 At the Settings step of the wizard, you can specify email notification settings for the Virtual Network Configuration Backup policy.
 
@@ -34,6 +34,4 @@ If you set the toggle to Off, Veeam Backup for Microsoft Azure will not send any
 
 [![VNet Policy Notification Settings](images/vnet_backup_settings.webp)](images/vnet_backup_settings.webp "VNet Policy Notification Settings")
 
-Page updated 1/24/2025
 
-Page content applies to build 8.0.1.202

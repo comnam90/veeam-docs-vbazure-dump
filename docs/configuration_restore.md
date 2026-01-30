@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore"
+title: "Performing Configuration Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore.html"
@@ -7,8 +7,8 @@ last_updated: "7/18/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Configuration Restore
 
-In this article
 
 Veeam Backup for Microsoft Azure offers restore of the configuration database that can be helpful in the following situations:
 
@@ -27,6 +27,4 @@ In This Section
 * [Restoring Configuration Data Using Console](configuration_restore_console.md)
 * [Restoring Configuration Data Using Web UI](configuration_restore_ui.md)
 
-Page updated 7/18/2024
 
-Page content applies to build 8.0.1.202

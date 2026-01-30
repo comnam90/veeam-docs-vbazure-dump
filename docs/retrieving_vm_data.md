@@ -1,5 +1,5 @@
 ---
-title: "retrieving_vm_data"
+title: "Retrieving Data from Archive"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/retrieving_vm_data.html"
@@ -7,8 +7,8 @@ last_updated: "3/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# Retrieving Data from Archive
 
-In this article
 
 Backups stored in archive repositories are not immediately accessible. If you want to restore an Azure VM from a backup that is stored in a repository of the Archive access tier, you must first retrieve the archived data. During the data retrieval process, a temporary copy of the archived data is created in an Azure blob container where the repository is located. This copy is stored in the Hot access tier for a period of time that you specify when launching the data retrieval process. If the time period expires while a restore operation is still running, Veeam Backup for Microsoft Azure automatically extends the period to keep the retrieved data available for one more hour. You can also [extend the availability period manually](#extend).
 
@@ -63,6 +63,4 @@ Alternatively, click the link in the Restore Points column. In the Data Retrieva
 
 [![Extending Data Availability](images/extend_availability.webp)](images/extend_availability.webp "Extending Data Availability")
 
-Page updated 3/13/2025
 
-Page content applies to build 8.0.1.202

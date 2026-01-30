@@ -1,5 +1,5 @@
 ---
-title: "glossary"
+title: "Glossary"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/glossary.html"
@@ -7,8 +7,8 @@ last_updated: "11/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Glossary
 
-In this article
 
 This section describes product-specific terms and abbreviations that appear in the User Guide.
 
@@ -101,6 +101,4 @@ W
 * worker profile — a VM size of a worker instance that Veeam Backup for Microsoft Azure launches in a specific Azure region to perform data protection and disaster recovery operations. See also [Managing Worker Profiles](worker_profiles.md).
 * workload — any Azure resource (for example, a VM, a SQL database, a file share and so on) that can be protected by Veeam Backup for Microsoft Azure. See also [Managing Backed-Up Data](managing_backups.md).
 
-Page updated 11/25/2025
 
-Page content applies to build 8.0.1.202

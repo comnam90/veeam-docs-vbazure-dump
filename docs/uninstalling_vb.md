@@ -1,5 +1,5 @@
 ---
-title: "uninstalling_vb"
+title: "Appendix B. Uninstalling Backup Appliances Deployed from Microsoft Azure Marketplace"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/uninstalling_vb.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "8.0.1.202"
 ---
 
+# Appendix B. Uninstalling Backup Appliances Deployed from Microsoft Azure Marketplace
 
-In this article
 
 Starting from version 7.0, you can deploy Veeam Backup for Microsoft Azure from the Veeam Backup & Replication console only. However, if an appliance was previously deployed from the Microsoft Azure Marketplace or is running Veeam Backup for Microsoft Azure version 2.x (or earlier), perform the following steps to uninstall Veeam Backup for Microsoft Azure:
 
@@ -21,6 +21,4 @@ Starting from version 7.0, you can deploy Veeam Backup for Microsoft Azure from 
 | Important |
 | Before you uninstall the solution, remove all worker instances and created worker configurations as described in section [Managing Worker Instances](worker_instance_remove.md). |
 
-Page updated 9/2/2025
 
-Page content applies to build 8.0.1.202

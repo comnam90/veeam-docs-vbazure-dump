@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_restore_console"
+title: "Performing Cosmos DB Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "8/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Cosmos DB Restore Using Console
 
-In this article
 
 Veeam Backup & Replication allows you to restore an entire Cosmos DB account or its specific items from a restorable timestamp, or to restore the database of a Cosmos DB for PostgreSQL or a Cosmos DB for MongoDB account from a backup stored in a repository. To learn how Cosmos DB restore works, see [Cosmos DB Restore](cosmos_db_restore_hiw.md).
 
@@ -41,6 +41,4 @@ Veeam Backup & Replication will open the Cosmos DB Restore wizard in a web br
 
 [![Performing Cosmos DD Restore From Repository Using Console](images/restore_cosmos_db_from_repository_console.webp)](images/restore_cosmos_db_from_repository_console.webp "Performing Cosmos DD Restore From Repository Using Console")
 
-Page updated 8/25/2025
 
-Page content applies to build 8.0.1.202

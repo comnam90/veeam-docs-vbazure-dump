@@ -1,5 +1,5 @@
 ---
-title: "preparation"
+title: "Planning and Preparation"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/preparation.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Planning and Preparation
 
-In this article
 
 Before you start using Veeam Backup for Microsoft Azure, consider the following requirements:
 
@@ -20,6 +20,4 @@ Before you start using Veeam Backup for Microsoft Azure, consider the following 
 * [Azure resource providers that must be registered in subscriptions](azure_providers.md).
 * [Considerations and limitations that should be kept in mind before you deploy Veeam Backup for Microsoft Azure](limitations.md).
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

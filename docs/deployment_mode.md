@@ -1,5 +1,5 @@
 ---
-title: "deployment_mode"
+title: "Configuring Deployment Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deployment_mode.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Deployment Mode
 
-In this article
 
 By default, worker instances launched by Veeam Backup for Microsoft Azure access protected Azure resources through public virtual networks. If you want worker instances to process resources that reside in private virtual networks, you can enable the private network deployment functionality and instruct Veeam Backup for Microsoft Azure to launch worker instances without public IPv4 addresses. In this case, Veeam Backup for Microsoft Azure will automatically configure worker settings to allow private network access; however, you will also need to perform a number of configuration steps manually as described in section [Working in Private Environments](app_private_network.md).
 
@@ -50,6 +50,4 @@ Veeam Backup for Microsoft Azure uses a messaging service to allow communication
 
 [![Configuring Messaging Service](images/messaging_service.webp)](images/messaging_service.webp "Configuring Messaging Service")
 
-Page updated 1/13/2026
 
-Page content applies to build 8.0.1.202

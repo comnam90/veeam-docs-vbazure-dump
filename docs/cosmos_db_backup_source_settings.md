@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_source_settings"
+title: "Step 3. Configure Backup Source Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_source_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Backup Source Settings
 
-In this article
 
 At the Sources step of the wizard, select a service account whose permissions will be used to perform Cosmos DB backup, choose regions where Cosmos DB accounts that you plan to back up reside, and select resources to back up.
 
@@ -82,6 +82,4 @@ When you add subscriptions, resource groups and tags to the backup scope, Veeam 
 
 [![Adding Cosmos DB Backup Policy](images/cosmos_db_backup_resources.webp)](images/cosmos_db_backup_resources.webp "Adding Cosmos DB Backup Policy")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

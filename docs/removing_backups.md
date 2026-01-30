@@ -1,5 +1,5 @@
 ---
-title: "removing_backups"
+title: "Removing Backed-Up Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_backups.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Backed-Up Data
 
-In this article
 
 When you remove the backup appliance and all resources associated with it, backups and snapshots created by this backup appliance are not removed from your Microsoft Azure account automatically. You can later import the created Azure VM image-level backups, Azure SQL backups, Cosmos DB for PostgreSQL backups, Cosmos DB for MongoDB backups to a repository and backup copies of virtual network configurations to a new backup appliance as described in section [Adding Backup Repositories](repository_add_ui.md).
 
@@ -35,6 +35,4 @@ To remove the backup data using the Microsoft Azure portal, do the following:
 | Important |
 | If the Azure VM running Veeam Backup for Microsoft Azure resides in a resource group that contains more than one backup appliance, it is recommended that you first remove snapshots and backups created by this backup appliance, as described in section [Managing Backed-Up Data](managing_backups.md). Otherwise, you will not be able to identify snapshots created by the removed backup appliance. |
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

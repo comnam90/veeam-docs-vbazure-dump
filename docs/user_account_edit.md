@@ -1,5 +1,5 @@
 ---
-title: "user_account_edit"
+title: "Editing User Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/user_account_edit.html"
@@ -7,8 +7,8 @@ last_updated: "11/7/2024"
 product_version: "8.0.1.202"
 ---
 
+# Editing User Accounts
 
-In this article
 
 For each user account, you can modify settings configured while adding the account:
 
@@ -28,6 +28,4 @@ For each user account, you can modify settings configured while adding the accou
 
 [![Editing User Accounts](images/edit_user.webp)](images/edit_user.webp "Editing User Accounts")
 
-Page updated 11/7/2024
 
-Page content applies to build 8.0.1.202

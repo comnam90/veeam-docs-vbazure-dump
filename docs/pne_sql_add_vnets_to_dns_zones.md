@@ -1,5 +1,5 @@
 ---
-title: "pne_sql_add_vnets_to_dns_zones"
+title: "Step 3. Add VNets to Private DNS Zones"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_sql_add_vnets_to_dns_zones.html"
@@ -7,8 +7,8 @@ last_updated: "5/7/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Add VNets to Private DNS Zones
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure to perform backup operations in the private environment, you must add the VNet to which the backup appliance is connected and the VNet selected for the worker configuration created at [step 2](pne_sql_worker_configuration.md) to the DNS zones privatelink.blob.core.windows.net and privatelink.queue.core.windows.net created at [step 1](pne_sql_dns_zones.md).
 
@@ -28,6 +28,4 @@ To add a VNet to a DNS zone, do the following:
 
 [![Adding VNets to Private DNS Zones](images/app_pne_add_vnets_to_dns_zones.webp)](images/app_pne_add_vnets_to_dns_zones.webp "Adding VNets to Private DNS Zones")
 
-Page updated 5/7/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "sizing_backup_policies"
+title: "Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_backup_policies.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Policies
 
-In this article
 
 Since one policy can be used to protect multiple workloads at the same time, it is recommended that you limit the number of processed workloads to simplify the backup schedule and to optimize the backup performance.
 
@@ -38,6 +38,4 @@ For example, one backup policy can only write to one storage account. When using
 | --- | --- | --- | --- | --- |
 | 50 | 38  (change to fit maximum storage account throughput) | F2s\_v2  (change to fit whatever size you choose) | 38 \* 80 MBps or ~3 GBps | 25 Gbps or ~3 GBps  (check your specific storage account type and region) |
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

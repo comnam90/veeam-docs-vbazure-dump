@@ -1,5 +1,5 @@
 ---
-title: "service_account_edit_scope"
+title: "Step 4. Update Account Scope"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_edit_scope.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Update Account Scope
 
-In this article
 
 At the Scope step of the wizard, you can change the account scope — select subscriptions whose data you want to protect using permissions of the service account. To do that, click the link in the Subscriptions to protect field and choose Azure subscriptions to which the resources that you want to protect belong.
 
@@ -18,6 +18,4 @@ For a subscription to be displayed in the list of available subscriptions, the M
 
 [![Editing Account Scope](images/service_account_edit_scope.webp)](images/service_account_edit_scope.webp "Editing Account Scope")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

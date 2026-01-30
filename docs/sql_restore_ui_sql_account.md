@@ -1,5 +1,5 @@
 ---
-title: "sql_restore_ui_sql_account"
+title: "Step 5. Select Azure SQL Account"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_ui_sql_account.html"
@@ -7,8 +7,8 @@ last_updated: "1/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Select Azure SQL Account
 
-In this article
 
 [This step applies only if you have selected the Restore to the original location option at the Restore Mode step of the wizard]
 
@@ -26,6 +26,4 @@ For an Azure SQL Server account to be displayed in the list of available account
 
 [![Performing SQL Restore](images/sql_restore_sql_account.webp)](images/sql_restore_sql_account.webp "Performing SQL Restore")
 
-Page updated 1/30/2025
 
-Page content applies to build 8.0.1.202

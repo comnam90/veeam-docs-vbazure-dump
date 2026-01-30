@@ -1,5 +1,5 @@
 ---
-title: "accessing_vb_workstation"
+title: "Accessing Web UI from Workstation"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/accessing_vb_workstation.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "8.0.1.202"
 ---
 
+# Accessing Web UI from Workstation
 
-In this article
 
 To access Veeam Backup for Microsoft Azure Web UI from a workstation, navigate to the Veeam Backup for Microsoft Azure web address in a web browser. The address consists of a public IPv4 address or DNS hostname of the backup appliance. Note that the website is available over HTTPS only.
 
@@ -62,6 +62,4 @@ Logging Out
 
 To log out, at the top right corner of the Veeam Backup for Microsoft Azure window, click the user name and then click Log Out.
 
-Page updated 5/30/2025
 
-Page content applies to build 8.0.1.202

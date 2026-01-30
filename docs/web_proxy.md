@@ -1,5 +1,5 @@
 ---
-title: "web_proxy"
+title: "Configuring HTTP Proxy for Veeam Updater"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/web_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "5/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring HTTP Proxy for Veeam Updater
 
-In this article
 
 To check for available software package updates for Veeam Backup for Microsoft Azure, the Veeam Updater service running on the backup appliance connects to Veeam repositories over the internet. If the backup appliance is not connected to the internet, you can instruct Veeam Backup for Microsoft Azure to use an HTTP proxy that will allow Veeam Updater to access the required resources.
 
@@ -37,6 +37,4 @@ To establish connection of the Veeam Updater service to the internet through an 
 
 [![Configuring Web Proxy](images/web_proxy.webp)](images/web_proxy.webp "Configuring Web Proxy")
 
-Page updated 5/19/2025
 
-Page content applies to build 8.0.1.202

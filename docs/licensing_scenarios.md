@@ -1,5 +1,5 @@
 ---
-title: "licensing_scenarios"
+title: "Scenarios"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/licensing_scenarios.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Scenarios
 
-In this article
 
 Backup appliances managed by a Veeam Backup & Replication server use the same license that is installed on the backup server. To learn what types of licenses and licensing models are incorporated in Veeam solutions, see:
 
@@ -34,6 +34,4 @@ Veeam Backup for Microsoft Azure stores information on protected workloads licen
 
 Note that the loss of connection with Veeam Backup & Replication does not affect restore processes and creating of snapshots manually.
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

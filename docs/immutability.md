@@ -1,5 +1,5 @@
 ---
-title: "immutability"
+title: "Immutability"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/immutability.html"
@@ -7,8 +7,8 @@ last_updated: "12/16/2025"
 product_version: "8.0.1.202"
 ---
 
+# Immutability
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to protect VM, SQL, Cosmos DB for PostgreSQL, Cosmos DB for MongoDB and virtual network configuration data stored in backup repositories from deletion by making the data temporarily immutable. To do that, Veeam Backup for Microsoft Azure uses [Immutable storage for Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview) — once imposed, Immutable storage prevents objects from being deleted or overwritten for a specific immutability period. The immutability period is set based on the retention policy configured in the backup policy settings.
 
@@ -31,6 +31,4 @@ To protect backups created with Veeam Backup for Microsoft Azure from deletion b
 1. [Add a backup repository with immutability enabled](repository_add_ui.md#enable_efs_indexing).
 2. Create a backup policy and specify the repository with immutability enabled as the target location for image-level backups. For more information, see sections [Creating VM Backup Policies](vm_backup_create.md), [Creating SQL Backup Policies](sql_backup_create.md), [Creating Cosmos DB Backup Policies](cosmos_db_backup_create.md) and [Editing Virtual Network Configuration Backup Policy](vnet_backup_edit.md).
 
-Page updated 12/16/2025
 
-Page content applies to build 8.0.1.202

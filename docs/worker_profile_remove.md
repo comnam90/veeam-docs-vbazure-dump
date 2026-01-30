@@ -1,5 +1,5 @@
 ---
-title: "worker_profile_remove"
+title: "Removing Worker Profiles"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_profile_remove.html"
@@ -7,8 +7,8 @@ last_updated: "2/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Worker Profiles
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to permanently remove sets of worker profiles if you no longer need them.
 
@@ -25,6 +25,4 @@ To remove a profile set from Veeam Backup for Microsoft Azure, do the following:
 
 [![Removing Worker Profiles](images/removing_worker_profiles.webp)](images/removing_worker_profiles.webp "Removing Worker Profiles")
 
-Page updated 2/25/2025
 
-Page content applies to build 8.0.1.202

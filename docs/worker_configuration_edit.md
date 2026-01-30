@@ -1,5 +1,5 @@
 ---
-title: "worker_configuration_edit"
+title: "Editing Worker Configurations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_configuration_edit.html"
@@ -7,8 +7,8 @@ last_updated: "9/11/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing Worker Configurations
 
-In this article
 
 For each worker configuration, you can modify settings specified while adding the worker configuration to Veeam Backup for Microsoft Azure:
 
@@ -27,6 +27,4 @@ For each worker configuration, you can modify settings specified while adding th
 
 [![Editing Worker Configuration](images/edit_network_configuration.webp)](images/edit_network_configuration.webp "Editing Worker Configuration")
 
-Page updated 9/11/2025
 
-Page content applies to build 8.0.1.202

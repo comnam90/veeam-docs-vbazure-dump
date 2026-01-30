@@ -1,5 +1,5 @@
 ---
-title: "vnet_backup_copies"
+title: "Step 3. Enable Additional Backup Copy"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vnet_backup_copies.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Enable Additional Backup Copy
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure stores virtual network configuration backups in the local database. You can instruct Veeam Backup for Microsoft Azure to save additional backup copies to a repository. To do that:
 
@@ -26,6 +26,4 @@ For a backup repository to be displayed in the list of available repositories, i
 
 [![VNet Policy Repository Settings](images/vnet_backup_target.webp)](images/vnet_backup_target.webp "VNet Policy Repository Settings")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

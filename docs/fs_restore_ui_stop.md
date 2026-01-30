@@ -1,5 +1,5 @@
 ---
-title: "fs_restore_ui_stop"
+title: "Step 8. Stop Restore Session"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_restore_ui_stop.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Stop Restore Session
 
-In this article
 
 After you finish working with the file-level recovery browser, it is recommended that you stop the restore session. To do that, click Stop in the File-Level Recovery window. If you do not perform any actions in the file-level recovery browser for 30 minutes, and if no files are being restored, Veeam Backup for Microsoft Azure will stop the restore session automatically.
 
@@ -19,6 +19,4 @@ After you finish working with the file-level recovery browser, it is recommended
 
 [![Performing File-Level Recovery](images/fs_restore_flr_stop.webp)](images/fs_restore_flr_stop.webp "Performing File-Level Recovery")
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

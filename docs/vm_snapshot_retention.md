@@ -1,5 +1,5 @@
 ---
-title: "vm_snapshot_retention"
+title: "VM Snapshot Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_snapshot_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# VM Snapshot Retention
 
-In this article
 
 Depending on the data protection scenario, Veeam Backup for Microsoft Azure retains cloud-native snapshots as follows:
 
@@ -31,6 +31,4 @@ For more information on the snapshot deletion process, see [Microsoft Docs](http
 | Notes |
 | * Consider that Veeam Backup for Microsoft Azure does not apply retention policy settings to cloud-native snapshots created manually. To learn how to remove these snapshots, see [Managing VM Data](removing_vm_backups_and_snapshots.md). * Due to Microsoft Azure limitations, retention of [locked Azure VM snapshots](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json) is not supported. As a workaround, you can instruct Veeam Backup for Microsoft Azure to store snapshots in an unlocked resource group as described in [Creating SLA-Based VM Backup Policies](vm_sla_tags_snapshot_location.md#location). |
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

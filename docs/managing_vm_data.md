@@ -1,5 +1,5 @@
 ---
-title: "managing_vm_data"
+title: "Azure VM Data"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_vm_data.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure VM Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an Azure VM according to the specified schedule, or after you create a snapshot of a VM manually, Veeam Backup for Microsoft Azure adds the VM to the resource list on the Protected Data page.
 
@@ -45,6 +45,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing VM Data](images/manage_vm_backup.webp)](images/manage_vm_backup.webp "Managing VM Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

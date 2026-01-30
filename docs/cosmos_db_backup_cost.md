@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_cost"
+title: "Step 8. Review Estimated Cost"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_cost.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Review Estimated Cost
 
-In this article
 
 At the Cost Estimation step of the wizard, review the approximate monthly cost of Azure services that Veeam Backup for Microsoft Azure will require to protect the Cosmos DB accounts added to the backup policy. The total estimated cost includes the following:
 
@@ -41,6 +41,4 @@ The estimated cost may occur to be significantly higher due to the backup freque
 
 [![Adding Backup Policy](images/cosmos_db_backup_cost.webp)](images/cosmos_db_backup_cost.webp "Adding Backup Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

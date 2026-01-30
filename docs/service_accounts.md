@@ -1,5 +1,5 @@
 ---
-title: "service_accounts"
+title: "Managing Service Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_accounts.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Managing Service Accounts
 
-In this article
 
 For each data protection and disaster recovery operation performed for an Azure resource, you must specify a service account that has access to the resource and a set of permissions that determine what operations are allowed for the resource.
 
@@ -33,6 +33,4 @@ In This Section
 * [Checking Service Account Permissions](service_account_check.md)
 * [Removing Service Accounts](service_account_remove.md)
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

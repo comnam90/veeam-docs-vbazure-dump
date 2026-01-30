@@ -1,5 +1,5 @@
 ---
-title: "app_pne_storage_wizard"
+title: "Step 1. Launch Create a Private Endpoint Wizard"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_storage_wizard.html"
@@ -7,8 +7,8 @@ last_updated: "6/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Launch Create a Private Endpoint Wizard
 
-In this article
 
 To launch the Create a private endpoint wizard for a storage account in which you want to create a private endpoint, do the following:
 
@@ -19,6 +19,4 @@ To launch the Create a private endpoint wizard for a storage account in which yo
 5. Navigate to Security + networking > Networking.
 6. Switch to the Private endpoint connections tab and click Private endpoint.
 
-Page updated 6/27/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "app_pne_vm_backup"
+title: "Configuring Network Settings for VMs"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_vm_backup.html"
@@ -7,8 +7,8 @@ last_updated: "1/27/2025"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Network Settings for VMs
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure to back up Azure VMs in a private environment, perform the following steps:
 
@@ -27,6 +27,4 @@ To allow Veeam Backup for Microsoft Azure to back up Azure VMs in a private envi
 | Important |
 | To allow Veeam Backup for Microsoft Azure to store backups of Azure VMs in repositories, you must also configure network settings as described in section [Configuring Network Settings for Storage Accounts](app_pne_storage_account.md). |
 
-Page updated 1/27/2025
 
-Page content applies to build 8.0.1.202

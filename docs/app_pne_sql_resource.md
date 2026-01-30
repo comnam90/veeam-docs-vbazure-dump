@@ -1,5 +1,5 @@
 ---
-title: "app_pne_sql_resource"
+title: "Step 8c. Specify Resource Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_sql_resource.html"
@@ -7,8 +7,8 @@ last_updated: "6/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 8c. Specify Resource Settings
 
-In this article
 
 At the Resource step of the Create a private endpoint wizard, do the following:
 
@@ -26,6 +26,4 @@ At the Resource step of the Create a private endpoint wizard, do the following:
 
 [![Specifying Resource Settings ](images/app_pne_sql_resources.webp)](images/app_pne_sql_resources.webp "Specifying Resource Settings ")
 
-Page updated 6/27/2024
 
-Page content applies to build 8.0.1.202

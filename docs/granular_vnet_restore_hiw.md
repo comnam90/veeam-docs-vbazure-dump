@@ -1,5 +1,5 @@
 ---
-title: "granular_vnet_restore_hiw"
+title: "Granular Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/granular_vnet_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "6/4/2024"
 product_version: "8.0.1.202"
 ---
 
+# Granular Restore
 
-In this article
 
 To restore specific items of the virtual network configuration from a backup, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -22,6 +22,4 @@ To restore specific items of the virtual network configuration from a backup, Ve
 
 To learn how to restore restores the selected virtual network configuration items from a virtual network configuration backup, see [Performing Granular Restore](granular_vnet_restore.md).
 
-Page updated 6/4/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "performing_cosmos_db_backup"
+title: "Performing Cosmos DB Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_cosmos_db_backup.html"
@@ -7,8 +7,8 @@ last_updated: "9/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing Cosmos DB Backup
 
-In this article
 
 |  |
 | --- |
@@ -29,6 +29,4 @@ To schedule data protection tasks to run automatically, [create backup policies]
 | Important |
 | Consider the following:   * Veeam Backup for Microsoft Azure allows you to protect only Cosmos DB accounts created using the following APIs: NoSQL, MongoDB RU-based, Apache Gremlin, Table and PostgreSQL. * Veeam Backup for Microsoft Azure does not support protecting Cosmos DB accounts that have [periodic backup](https://learn.microsoft.com/en-us/azure/cosmos-db/periodic-backup-restore-introduction) or [multi-region writes](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-manage-database-account#configure-multiple-write-regions) enabled. |
 
-Page updated 9/9/2025
 
-Page content applies to build 8.0.1.202

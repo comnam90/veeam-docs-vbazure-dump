@@ -1,5 +1,5 @@
 ---
-title: "plugin_permissions"
+title: "Plug-In Permissions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/plugin_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Plug-In Permissions
 
-In this article
 
 To perform backup and restore operations, accounts that Veeam Plug-in for Microsoft Azure uses to perform data protection and disaster recovery operations must be granted the following permissions.
 
@@ -65,6 +65,4 @@ AWS IAM User Permissions
 
 An IAM user whose one-time access keys you plan to use to restore Azure VMs to AWS must have permissions described in the Veeam Backup & Replication User Guide, section [AWS IAM User Permissions](https://helpcenter.veeam.com/docs/vbr/userguide/restore_amazon_permissions.html?ver=13).
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

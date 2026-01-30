@@ -1,5 +1,5 @@
 ---
-title: "cosmos_db_backup_archiving"
+title: "Enabling Backup Archiving"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/cosmos_db_backup_archiving.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Backup Archiving
 
-In this article
 
 When you combine multiple types of schedules, you can enable the archiving mechanism to instruct Veeam Backup for Microsoft Azure to store backed-up data in the low-cost, long-term Archive access tier. The mechanism is the most useful in the following cases:
 
@@ -88,6 +88,4 @@ By the moment the archive session completes, the earliest restore point in the a
 
 ![Enabling Backup Archiving](images/backup_archiving_monthly_retention.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

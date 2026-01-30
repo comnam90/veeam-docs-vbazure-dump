@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_console_network"
+title: "Step 8. Configure Network and Security Group Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_console_network.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 8. Configure Network and Security Group Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -26,6 +26,4 @@ For a network security group to be displayed in the list of available groups, it
 
 [![Restore to Microsoft Azure - Network](images/restore_from_snapshot_network.webp)](images/restore_from_snapshot_network.webp "Restore to Microsoft Azure - Network")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

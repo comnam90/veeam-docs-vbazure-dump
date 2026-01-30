@@ -1,5 +1,5 @@
 ---
-title: "fs_backup_pne"
+title: "Azure Files Backup in Private Environment"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_backup_pne.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure Files Backup in Private Environment
 
-In this article
 
 If the private network deployment functionality is enabled for a backup appliance, Veeam Backup for Microsoft Azure performs Azure Files backup in the following way:
 
@@ -31,6 +31,4 @@ The creation of the .ZIP file may take significant time to complete. If a new ba
 
 [![Azure Files Backup in Private Environment](images/fs_pne.webp)](images/fs_pne.webp "Azure Files Backup in Private Environment")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

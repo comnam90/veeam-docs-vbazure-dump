@@ -1,5 +1,5 @@
 ---
-title: "system_requirements"
+title: "System Requirements"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/system_requirements.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# System Requirements
 
-In this article
 
 When you plan to install Veeam Plug-in for Microsoft Azure, consider the following hardware and software requirements.
 
@@ -54,6 +54,4 @@ The following table lists compatible versions of Veeam Backup & Replication, 
 | 12.0.0.1420 | 12.1.5.99 | 5.1.0.75 |
 | 12.0.5.740 | 5.0.0.579 |
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

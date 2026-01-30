@@ -1,5 +1,5 @@
 ---
-title: "custom_script"
+title: "Enabling Guest Scripting"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/custom_script.html"
@@ -7,8 +7,8 @@ last_updated: "3/18/2025"
 product_version: "8.0.1.202"
 ---
 
+# Enabling Guest Scripting
 
-In this article
 
 To enable guest scripting, do the following at the Guest Processing step of the wizard:
 
@@ -46,6 +46,4 @@ You can use runtime variables as arguments for the script. To see the list of av
 
 [![Adding Backup Policy](images/policy_script_settings.webp)](images/policy_script_settings.webp "Adding Backup Policy")
 
-Page updated 3/18/2025
 
-Page content applies to build 8.0.1.202

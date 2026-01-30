@@ -1,5 +1,5 @@
 ---
-title: "performing_vm_backup"
+title: "Performing VM Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_vm_backup.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "8.0.1.202"
 ---
 
+# Performing VM Backup
 
-In this article
 
 One backup policy can be used to process one or more Azure VMs within one Microsoft Entra tenant. The scope of data that you can protect in a tenant is limited by permissions of a service account that is specified in the backup policy settings.
 
@@ -23,6 +23,4 @@ Before you create an Azure VM backup policy, keep in mind the following consider
 
 To schedule data protection tasks to run automatically, create backup policies. For each protected Azure VM, you can also [take a cloud-native snapshot manually](creating_vm_snapshots_manually.md) when needed.
 
-Page updated 1/13/2026
 
-Page content applies to build 8.0.1.202

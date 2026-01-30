@@ -1,5 +1,5 @@
 ---
-title: "backup_appliances"
+title: "Backup Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Appliances
 
-In this article
 
 A backup appliance is a Linux-based Azure VM where Veeam Backup for Microsoft Azure is installed.
 
@@ -51,6 +51,4 @@ The backup appliance uses the following components:
 
 * REST API service — allows users to perform operations with Veeam Backup for Microsoft Azure entities using HTTP requests and standard HTTP methods. For more information, see the [Veeam Backup for Microsoft Azure REST API Reference](https://helpcenter.veeam.com/references/vbazure/8.1/rest/main/tag/SectionAbout).
 
-Page updated 11/26/2025
 
-Page content applies to build 8.0.1.202

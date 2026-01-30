@@ -1,5 +1,5 @@
 ---
-title: "vm_archive_backup_retention"
+title: "Retention Policy for Archived Backups"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_archive_backup_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Retention Policy for Archived Backups
 
-In this article
 
 For archived backups, Veeam Backup for Microsoft Azure retains restore points for the number of days defined in backup scheduling settings as described in section [Creating VM Backup Policies](vm_backup_policy_schedule.md).
 
@@ -29,6 +29,4 @@ To track and remove outdated restore points from an archive backup chain, Veeam 
 
 ![Retention Policy for Archived Backups](images/backup_retention_multiple_points_archive.webp)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

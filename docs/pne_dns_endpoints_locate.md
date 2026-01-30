@@ -1,5 +1,5 @@
 ---
-title: "pne_dns_endpoints_locate"
+title: "Step 6a. Locate Private Endpoints"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_dns_endpoints_locate.html"
@@ -7,8 +7,8 @@ last_updated: "4/29/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 6a. Locate Private Endpoints
 
-In this article
 
 To locate private endpoints automatically created by Veeam Backup for Microsoft Azure, do the following:
 
@@ -22,6 +22,4 @@ To locate private endpoints automatically created by Veeam Backup for Microsoft 
 
 [![Locating Private Endpoints](images/private_endpoint_connections.webp)](images/private_endpoint_connections.webp "Locating Private Endpoints")
 
-Page updated 4/29/2024
 
-Page content applies to build 8.0.1.202

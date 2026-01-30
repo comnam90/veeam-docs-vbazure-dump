@@ -1,5 +1,5 @@
 ---
-title: "performing_fs_restore_console"
+title: "Performing File Share Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_fs_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "8/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Performing File Share Restore Using Console
 
-In this article
 
 You can recover corrupted or missing files of an Azure file share only using the backup appliance Web UI. However, you can launch the Azure Files File-level Recovery wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the Azure Files File-level Recovery wiza
 
 [![Restore to file shares](images/restore_file_share.webp)](images/restore_file_share.webp "Restore to file shares")
 
-Page updated 8/25/2025
 
-Page content applies to build 8.0.1.202

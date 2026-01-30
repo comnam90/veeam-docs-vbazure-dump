@@ -1,5 +1,5 @@
 ---
-title: "vm_backup_retention"
+title: "VM Backup Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_backup_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# VM Backup Retention
 
-In this article
 
 For image-level backups, Veeam Backup for Microsoft Azure retains restore points for the number of days defined in backup scheduling settings as described in section [Creating VM Backup Policies](vm_backup_policy_schedule.md).
 
@@ -34,6 +34,4 @@ Related Topics
 
 [Retention Policy for Archived Backups](vm_archive_backup_retention.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

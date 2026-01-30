@@ -1,5 +1,5 @@
 ---
-title: "restore_sql_server"
+title: "Step 4. Specify Target SQL Server Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restore_sql_server.html"
@@ -7,8 +7,8 @@ last_updated: "8/26/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Target SQL Server Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -30,6 +30,4 @@ For an Azure SQL account to be displayed in the list of available accounts, it m
 
 [![Restore to Microsoft Azure SQL - Server](images/restore_sql_server.webp)](images/restore_sql_server.webp "Restore to Microsoft Azure SQL - Server")
 
-Page updated 8/26/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "backup_policy_export_import"
+title: "Exporting and Importing Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_policy_export_import.html"
@@ -7,8 +7,8 @@ last_updated: "3/24/2025"
 product_version: "8.0.1.202"
 ---
 
+# Exporting and Importing Backup Policies
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to use settings of an existing schedule-based backup policy as a template for creating other policies. You can export a schedule-based backup policy to a .JSON file, modify the necessary settings in the file, and then import the policy to the same or a different backup appliance.
 
@@ -38,6 +38,4 @@ To import a backup policy from a .JSON file, do the following:
 
 [![Importing Backup Policy](images/policy_import.webp)](images/policy_import.webp "Importing Backup Policy")
 
-Page updated 3/24/2025
 
-Page content applies to build 8.0.1.202

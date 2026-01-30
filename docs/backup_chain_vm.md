@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_vm"
+title: "Backup Chain"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_chain_vm.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Chain
 
-In this article
 
 If you enable image-level backups for a backup policy, Veeam Backup for Microsoft Azure creates a new backup in a repository during every backup session. A sequence of backups created during a set of backup sessions makes up a backup chain.
 
@@ -33,6 +33,4 @@ Related Topics
 * [Changed Block Tracking](changed_block_tracking.md)
 * [Archive Backup Chain](archive_chain.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

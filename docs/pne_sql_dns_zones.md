@@ -1,5 +1,5 @@
 ---
-title: "pne_sql_dns_zones"
+title: "Step 1. Create Private DNS Zones"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_sql_dns_zones.html"
@@ -7,8 +7,8 @@ last_updated: "9/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 1. Create Private DNS Zones
 
-In this article
 
 To create and manage Azure private DNS zones that will allow Veeam Backup for Microsoft Azure to operate in your private environment, do either of the following:
 
@@ -23,6 +23,4 @@ To create and manage Azure private DNS zones that will allow Veeam Backup for Mi
 
 [![Creating Private DNS Zones for SQL Server](images/pne_sql_dns_zones.webp)](images/pne_sql_dns_zones.webp "Creating Private DNS Zones for SQL Server")
 
-Page updated 9/1/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "repository_ui_load"
+title: "Step 5. Configure Load Control Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_ui_load.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Configure Load Control Settings
 
-In this article
 
 While backing up Azure resources, Veeam Backup for Microsoft Azure launches worker instances responsible for processing and transferring backed-up data to backup repositories. When a backup policy addresses a backup repository, worker instances establish connections with the repository to retrieve data. To learn how Veeam Backup for Microsoft Azure performs backup operations, see [Overview](overview.md).
 
@@ -23,6 +23,4 @@ To limit the number of concurrent connections, select the Limit concurrent back
 
 [![Configuring Repository Options](images/repository_options.webp)](images/repository_options.webp "Configuring Repository Options")
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

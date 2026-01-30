@@ -1,5 +1,5 @@
 ---
-title: "vm_restore_ui_disks"
+title: "Step 7. Specify Disk Names"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_restore_ui_disks.html"
@@ -7,8 +7,8 @@ last_updated: "2/2/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Specify Disk Names
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or different settings option at the Restore Mode step of the wizard]
 
@@ -19,6 +19,4 @@ At the Disks step of the wizard, you can specify a new name for each restored vi
 
 [![Restoring Azure VM](images/restore_vm_disks.webp)](images/restore_vm_disks.webp "Restoring Azure VM")
 
-Page updated 2/2/2024
 
-Page content applies to build 8.0.1.202

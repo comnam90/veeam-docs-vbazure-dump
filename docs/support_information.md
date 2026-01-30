@@ -1,5 +1,5 @@
 ---
-title: "support_information"
+title: "Getting Technical Support"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/support_information.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Getting Technical Support
 
-In this article
 
 If you have any questions or issues with Veeam Backup for Microsoft Azure, you can search for a resolution on [Veeam R&D Forums](https://forums.veeam.com/) or submit a support case in the [Veeam Customer Support Portal](https://www.veeam.com/support.html).
 
@@ -67,6 +67,4 @@ To export the product logs, do the following:
 
 [![Export logs](images/export_logs.webp)](images/export_logs.webp "Export logs")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

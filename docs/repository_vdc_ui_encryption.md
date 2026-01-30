@@ -1,5 +1,5 @@
 ---
-title: "repository_vdc_ui_encryption"
+title: "Step 4. Enable Data Encryption"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_ui_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "7/3/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Enable Data Encryption
 
-In this article
 
 At the Encryption step of the wizard, choose whether you want to encrypt backups stored in the selected storage vault.
 
@@ -26,6 +26,4 @@ To enable encryption for the vault, set the Enable encryption toggle to On and s
 
 [![Enabling Data Encryption](images/repository_vdc_ui_encryption.webp)](images/repository_vdc_ui_encryption.webp "Enabling Data Encryption")
 
-Page updated 7/3/2025
 
-Page content applies to build 8.0.1.202

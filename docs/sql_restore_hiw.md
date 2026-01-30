@@ -1,5 +1,5 @@
 ---
-title: "sql_restore_hiw"
+title: "SQL Restore"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "9/5/2024"
 product_version: "8.0.1.202"
 ---
 
+# SQL Restore
 
-In this article
 
 To restore an Azure SQL database from a backup, Veeam Backup for Microsoft Azure performs the following steps:
 
@@ -24,6 +24,4 @@ To restore an Azure SQL database from a backup, Veeam Backup for Microsoft Azure
 
 To learn how to restore an entire Azure SQL database from a backup, see [SQL Restore](sql_restore.md).
 
-Page updated 9/5/2024
 
-Page content applies to build 8.0.1.202

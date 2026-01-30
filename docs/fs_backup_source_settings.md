@@ -1,5 +1,5 @@
 ---
-title: "fs_backup_source_settings"
+title: "Step 3. Configure Backup Source Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_backup_source_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Configure Backup Source Settings
 
-In this article
 
 At the Sources step of the wizard, select a service account whose permissions will be used to perform Azure Files backup, choose regions where Azure file shares that you plan to back up reside, select resources to back up and enable Azure file share indexing.
 
@@ -92,6 +92,4 @@ In the Indexing section of the Sources step of the wizard, you can instruct Veea
 
 [![Adding Backup Policy](images/fs_backup_indexing.webp)](images/fs_backup_indexing.webp "Adding Backup Policy")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

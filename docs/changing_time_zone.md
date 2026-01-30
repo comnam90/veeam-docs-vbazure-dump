@@ -1,5 +1,5 @@
 ---
-title: "changing_time_zone"
+title: "Changing Time Zone"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/changing_time_zone.html"
@@ -7,8 +7,8 @@ last_updated: "1/4/2024"
 product_version: "8.0.1.202"
 ---
 
+# Changing Time Zone
 
-In this article
 
 Veeam Backup for Microsoft Azure runs daily reports and performs all data protection and disaster recovery operations according to the time zone set on the backup appliance.
 
@@ -33,6 +33,4 @@ To change the time zone set on the backup appliance:
 
 [![Changing Time Zone](images/time_zone.webp)](images/time_zone.webp "Changing Time Zone")
 
-Page updated 1/4/2024
 
-Page content applies to build 8.0.1.202

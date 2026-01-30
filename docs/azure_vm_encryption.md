@@ -1,5 +1,5 @@
 ---
-title: "azure_vm_encryption"
+title: "Azure VM Disk Encryption"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/azure_vm_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "5/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure VM Disk Encryption
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to back up and restore data of Azure VMs whose disks are encrypted using the following native Microsoft Azure encryption mechanisms:
 
@@ -20,6 +20,4 @@ In This Section
 * [Protecting VM Disk Data](encryption_vm_backup.md)
 * [Restoring VM Disk Data](encryption_vm_restore.md)
 
-Page updated 5/20/2025
 
-Page content applies to build 8.0.1.202

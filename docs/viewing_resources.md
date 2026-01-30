@@ -1,5 +1,5 @@
 ---
-title: "viewing_resources"
+title: "Viewing Available Resources"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/viewing_resources.html"
@@ -7,8 +7,8 @@ last_updated: "6/3/2025"
 product_version: "8.0.1.202"
 ---
 
+# Viewing Available Resources
 
-In this article
 
 After you create a backup policy to protect a specific type of Azure resources (Azure VMs, Azure SQL databases, Cosmos DB accounts or Azure file shares), Veeam Backup for Microsoft Azure rescans Azure regions specified in the policy settings and populates the resource list on the Resources page with all resources of that type residing in these regions. If a region is no longer specified in any backup policy, Veeam Backup for Microsoft Azure removes resources residing in the region from the list of available resources.
 
@@ -27,6 +27,4 @@ On the Resources page, you can also perform the following actions:
 
 [![Viewing Available Resources](images/viewing_resources.webp)](images/viewing_resources.webp "Viewing Available Resources")
 
-Page updated 6/3/2025
 
-Page content applies to build 8.0.1.202

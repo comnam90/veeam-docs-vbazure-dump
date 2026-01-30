@@ -1,5 +1,5 @@
 ---
-title: "permissions_changelog"
+title: "Permissions Changelog"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/permissions_changelog.html"
@@ -7,8 +7,8 @@ last_updated: "9/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Permissions Changelog
 
-In this article
 
 This section describes the latest changes in service account permissions required for Veeam Backup for Microsoft Azure to perform operations.
 
@@ -43,6 +43,4 @@ When you update Veeam Backup for Microsoft Azure version 8 to version 8.1, consi
 | Note |
 | The "Microsoft.DocumentDB/databaseAccounts/restore/action" permission is no longer required for Veeam Backup for Microsoft Azure to perform any operations as it has been retired in Microsoft Azure. |
 
-Page updated 9/10/2025
 
-Page content applies to build 8.0.1.202

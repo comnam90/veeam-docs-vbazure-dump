@@ -1,5 +1,5 @@
 ---
-title: "flr_restore_session"
+title: "Step 5. Start Recovery Session"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/flr_restore_session.html"
@@ -7,8 +7,8 @@ last_updated: "5/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 5. Start Recovery Session
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Start.
 
@@ -26,6 +26,4 @@ In the URL column of the window, Veeam Backup for Microsoft Azure will display a
 
 [![Opening File-Level Restore Browser](images/flr_action.webp)](images/flr_action.webp "Opening File-Level Restore Browser")
 
-Page updated 5/28/2025
 
-Page content applies to build 8.0.1.202

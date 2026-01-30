@@ -1,5 +1,5 @@
 ---
-title: "repository_add_console"
+title: "Adding Backup Repositories Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_add_console.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Adding Backup Repositories Using Console
 
-In this article
 
 Depending on whether you want to store backups in a short-term storage or a long-term storage, you can configure repositories of the following access tiers:
 
@@ -40,6 +40,4 @@ After you add a backup appliance to the backup infrastructure, you can configure
 * [Create new repositories](repository_add_console_new.md).
 * [Add existing repositories to the backup infrastructure](repository_add_console_existing.md) if you have already configured them on the backup appliance.
 
-Page updated 3/19/2025
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "removing_vnet_backups"
+title: "Removing Virtual Network Configuration Backups"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/removing_vnet_backups.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Removing Virtual Network Configuration Backups
 
-In this article
 
 Veeam Backup for Microsoft Azure applies the [configured retention policy settings](vnet_backup_retention.md) to automatically remove virtual network configuration backups and backup copies created by the Virtual Network Configuration Backup policy. If necessary, you can also remove these backups manually — from the configuration database, from the repository or both. Keep in mind that:
 
@@ -31,6 +31,4 @@ Each configuration record contains a whole set of all virtual network configurat
 
 [![Removing VNet Configuration Data](images/backups_remove_vnet.webp)](images/backups_remove_vnet.webp "Removing VNet Configuration Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

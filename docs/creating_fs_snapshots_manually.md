@@ -1,5 +1,5 @@
 ---
-title: "creating_fs_snapshots_manually"
+title: "Creating File Share Snapshots Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/creating_fs_snapshots_manually.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating File Share Snapshots Manually
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to manually create snapshots of Azure file shares. Each snapshot is saved to the same Azure region in which the protected Azure file share resides.
 
@@ -34,6 +34,4 @@ For an account to be displayed in the accounts list, it must be added to Veeam B
 
 [![Creating File Share Snapshots Manually](images/fs_manual.webp)](images/fs_manual.webp)
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

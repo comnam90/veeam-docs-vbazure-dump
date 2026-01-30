@@ -1,5 +1,5 @@
 ---
-title: "uninstalling_plug_in"
+title: "Uninstalling Plug-In"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/uninstalling_plug_in.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Uninstalling Plug-In
 
-In this article
 
 Before you uninstall Veeam Plug-in for Microsoft Azure, it is recommended that you [remove all connected backup appliances](removing_appliance_console.md) from the backup infrastructure. If you keep the appliances in the backup infrastructure, the following will happen:
 
@@ -33,6 +33,4 @@ To uninstall Veeam Plug-in for Microsoft Azure, do the following:
 | Note |
 | After you uninstall Veeam Plug-in for Microsoft Azure, you will be no longer able to add backup appliances and new external repositories to the backup infrastructure. |
 
-Page updated 12/9/2025
 
-Page content applies to build 8.0.1.202

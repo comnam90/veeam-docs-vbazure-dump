@@ -1,5 +1,5 @@
 ---
-title: "configuring_auto_backup_settings"
+title: "Performing Snapshot-Based Configuration Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_auto_backup_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/1/2024"
 product_version: "8.0.1.202"
 ---
 
+# Performing Snapshot-Based Configuration Backup
 
-In this article
 
 [Starting from version 6.0, this functionality has been deprecated and is available only for upgraded appliances that previously had the feature enabled]
 
@@ -42,6 +42,4 @@ If the snapshot limit is exceeded, Veeam Backup for Microsoft Azure removes the 
 
 [![Performing Snapshot-Based Configuration Backup](images/auto-backup_settings2.webp)](images/auto-backup_settings2.webp)
 
-Page updated 7/1/2024
 
-Page content applies to build 8.0.1.202

@@ -1,5 +1,5 @@
 ---
-title: "accounts_smtp_database_edit"
+title: "Editing SMTP and Database Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/accounts_smtp_database_edit.html"
@@ -7,8 +7,8 @@ last_updated: "6/13/2025"
 product_version: "8.0.1.202"
 ---
 
+# Editing SMTP and Database Accounts
 
-In this article
 
 For each SMTP and database account added to the backup appliance, you can modify the settings of the account:
 
@@ -25,6 +25,4 @@ For each SMTP and database account added to the backup appliance, you can modify
 
 [![Editing Accounts](images/sql_account_edit.webp)](images/sql_account_edit.webp "Editing Accounts")
 
-Page updated 6/13/2025
 
-Page content applies to build 8.0.1.202

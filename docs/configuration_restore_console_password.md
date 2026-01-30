@@ -1,5 +1,5 @@
 ---
-title: "configuration_restore_console_password"
+title: "Step 4. Specify Password"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_restore_console_password.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Specify Password
 
-In this article
 
 At the Password step of the wizard, specify the password used to encrypt the configuration backup file.
 
@@ -21,6 +21,4 @@ If you do not remember the password, you can restore configuration data without 
 
 ![Step 4. Specify Password](images/restore_config_pswd.webp)
 
-Page updated 8/19/2025
 
-Page content applies to build 8.0.1.202

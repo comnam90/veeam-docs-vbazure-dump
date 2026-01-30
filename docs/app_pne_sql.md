@@ -1,5 +1,5 @@
 ---
-title: "app_pne_sql"
+title: "Configuring Network Settings for SQL Servers"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_sql.html"
@@ -7,8 +7,8 @@ last_updated: "5/14/2024"
 product_version: "8.0.1.202"
 ---
 
+# Configuring Network Settings for SQL Servers
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure to back up SQL Servers in a private environment, perform the following steps:
 
@@ -23,6 +23,4 @@ To allow Veeam Backup for Microsoft Azure to back up SQL Servers in a private en
 9. [Configure the private endpoint created for the SQL Server](pne_sql_manual_endpoint.md).
 10. [Run the backup policy to check whether the configuration was successful](pne_sql_test_policy_run.md).
 
-Page updated 5/14/2024
 
-Page content applies to build 8.0.1.202

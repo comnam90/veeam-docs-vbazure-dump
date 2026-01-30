@@ -1,5 +1,5 @@
 ---
-title: "vm_permissions"
+title: "Azure VM Permissions"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "9/1/2025"
 product_version: "8.0.1.202"
 ---
 
+# Azure VM Permissions
 
-In this article
 
 To allow Veeam Backup for Microsoft Azure to protect Azure VMs, the service account that will be used for backup and restore operations with these VMs must have the following permissions.
 
@@ -24,6 +24,4 @@ Azure VM Restore Permissions
 | --- |
 | {  "permissions": [         {         "actions": [                 "Microsoft.Authorization/locks/Read",                 "Microsoft.Authorization/roleAssignments/read",                 "Microsoft.Compute/availabilitySets/read",                 "Microsoft.Compute/availabilitySets/vmSizes/read",                 "Microsoft.Compute/diskAccesses/delete",                 "Microsoft.Compute/diskAccesses/privateEndpointConnections/read",                 "Microsoft.Compute/diskAccesses/privateEndpointConnections/write",                 "Microsoft.Compute/diskAccesses/PrivateEndpointConnectionsApproval/action",                 "Microsoft.Compute/diskAccesses/read",                 "Microsoft.Compute/diskAccesses/write",                 "Microsoft.Compute/diskEncryptionSets/read",                 "Microsoft.Compute/disks/beginGetAccess/action",                 "Microsoft.Compute/disks/delete",                 "Microsoft.Compute/disks/endGetAccess/action",                 "Microsoft.Compute/disks/read",                 "Microsoft.Compute/disks/write",                 "Microsoft.Compute/snapshots/beginGetAccess/action",                 "Microsoft.Compute/snapshots/read",                 "Microsoft.Compute/virtualMachines/deallocate/action",                 "Microsoft.Compute/virtualMachines/delete",                 "Microsoft.Compute/virtualMachines/read",                 "Microsoft.Compute/virtualMachines/runCommand/action",                 "Microsoft.Compute/virtualMachines/write",                 "Microsoft.DevTestLab/Schedules/write",                 "Microsoft.Insights/eventtypes/values/Read",                 "Microsoft.Network/loadBalancers/backendAddressPools/join/action",                 "Microsoft.Network/loadBalancers/read",                 "Microsoft.Network/networkInterfaces/delete",                 "Microsoft.Network/networkInterfaces/join/action",                 "Microsoft.Network/networkInterfaces/read",                 "Microsoft.Network/networkInterfaces/write",                 "Microsoft.Network/networkSecurityGroups/join/action",                 "Microsoft.Network/networkSecurityGroups/read",                 "Microsoft.Network/privateEndpoints/delete",                 "Microsoft.Network/privateEndpoints/read",                 "Microsoft.Network/privateEndpoints/write",                 "Microsoft.Network/privateLinkServices/privateEndpointConnections/delete",                 "Microsoft.Network/privateLinkServices/privateEndpointConnections/read",                 "Microsoft.Network/privateLinkServices/privateEndpointConnections/write",                 "Microsoft.Network/publicIPAddresses/join/action",                 "Microsoft.Network/publicIPAddresses/read",                 "Microsoft.Network/publicIPAddresses/write",                 "Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read",                 "Microsoft.Network/virtualNetworks/read",                 "Microsoft.Network/virtualNetworks/subnets/join/action",                 "Microsoft.Network/virtualNetworks/subnets/joinViaServiceEndpoint/action",                 "Microsoft.Network/virtualNetworks/write",                 "Microsoft.Resources/subscriptions/resourceGroups/delete",                 "Microsoft.Resources/subscriptions/resourceGroups/moveResources/action",                 "Microsoft.Resources/subscriptions/resourceGroups/read",                 "Microsoft.Resources/subscriptions/resourceGroups/validateMoveResources/action",                 "Microsoft.Resources/subscriptions/resourceGroups/write",                 "Microsoft.Storage/storageAccounts/listKeys/action",                 "Microsoft.Storage/storageAccounts/privateEndpointConnections/write",                 "Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action",                 "Microsoft.Storage/storageAccounts/read",                 "Microsoft.Storage/storageAccounts/write"         ],         "notActions": [],         "dataActions": [],         "notDataActions": []         }     ]  } |
 
-Page updated 9/1/2025
 
-Page content applies to build 8.0.1.202

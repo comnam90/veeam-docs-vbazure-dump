@@ -1,5 +1,5 @@
 ---
-title: "rescanning_appliance_console"
+title: "Rescanning Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/rescanning_appliance_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/10/2025"
 product_version: "8.0.1.202"
 ---
 
+# Rescanning Appliances
 
-In this article
 
 If a backup appliance become unavailable, for example, due to connectivity problems, you can rescan the appliance:
 
@@ -29,6 +29,4 @@ Veeam Backup & Replication will remove all data collected from the appliance 
 
 [![Rescan appliance](images/appliance_sync.webp)](images/appliance_sync.webp "Rescan appliance")
 
-Page updated 7/10/2025
 
-Page content applies to build 8.0.1.202

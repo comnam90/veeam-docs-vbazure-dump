@@ -1,5 +1,5 @@
 ---
-title: "service_account_edit"
+title: "Editing Service Accounts"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/service_account_edit.html"
@@ -7,8 +7,8 @@ last_updated: "9/27/2024"
 product_version: "8.0.1.202"
 ---
 
+# Editing Service Accounts
 
-In this article
 
 To edit a service account, do the following:
 
@@ -20,6 +20,4 @@ To edit a service account, do the following:
 6. [Check the required permissions](service_account_edit_check_permissions.md).
 7. [Finish working with the wizard](service_account_edit_finish.md).
 
-Page updated 9/27/2024
 
-Page content applies to build 8.0.1.202

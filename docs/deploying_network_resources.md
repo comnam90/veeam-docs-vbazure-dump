@@ -1,5 +1,5 @@
 ---
-title: "deploying_network_resources"
+title: "Step 7. Specify Network Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_network_resources.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 7. Specify Network Settings
 
-In this article
 
 At the Networking step of the wizard, do the following:
 
@@ -54,6 +54,4 @@ Veeam Backup & Replication will verify whether the specified security group a
 
 ![Step 7. Specify Network Settings](images/add_new_azure_apl_network.webp)
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

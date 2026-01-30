@@ -1,5 +1,5 @@
 ---
-title: "installing_plug_in"
+title: "Installing Plug-In"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/installing_plug_in.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "8.0.1.202"
 ---
 
+# Installing Plug-In
 
-In this article
 
 The default installation package of Veeam Backup & Replication does not provide features that allow you to protect Microsoft Azure resources. To be able to add your backup appliances to the backup infrastructure, you must install Veeam Plug-in for Microsoft Azure on the backup server.
 
@@ -30,6 +30,4 @@ To install Veeam Plug-in for Microsoft Azure, do the following:
 
 ![Installing Plug-In](images/install.webp)
 
-Page updated 7/9/2025
 
-Page content applies to build 8.0.1.202

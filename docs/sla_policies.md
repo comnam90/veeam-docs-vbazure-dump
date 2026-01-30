@@ -1,5 +1,5 @@
 ---
-title: "sla_policies"
+title: "SLA-Based Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_policies.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "8.0.1.202"
 ---
 
+# SLA-Based Backup Policies
 
-In this article
 
 To simplify data protection and monitor compliance with your target SLA, Veeam Backup for Microsoft Azure introduces SLA-based backup policies. An SLA-based backup policy is a collection of settings that automate the way backup operations are performed: how frequently to run the backup process, what region-specific repositories to use to store backups, how many restore points should be created in time to meet SLA requirements, and so on.
 
@@ -24,6 +24,4 @@ To help you eliminate error-prone manual steps and save time configuring SLA-bas
 
 For more information on different types of backup policies, see [Protecting Azure VMs](overview_vm.md).
 
-Page updated 1/13/2026
 
-Page content applies to build 8.0.1.202

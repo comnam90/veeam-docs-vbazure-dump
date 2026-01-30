@@ -1,5 +1,5 @@
 ---
-title: "sla_backup_settings"
+title: "Step 4. Configure Backup Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_backup_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Step 4. Configure Backup Settings
 
-In this article
 
 At the Backups step of the wizard, you can configure the following backup settings:
 
@@ -44,6 +44,4 @@ When you combine multiple types of backup schedules, Veeam Backup for Microsoft 
 
 [![Adding SLA Policy](images/sla_backup_settings.webp)](images/sla_backup_settings.webp "Adding SLA Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 8.0.1.202

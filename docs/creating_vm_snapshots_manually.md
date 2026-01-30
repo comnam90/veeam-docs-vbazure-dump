@@ -1,5 +1,5 @@
 ---
-title: "creating_vm_snapshots_manually"
+title: "Creating VM Snapshots Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/creating_vm_snapshots_manually.html"
@@ -7,8 +7,8 @@ last_updated: "10/20/2025"
 product_version: "8.0.1.202"
 ---
 
+# Creating VM Snapshots Manually
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to manually create snapshots of Azure VMs. Each snapshot is saved to the same Azure region in which the protected Azure VM resides.
 
@@ -40,6 +40,4 @@ For an account to be displayed in the accounts list, it must be added to Veeam B
 
 [![Creating Snapshot Manually](images/manual_snapshot.webp)](images/manual_snapshot.webp "Creating Snapshot Manually")
 
-Page updated 10/20/2025
 
-Page content applies to build 8.0.1.202

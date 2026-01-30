@@ -1,5 +1,5 @@
 ---
-title: "backup_repositories"
+title: "Backup Repositories"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_repositories.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "8.0.1.202"
 ---
 
+# Backup Repositories
 
-In this article
 
 A backup repository is a folder in a blob container where Veeam Backup for Microsoft Azure stores image-level backups of Azure VMs, backups of Azure SQL databases, backups of Cosmos DB for PostgreSQL and Cosmos DB for MongoDB accounts, and backup copies of virtual network configurations.
 
@@ -39,6 +39,4 @@ Veeam Backup for Microsoft Azure supports the following types of Azure storage a
 | Important |
 | Consider the following limitations for storage accounts:   * Veeam Backup for Microsoft Azure does not support creation of backup repositories in storage accounts with the [blob soft delete](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview#recommended-data-protection-configuration) option enabled. * Veeam Backup for Microsoft Azure does not support creation of backup repositories in the Cold access tier. For more information on access tiers for blob data, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview).  * Due to Microsoft Azure limitations, Veeam Backup for Microsoft Azure does not support creation of archive repositories in storage accounts with the [Zone-redundant storage](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#zone-redundant-storage) (ZRS), [Geo-zone-redundant storage](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#geo-zone-redundant-storage) (GZRS) or [Read-access geo-zone-redundant storage](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy#read-access-to-data-in-the-secondary-region) (RA-GZRS) redundancy option enabled. For more information, see [Microsoft Docs](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview#archive-access-tier). |
 
-Page updated 11/28/2025
 
-Page content applies to build 8.0.1.202

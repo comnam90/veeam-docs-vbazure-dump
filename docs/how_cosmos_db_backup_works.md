@@ -1,5 +1,5 @@
 ---
-title: "how_cosmos_db_backup_works"
+title: "Cosmos DB Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/how_cosmos_db_backup_works.html"
@@ -7,8 +7,8 @@ last_updated: "6/6/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cosmos DB Backup
 
-In this article
 
 When processing a Cosmos DB account added to a backup policy, Veeam Backup for Microsoft Azure uses continuous backup — a native Microsoft Azure capability that allows you to eliminate consumption of extra provisioned throughput without affecting the database performance and availability.
 
@@ -44,6 +44,4 @@ Related Topics
 
 [Backup Chain](backup_chain_cosmos_db.md)
 
-Page updated 6/6/2025
 
-Page content applies to build 8.0.1.202

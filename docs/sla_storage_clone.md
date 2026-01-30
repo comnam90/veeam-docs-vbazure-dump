@@ -1,5 +1,5 @@
 ---
-title: "sla_storage_clone"
+title: "Cloning SLA and Storage Templates"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_storage_clone.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "8.0.1.202"
 ---
 
+# Cloning SLA and Storage Templates
 
-In this article
 
 Veeam Backup for Microsoft Azure allows you to create a new policy template based on the settings of an existing one:
 
@@ -20,6 +20,4 @@ Veeam Backup for Microsoft Azure allows you to create a new policy template base
 
 [![Exporting Backup Policy](images/sla_storage_clone.webp)](images/sla_storage_clone.webp "Exporting Backup Policy")
 
-Page updated 3/25/2025
 
-Page content applies to build 8.0.1.202

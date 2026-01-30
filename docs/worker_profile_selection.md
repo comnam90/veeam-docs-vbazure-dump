@@ -1,5 +1,5 @@
 ---
-title: "worker_profile_selection"
+title: "Step 3. Choose Worker Profiles"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_profile_selection.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2024"
 product_version: "8.0.1.202"
 ---
 
+# Step 3. Choose Worker Profiles
 
-In this article
 
 By default, Veeam Backup for Microsoft Azure launches minimum 1 and maximum 5 worker instances depending on the number of Azure resources processed while performing a backup or restore operation. Each worker instance can process only one Azure resource at a time. If the number of processed resources exceeds the maximum number of worker instances specified in the worker configuration, the resources exceeding this limit are queued.
 
@@ -38,6 +38,4 @@ To help you choose the VM size, the table in the Select Virtual Machine Size win
 
 [![Choosing Worker Profiles](images/profiles_selection.webp)](images/profiles_selection.webp "Choosing Worker Profiles")
 
-Page updated 9/16/2024
 
-Page content applies to build 8.0.1.202
