@@ -3,7 +3,7 @@ title: "Adding Storage Vaults Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html"
-last_updated: "11/25/2025"
+last_updated: "2/3/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -13,7 +13,7 @@ product_version: "8.0.1.202"
 |  |
 | --- |
 | Important |
-| Before you start adding storage vaults, you must [obtain Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_vbr_manage.html#connecting-backup-server-to-storage-vault) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault. |
+| Before you start adding storage vaults, you must [obtain Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault. |
 
 To add a new storage vault, do the following:
 
