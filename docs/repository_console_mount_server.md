@@ -3,7 +3,7 @@ title: "Step 7. Specify Mount Server Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_console_mount_server.html"
-last_updated: "1/28/2026"
+last_updated: "2/4/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -28,7 +28,7 @@ If Veeam Backup & Replication fails to choose a mount servers automatically o
 1. Click Ports to customize network ports used by the Veeam vPower NFS Service. By default, Veeam vPower NFS Service uses port 1058 to mount the vPower NFS datastore to the ESXi host and port 2049 to connect to the target NFS share.
 2. In the Instant recovery write cache folder field, specify a folder that will be used for storing cache files.
 
-![Step 7. Specify Mount Server Settings](images/add_repo_encryption.webp)
+![Step 7. Specify Mount Server Settings](images/add_repo_mt_server.webp)
 
 Related Topics
 
