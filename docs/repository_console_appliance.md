@@ -3,7 +3,7 @@ title: "Step 2. Specify Repository Details"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_console_appliance.html"
-last_updated: "8/20/2025"
+last_updated: "2/4/2026"
 product_version: "8.0.1.202"
 ---
 

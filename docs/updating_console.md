@@ -3,7 +3,7 @@ title: "Updating Appliances Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/updating_console.html"
-last_updated: "1/29/2026"
+last_updated: "2/3/2026"
 product_version: "8.0.1.202"
 ---
 
