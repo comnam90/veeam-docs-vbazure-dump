@@ -3,7 +3,7 @@ title: "Protecting Azure File Shares"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_fs.html"
-last_updated: "9/19/2024"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -21,7 +21,7 @@ To create an Azure Files backup policy, perform the following steps:
 1. [Check limitations and prerequisites](limitations.md#backup).
 2. [Specify service accounts to access Azure services and resources](service_accounts.md).
 3. [[Optional] Configure worker instance settings to launch workers while processing Azure Files data](workers.md).
-4. [[Optional] Configure global retention settings for obsolete snapshots and session records](configuring_global_retention_settings.md).
+4. [[Optional] Configure global retention settings for obsolete snapshots and session records](configuring_global_retention.md).
 5. [[Optional] Configure email notification settings for automated delivery of backup policy results and daily reports](configuring_notification_settings.md).
 6. [Complete the Add Azure Files Policy wizard](fs_backup_wizard.md).
 
