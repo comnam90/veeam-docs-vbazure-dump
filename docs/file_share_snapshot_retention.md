@@ -3,7 +3,7 @@ title: "File Share Snapshot Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/file_share_snapshot_retention.html"
-last_updated: "12/9/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
