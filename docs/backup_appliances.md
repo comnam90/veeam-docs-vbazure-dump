@@ -3,7 +3,7 @@ title: "Backup Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/backup_appliances.html"
-last_updated: "11/26/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -45,7 +45,7 @@ The backup appliance uses the following components:
 * Configuration database — stores data on the existing backup policies, worker instance configurations, connected Microsoft Azure accounts and so on, as well as information on the available and protected resources collected from Microsoft Azure.
 * Configuration restore service — allows users to back up and restore the configuration database of the backup appliance.
 * Web UI — provides a web interface that allows users to access the Veeam Backup for Microsoft Azure functionality.
-* Veeam Updater service — allows Veeam Backup for Microsoft Azure to check and install product and software software package updates.
+* Veeam Updater service — allows Veeam Backup for Microsoft Azure to check and install product and software package updates.
 
 * Veeam File-Level Recovery (FLR) service — allows users to restore individual files and folders of protected Azure VMs and file shares.
 
