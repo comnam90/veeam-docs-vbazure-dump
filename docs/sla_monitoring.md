@@ -3,7 +3,7 @@ title: "Monitoring SLA-Based Policy Performance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_monitoring.html"
-last_updated: "4/22/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -32,7 +32,7 @@ To view session details for a protected VM, click the necessary VM in the list: 
 |  |
 | --- |
 | Important |
-| If you click a VM in the SLA Details section and some sessions are missing in the VM section, this can mean either of the following:   * Information on these sessions was removed from the configuration database according to the [global retention settings](configuring_global_retention_settings.md#sessions). * Veeam Backup for Microsoft Azure failed to start these sessions due to technical issues in the production environment. As a workaround, you can view the full list of sessions executed for the SLA-based backup policy that protects this VM — to do that, click Go to Sessions. |
+| If you click a VM in the SLA Details section and some sessions are missing in the VM section, this can mean either of the following:   * Information on these sessions was removed from the configuration database according to the [global retention settings](configuring_global_retention.md). * Veeam Backup for Microsoft Azure failed to start these sessions due to technical issues in the production environment. As a workaround, you can view the full list of sessions executed for the SLA-based backup policy that protects this VM — to do that, click Go to Sessions. |
 
 [![Monitoring SLA-Based Policy Performance](images/sla_drilldown.webp)](images/sla_drilldown.webp "Monitoring SLA-Based Policy Performance")
 
