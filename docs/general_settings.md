@@ -3,7 +3,7 @@ title: "Configuring General Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/general_settings.html"
-last_updated: "9/27/2024"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -13,7 +13,7 @@ product_version: "8.0.1.202"
 Veeam Backup for Microsoft Azure allows you to configure general settings that are applied to all performed operations and deployed architecture components:
 
 * [Enable the private network deployment functionality and choose a messaging service that will be used to transfer data](deployment_mode.md).
-* [Define for how long obsolete snapshots and session records will be retained](configuring_global_retention_settings.md).
+* [Define for how long obsolete snapshots and session records will be retained](configuring_global_retention.md).
 * [Provide certificates to secure connections between Veeam Backup for Microsoft Azure architecture components](working_with_certificates.md).
 * [Configure notification settings for automated delivery of reports](configuring_notification_settings.md).
 
