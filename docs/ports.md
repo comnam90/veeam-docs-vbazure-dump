@@ -3,7 +3,7 @@ title: "Ports"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/ports.html"
-last_updated: "1/6/2026"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -52,7 +52,7 @@ As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veea
 | Microsoft Graph API (DNS name: graph.microsoft.com) | TCP/HTTPS | 443 | Required to check permissions of Microsoft Entra applications during the upgrade of Veeam Plug-in for Microsoft Azure. |
 | AWS CheckIP service (DNS name: checkip.amazonaws.com) | TCP/HTTPS | 443 | Required to get the public IP address of the Veeam Backup & Replication server during the deployment of Veeam Plug-in for Microsoft Azure. |
 | Azure Storage service (DNS name: <blob\_name>.blob.core.windows.net, where <blob\_name> is the name of the Azure storage account) | TCP/HTTPS | 443 | Required to access Azure storage accounts when creating backup repositories using Veeam Plug-in for Microsoft Azure. |
-| Veeam Backup & Replication console and Veeam ONE server | Backup server | TCP | 20443 | Port used to connect to Veeam Plug-in for Microsoft Azure. |
+| Veeam Backup & Replication console and Veeam ONE server | Backup server | TCP | 443 | Port used to connect to Veeam Plug-in for Microsoft Azure. |
 
 |  |
 | --- |
