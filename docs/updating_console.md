@@ -1,23 +1,38 @@
 ---
-title: "Updating Appliances Using Console"
+title: "Upgrading Backup Appliances"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/updating_console.html"
-last_updated: "2/3/2026"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
-# Updating Appliances Using Console
+# Upgrading Backup Appliances
 
 
-Starting from Veeam Backup for Microsoft Azure version 5a, you can upgrade backup appliances from the Veeam Backup & Replication console only. However, if you already have a backup appliance running Veeam Backup for Microsoft Azure version 8.1, you can simply restore to it the configuration of a backup appliance you want to upgrade as described in section [Restoring Configuration Data Using Console](configuration_restore_console.md). Direct upgrade to Veeam Backup for Microsoft Azure version 8.1 is supported from Veeam Backup for Microsoft Azure version 6.0 or 7.0; to upgrade from an earlier version, you must first perform [upgrade to Veeam Backup for Microsoft Azure version 6.0 or 7.0](https://helpcenter.veeam.com/archive/vbazure/70/guide/upgrading_appliances_console.html).
+Starting from Veeam Backup for Microsoft Azure version 5a, you can upgrade backup appliances from the Veeam Backup & Replication console only. Direct upgrade to Veeam Backup for Microsoft Azure version 8.1 is supported from Veeam Backup for Microsoft Azure version 6.0 or 7.0; to upgrade from an earlier version, you must first perform [upgrade to Veeam Backup for Microsoft Azure version 6.0 or 7.0](https://helpcenter.veeam.com/archive/vbazure/70/guide/upgrading_appliances_console.html).
 
-|  |
-| --- |
-| Important |
-| * Before you upgrade a backup appliance, check whether the Veeam Backup for Microsoft Azure version is compatible with the current version of Veeam Plug-in for Microsoft Azure. For more information, see [System Requirements](system_requirements.md#compatibility). * If your backup appliance used the Azure Service Bus messaging service in versions prior to version 8.1, you must switch to the Azure Queue Storage service in the appliance Web UI immediately after you upgrade to version 8.1. Otherwise, Veeam Backup for Microsoft Azure will no longer be able to perform backup and restore operations. For more information, see [Configuring Deployment Mode](deployment_mode.md#messaging). |
+Before You Begin
 
-Veeam Plug-in for Microsoft Azure allows you to download and install new available Veeam Backup for Microsoft Azure versions and software package updates:
+Before you start the upgrade process, consider the following requirements and limitations:
+
+* The Veeam Backup for Microsoft Azure version must be compatible with the current version of Veeam Plug-in for Microsoft Azure. For more information, see [System Requirements](system_requirements.md#compatibility).
+* If your backup appliance used the Azure Service Bus messaging service in versions prior to version 8.1, you must switch to the Azure Queue Storage service in the appliance Web UI immediately after you upgrade to version 8.1. Otherwise, Veeam Backup for Microsoft Azure will no longer be able to perform backup and restore operations. For more information, see [Configuring Deployment Mode](deployment_mode.md#messaging).
+* The Microsoft Azure compute account (service account) specified when [deploying a backup appliance](deploying_appliance_account.md) or [connecting to the appliance](adding_appliance_account.md) must be assigned permissions required to perform upgrade. For the list of required permissions, see [Plug-In Permissions](plugin_permissions.md).
+
+* Outbound internet access must be allowed from the backup appliance to the PostgreSQL APT repository (apt.postgresql.org, apt-archive.postgresql.org) through port 80 over the HTTP protocol.
+
+* Outbound internet access must be allowed from the backup appliance to the PostgreSQL website (postgresql.org) through port 443 over the HTTPS protocol to download the repository key <https://www.postgresql.org/media/keys/ACCC4CF8.asc>.
+* Outbound internet access must be allowed from the backup appliance to the [Veeam Update Notification Server](https://repository.veeam.com/) through port 443 over the HTTPS protocol.
+* Outbound internet access must be allowed from the backup appliance to the [Ubuntu Security Repository](https://ubuntu.com/security/notices) through port 80 over the HTTP protocol.
+
+* During upgrade, the data disk of the backup appliance will temporarily contain files of 2 databases. That is why the size of the data disk must be twice the total amount of storage space used by the configuration database.
+
+* During upgrade, Veeam Backup & Replication will create the new root virtual disk with the default settings. That is why if you have modified root disk settings, for example have increased disk size, these settings will not be transferred, and custom 3rd-party software installed on the backup appliance will not be migrated.
+
+How to Perform Upgrade
+
+To upgrade Veeam Backup for Microsoft Azure, do the following:
 
 1. In the Veeam Backup & Replication console, open the Backup Infrastructure view.
 2. Navigate to Managed Servers.

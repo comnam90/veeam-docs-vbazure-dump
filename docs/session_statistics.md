@@ -3,7 +3,7 @@ title: "Viewing Session Statistics"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/session_statistics.html"
-last_updated: "8/25/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -37,7 +37,7 @@ You can track real-time statistics of all running and completed operations on th
 |  |
 | --- |
 | Tip |
-| If you want to specify the time period during which Veeam Backup for Microsoft Azure will keep session records in the configuration database, follow the instructions provided in section [Configuring Global Retention Settings](configuring_global_retention_settings.md#sessions). |
+| If you want to specify the time period during which Veeam Backup for Microsoft Azure will keep session records in the configuration database, follow the instructions provided in section [Configuring Global Retention Settings](configuring_global_retention.md). |
 
 [![Viewing Session Statistics](images/viewing_sessions.webp)](images/viewing_sessions.webp "Viewing Session Statistics")
 

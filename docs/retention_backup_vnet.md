@@ -3,7 +3,7 @@ title: "Virtual Network Configuration Backup Retention"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/retention_backup_vnet.html"
-last_updated: "12/9/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,7 +17,7 @@ During every successful backup session, Veeam Backup for Microsoft Azure creates
 |  |
 | --- |
 | Note |
-| Veeam Backup for Microsoft Azure applies the retention settings configured for the Virtual Network Configuration Backup policy to virtual network configuration backups stored both in the Veeam Backup for Microsoft Azure configuration database and in backup repositories — even in those repositories that are not specified in the Virtual Network Configuration Backup policy settings. |
+| Veeam Backup for Microsoft Azure applies retention settings configured for the Virtual Network Configuration Backup policy to virtual network configuration backups stored both in the Veeam Backup for Microsoft Azure configuration database and in backup repositories — even if these repositories are not specified in the policy settings. |
 
 [![Virtual Network Configuration Backup Retention](images/vnet_backup_retention.webp)](images/vnet_backup_retention.webp "Virtual Network Configuration Backup Retention")
 

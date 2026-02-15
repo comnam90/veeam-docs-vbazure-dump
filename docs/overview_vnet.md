@@ -3,7 +3,7 @@ title: "Protecting Virtual Network Configurations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_vnet.html"
-last_updated: "12/16/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -19,7 +19,7 @@ To modify the virtual network configuration backup policy settings, perform the 
 1. [Check limitations and prerequisites](limitations.md#backup).
 2. [Specify service accounts to access Azure services and resources](service_accounts.md).
 3. [Add backup repositories to save additional virtual network configuration backup copies](repositories.md).
-4. [[Optional] Configure global retention settings for obsolete snapshots and session records](configuring_global_retention_settings.md).
+4. [[Optional] Configure global retention settings for obsolete snapshots and session records](configuring_global_retention.md).
 5. [[Optional] Configure email notification settings for automated delivery of backup policy results and daily reports](configuring_notification_settings.md).
 6. [Complete the Edit Virtual Network Configuration Backup Policy wizard](vnet_backup_edit.md).
 

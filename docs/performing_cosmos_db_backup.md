@@ -3,7 +3,7 @@ title: "Performing Cosmos DB Backup"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/performing_cosmos_db_backup.html"
-last_updated: "9/9/2025"
+last_updated: "2/12/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,7 +17,7 @@ product_version: "8.0.1.202"
 
 One backup policy can be used to process one or more Cosmos DB accounts within one Microsoft Entra tenant. The scope of data that you can protect in a tenant is limited by permissions of a service account that is specified in the backup policy settings.
 
-Before you create an Cosmos DB backup policy, check the following prerequisites:
+Before you create a Cosmos DB backup policy, check the following prerequisites:
 
 * If you plan to enable backup to repository, backup infrastructure components that will take part in the backup process must be added to the backup infrastructure and configured properly. These include [repositories](repositories.md) and [worker instances](workers.md).
 * If you plan to receive email notifications on backup policy results, configure email notification settings first. For more information, see [Configuring Global Notification Settings](configuring_notification_settings.md).

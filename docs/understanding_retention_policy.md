@@ -3,7 +3,7 @@ title: "Retention Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/understanding_retention_policy.html"
-last_updated: "7/1/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -27,7 +27,7 @@ Restore points in the backup chain (either regular or archive) can be stored in 
 | Note |
 | * When configuring schedule-based backup policy scheduling, consider that Veeam Backup for Microsoft Azure runs retention sessions for schedule-based backup policies at 12:00 AM by default, according to the time zone set on the backup appliance. If you schedule these policies to execute at 12:00 AM, the policies and the retention tasks will be queued.  * If you disable any configured backup schedule in a schedule-based backup policy and run the policy, this does not affect retention settings of already created restore points — their expiration dates will still be determined by the previously applied retention policy. * If you change the retention period configured for any backup schedule in a schedule-based backup policy, this will affect expiration dates of already created restore points — their expiration dates will be determined by the newly applied retention policy. |
 
-You can also specify retention settings for snapshots that become obsolete. For more information, see [Configuring Global Retention Settings](configuring_global_retention_settings.md#snapshots).
+You can also specify retention settings for snapshots that become obsolete. For more information, see [Configuring Global Retention Settings](configuring_global_retention.md).
 
 Related Topics
 

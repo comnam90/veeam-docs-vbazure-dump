@@ -3,7 +3,7 @@ title: "Protecting Azure SQL Databases"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/overview_sql.html"
-last_updated: "8/5/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -22,7 +22,7 @@ To create an Azure SQL backup policy, perform the following steps:
 2. [Specify service accounts to access Azure services and resources](service_accounts.md).
 3. [[Optional] Add repositories to store backed-up data](repositories.md).
 4. [[Optional] Configure worker instance settings to launch workers while processing Azure SQL data](workers.md).
-5. [[Optional] Configure global retention settings for obsolete session records](configuring_global_retention_settings.md#sessions).
+5. [[Optional] Configure global retention settings for obsolete session records](configuring_global_retention.md).
 6. [[Optional] Configure email notification settings for automated delivery of backup policy results and daily reports](configuring_notification_settings.md).
 7. [Complete the Add Azure SQL Policy wizard](sql_backup_wizard.md).
 

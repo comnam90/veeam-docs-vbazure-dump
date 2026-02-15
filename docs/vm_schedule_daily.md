@@ -3,7 +3,7 @@ title: "Specifying Daily Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_daily.html"
-last_updated: "8/20/2025"
+last_updated: "2/13/2026"
 product_version: "8.0.1.202"
 ---
 
