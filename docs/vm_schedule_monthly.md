@@ -3,7 +3,7 @@ title: "Specifying Monthly Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_monthly.html"
-last_updated: "8/20/2025"
+last_updated: "2/17/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -53,10 +53,13 @@ Considerations and Limitations
 When you configure retention policy settings, consider the following:
 
 * For Veeam Backup for Microsoft Azure to be able to use the [Changed Block Tracking](changed_block_tracking.md) (CBT) mechanism when processing Azure VM data, you must keep at least one cloud-native snapshot in the snapshot chain.
-* Regardless of the number of restore points that you specify, Veeam Backup for Microsoft Azure permanently retains an additional cloud-native snapshot in the chain by design, which is required for proper CBT functioning.
-* It is recommended that you do not set the Snapshots to keep value to 0. Otherwise, Veeam Backup for Microsoft Azure will not be able to use the CBT mechanism, and the completion time of incremental backups may occur to grow significantly.
 
 To learn how the CBT mechanism works, see [Changed Block Tracking](changed_block_tracking.md).
+
+* It is recommended that you do not set the Snapshots to keep value to 0. Otherwise, Veeam Backup for Microsoft Azure will not be able to use the CBT mechanism, and the completion time of incremental backups may occur to grow significantly.
+
+* Regardless of the number of restore points that you specify, Veeam Backup for Microsoft Azure permanently retains an additional cloud-native snapshot in the chain by design, which is required for proper CBT functioning.
+* Veeam Backup for Microsoft Azure prioritizes [global retention settings](configuring_global_retention.md) over retention settings configured for backup policies. If snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway.
 
 [![Adding Backup Policy](images/policy_monthly.webp)](images/policy_monthly.webp "Adding Backup Policy")
 
