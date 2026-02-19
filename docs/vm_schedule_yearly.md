@@ -3,7 +3,7 @@ title: "Specifying Yearly Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_yearly.html"
-last_updated: "8/20/2025"
+last_updated: "2/17/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -27,6 +27,8 @@ For example, if you select First, Friday, January and 06:00 PM, the backup polic
 1. In the Keep backups for field, specify the number of years for which you want to keep restore points in a backup chain.
 
 If a restore point is older than the specified time limit, Veeam Backup for Microsoft Azure removes the restore point from the chain. For more information, see [VM Backup Retention](vm_backup_retention.md).
+
+Consider that Veeam Backup for Microsoft Azure prioritizes global retention settings over retention settings configured for backup policies. If snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway. For more information, see [Configuring Global Retention Settings](configuring_global_retention.md).
 
 1. In the Repository section, select a repository where the created image-level backups will be stored.
 
