@@ -3,7 +3,7 @@ title: "Performing SQL Restore Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sql_restore_console.html"
-last_updated: "5/29/2024"
+last_updated: "2/23/2026"
 product_version: "8.0.1.202"
 ---
 
