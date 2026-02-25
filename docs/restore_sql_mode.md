@@ -3,7 +3,7 @@ title: "Step 3. Choose Restore Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restore_sql_mode.html"
-last_updated: "8/26/2025"
+last_updated: "2/19/2026"
 product_version: "8.0.1.202"
 ---
 

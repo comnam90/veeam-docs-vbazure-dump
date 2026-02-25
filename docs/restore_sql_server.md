@@ -3,7 +3,7 @@ title: "Step 4. Specify Target SQL Server Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/restore_sql_server.html"
-last_updated: "8/26/2025"
+last_updated: "2/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -16,9 +16,14 @@ At the Target server step of the wizard, you can specify a target server and its
 
 1. From the SQL server drop-down list, select a target SQL Server or an Azure SQL Managed Instance that will host the restored database.
 
-For a SQL Server to be displayed in the list of available servers, it must be created in Microsoft Azure as described in [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/create-sql-vm-portal?view=azuresql).
+For a SQL Server to be displayed in the list of available servers, it must be created in Microsoft Azure as described in [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/create-sql-vm-portal?view=azuresql); for an Azure SQL Managed Instance to be displayed in the list of available instances, it must be created in Microsoft Azure as described in [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/instance-create-quickstart?view=azuresql).
 
-For an Azure SQL Managed Instance to be displayed in the list of available instances, it must be created in Microsoft Azure as described in [Microsoft Docs](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/instance-create-quickstart?view=azuresql).
+For a SQL Server or an Azure SQL Managed Instance to be displayed in the list, it must also be associated with an Azure subscription added to the scope of the service account specified at [step 3](restore_sql_mode.md). To learn how to update the scope of service accounts, see section [Managing Service Accounts](service_account_edit_scope.md).
+
+|  |
+| --- |
+| Tip |
+| To allow Veeam Backup for Microsoft Azure to restore Azure SQL databases in a private environment, configure network settings for the target server as described in section [Configuring Network Settings for SQL Servers](app_pne_sql.md) or [Configuring Network Settings for SQL Managed Instances](app_pne_managed_instance.md). |
 
 1. [Applies only if you restore databases to a SQL Server] From the Elastic pool drop-down list, select an elastic pool to which the restored database will be added.
 
