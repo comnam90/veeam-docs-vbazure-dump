@@ -3,7 +3,7 @@ title: "Configuring Global Retention Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_global_retention.html"
-last_updated: "2/18/2026"
+last_updated: "2/24/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,12 +17,12 @@ You can configure global retention settings to specify for how long the followin
 
 Configuring Retention Settings for Obsolete Snapshots
 
-When you create a backup policy, you can configure a retention period for snapshots that will be created by this policy. However, in some cases you may need to set a specific time limit that will apply to all backup policies in order to save space in backup repositories. To do that, you can configure global snapshot retention settings to instruct Veeam Backup for Microsoft Azure to remove all obsolete snapshots from both the configuration database and Microsoft Azure Storage.
+When you create a backup policy, you can configure a retention period for cloud-native snapshots that will be produced by this policy. However, in some cases you may need to define a specific time limit that will apply to all backup policies in order to save space in backup repositories. To do that, you can configure global snapshot retention settings to instruct Veeam Backup for Microsoft Azure to remove all obsolete snapshots from both the configuration database and Microsoft Azure Storage.
 
 |  |
 | --- |
 | Notes |
-| * Obsolete snapshot retention settings apply to all cloud-native snapshots of Azure VMs and file shares that are created by Veeam Backup for Microsoft Azure and have the Veeam backup appliance ID tag assigned. The only exception is [snapshots created manually](creating_vm_snapshots_manually.md) — to learn how to remove these snapshots, see [Managing VM Data](removing_vm_backups_and_snapshots.md).  * Veeam Backup for Microsoft Azure prioritizes global retention settings over retention settings configured for backup policies. If snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway. |
+| * Obsolete snapshot retention settings apply to all cloud-native snapshots of Azure VMs and file shares that are produced by Veeam Backup for Microsoft Azure (you can tell these snapshots by the Veeam backup appliance ID tag). The only exception is [snapshots created manually](creating_vm_snapshots_manually.md) — to learn how to remove these snapshots, see [Managing VM Data](removing_vm_backups_and_snapshots.md).  * Veeam Backup for Microsoft Azure prioritizes global retention settings over retention settings configured for backup policies. If snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway. |
 
 To configure global retention settings for obsolete snapshots, do the following:
 
