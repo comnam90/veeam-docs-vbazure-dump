@@ -3,7 +3,7 @@ title: "Specifying Daily Schedule"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_schedule_daily.html"
-last_updated: "2/17/2026"
+last_updated: "2/24/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -19,8 +19,8 @@ If you want to protect Azure VM data more frequently, you can instruct the backu
 
 |  |
 | --- |
-| Note |
-| Consider the following:   * Veeam Backup for Microsoft Azure does not create image-level backups independently from cloud-native snapshots. That is why when you select hours for image-level backups, the same hours are automatically selected for cloud-native snapshots. To learn how Veeam Backup for Microsoft Azure performs backup operations, see [Protecting Azure VMs](overview_vm.md). * Since Veeam Backup for Microsoft Azure runs retention sessions at 12:15 AM according to the time zone set on the backup appliance, it is not recommended that you schedule backup policies to execute at 12:15 AM. Otherwise, Veeam Backup for Microsoft Azure will not be able to run the retention sessions. |
+| Notes |
+| * Veeam Backup for Microsoft Azure does not create image-level backups independently from cloud-native snapshots. That is why when you select hours for image-level backups, the same hours are automatically selected for cloud-native snapshots. To learn how Veeam Backup for Microsoft Azure performs backup operations, see [Protecting Azure VMs](overview_vm.md). * Since Veeam Backup for Microsoft Azure runs retention sessions at 12:15 AM according to the time zone set on the backup appliance, it is not recommended that you schedule backup policies to execute at 12:15 AM. Otherwise, Veeam Backup for Microsoft Azure will not be able to run the retention sessions. |
 
 1. In the Daily retention section, configure retention policy settings for the daily schedule:
 
@@ -31,6 +31,8 @@ If the restore point limit is exceeded, Veeam Backup for Microsoft Azure removes
 * For image-level backups, specify the number of days (or months) for which you want to keep restore points in a backup chain.
 
 If a restore point is older than the specified time limit, Veeam Backup for Microsoft Azure removes the restore point from the chain. For more information, see [VM Backup Retention](vm_backup_retention.md).
+
+Keep in mind that Veeam Backup for Microsoft Azure prioritizes global retention settings over retention settings configured for backup policies — if snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway. For more information, see [Configuring Global Retention Settings](configuring_global_retention.md).
 
 1. In the Repository section, select a repository where the created image-level backups will be stored.
 
@@ -47,12 +49,10 @@ Considerations and Limitations
 
 When you configure retention policy settings, consider the following:
 
-* For Veeam Backup for Microsoft Azure to be able to use the [Changed Block Tracking](changed_block_tracking.md) (CBT) mechanism when processing Azure VM data, you must keep at least one cloud-native snapshot in the snapshot chain.
+* For Veeam Backup for Microsoft Azure to be able to use the Changed Block Tracking (CBT) mechanism when processing Azure VM data, you must keep at least one cloud-native snapshot in the snapshot chain.
 * Regardless of the number of restore points that you specify, Veeam Backup for Microsoft Azure permanently retains an additional cloud-native snapshot in the chain by design, which is required for proper CBT functioning.
 
 To learn how the CBT mechanism works, see [Changed Block Tracking](changed_block_tracking.md).
-
-* Veeam Backup for Microsoft Azure prioritizes [global retention settings](configuring_global_retention.md) over retention settings configured for backup policies. If snapshots produced by a backup policy are older than the global retention period, these snapshots will be removed anyway.
 
 [![Adding Backup Policy](images/policy_daily.webp)](images/policy_daily.webp "Adding Backup Policy")
 
