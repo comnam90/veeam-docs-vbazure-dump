@@ -3,7 +3,7 @@ title: "Step 4. Specify Guest Processing Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_guest_processing.html"
-last_updated: "5/28/2025"
+last_updated: "2/24/2026"
 product_version: "8.0.1.202"
 ---
 
