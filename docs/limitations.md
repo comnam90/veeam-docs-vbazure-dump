@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/limitations.html"
-last_updated: "1/28/2026"
+last_updated: "2/27/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -19,8 +19,9 @@ When you plan to deploy and configure Veeam Backup for Microsoft Azure, keep in 
 
 Hardware
 
+Hardware
+
 | Component | Recommended Azure VM size |
-| --- | --- |
 | Backup appliance | * Standard\_B2s with 2 CPUs and 4 GB RAM * Standard\_B2ms with 2 CPUs and 8 GB RAM |
 | Worker instances | * Standard\_F2s\_v2 with 2 CPUs and 4 GB RAM for regular backup * Standard\_E2\_v5 with 2 CPUs and 16 GB RAM for archived backup |
 
@@ -102,6 +103,7 @@ SQL Backup
 When backing up Azure SQL databases, consider the following:
 
 * You can create SQL backup policies to protect only Azure SQL databases running on SQL Servers and databases located on SQL Managed Instances. If you want to protect a database hosted by a SQL Server on Azure VM, create an [Azure VM backup policy](performing_vm_backup.md). Note that in this case, you will not be able to restore a single database without restoring the entire VM.
+* Veeam Backup for Microsoft Azure does not support using staging servers to back up [free offer Azure SQL databases](https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql).
 * Veeam Backup for Microsoft Azure does not support backup of databases hosted by Azure Arc-enabled SQL Managed Instances and SQL Servers on Azure Arc-enabled servers.
 * Veeam Backup for Microsoft Azure uses BACPAC files to back up SQL databases. BACPAC export of databases with external references is not supported. That is why if a SQL database was migrated to an Azure SQL Database Server or Azure SQL Managed Instance, make sure to clear legacy references, orphaned database users and credentials set up with authentication types not supported by Azure SQL, to avoid BACPAC export errors.
 * Veeam Backup for Microsoft Azure does not support adding of Azure SQL Server accounts using Microsoft Entra ID authentication. To add an Azure SQL Server account, you must specify credentials of a SQL Server Admin account.
