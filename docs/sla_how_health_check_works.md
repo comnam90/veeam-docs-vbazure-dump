@@ -3,7 +3,7 @@ title: "How Health Check Works"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sla_how_health_check_works.html"
-last_updated: "9/16/2025"
+last_updated: "3/2/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -27,7 +27,7 @@ Depending on the detected data inconsistency, Veeam Backup for Microsoft Azure p
 |  |
 | --- |
 | Note |
-| Veeam Backup for Microsoft Azure does not support metadata check for encrypted backup chains. |
+| Health check cannot be performed for encrypted backups with missing metadata files, or for backups with corrupted metadata files. |
 
 * If the health check detects corrupted disk blocks in a full or an incremental restore point, Veeam Backup for Microsoft Azure marks the restore point that includes the corrupted data blocks and all subsequent incremental restore points as incomplete in the configuration database. During the next backup policy session, Veeam Backup for Microsoft Azure copies not only those data blocks that have changed since the previous backup session but also data blocks that have been corrupted, and saves these data blocks to the latest restore point that has been created during the current session.
 
