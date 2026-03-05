@@ -3,7 +3,7 @@ title: "Configuring Global Notification Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuring_notification_settings.html"
-last_updated: "5/30/2025"
+last_updated: "3/4/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -79,7 +79,7 @@ When registering the application, make sure that the redirect URI specified for 
 |  |
 | --- |
 | Important |
-| * If you plan to use a client application registered in the Microsoft Azure portal, you must grant it the Mail.Send Microsoft Graph application permission and the following Microsoft Graph delegated permissions: email, offline\_access, openid, User.Read. For more information on Microsoft Graph permissions, see [Microsoft Docs](https://learn.microsoft.com/en-us/graph/permissions-reference). * If you plan to use a client application registered in a Google Cloud project with a [Testing publishing status](https://support.google.com/cloud/answer/15549945?sjid=9344565301248032133-EU#publishing-status&zippy=%2Ctesting%2Cinternal), keep in mind that authorization will be required every seven days from the time of consent. |
+| * If you plan to use a client application registered in the Microsoft Azure portal, you must grant it the Mail.Send Microsoft Graph application permission and the following Microsoft Graph delegated permissions: email, offline\_access, openid, User.Read. Keep in mind that additional permissions may need to be granted for further specialized mail environments, such as the Mail.Send.Shared Microsoft Graph delegated permission for [shared mailboxes](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes?view=o365-worldwide).   For more information on Microsoft Graph permissions, see [Microsoft Docs](https://learn.microsoft.com/en-us/graph/permissions-reference).   * If you plan to use a client application registered in a Google Cloud project with a [Testing publishing status](https://support.google.com/cloud/answer/15549945?sjid=9344565301248032133-EU#publishing-status&zippy=%2Ctesting%2Cinternal), keep in mind that authorization will be required every seven days from the time of consent. |
 
 1. Back to the Veeam Backup for Microsoft Azure Web UI, do the following in the Email Server Settings window:
 
