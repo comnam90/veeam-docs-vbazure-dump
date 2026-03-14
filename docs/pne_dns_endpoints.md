@@ -3,7 +3,7 @@ title: "Step 6. Configure Private Endpoints"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/pne_dns_endpoints.html"
-last_updated: "5/7/2024"
+last_updated: "3/13/2026"
 product_version: "8.0.1.202"
 ---
 
