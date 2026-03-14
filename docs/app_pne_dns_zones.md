@@ -3,7 +3,7 @@ title: "Step 1. Create Private DNS Zones"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/app_pne_dns_zones.html"
-last_updated: "9/1/2025"
+last_updated: "3/13/2026"
 product_version: "8.0.1.202"
 ---
 
