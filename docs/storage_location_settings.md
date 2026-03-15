@@ -3,7 +3,7 @@ title: "Step 3. Configure Location Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/storage_location_settings.html"
-last_updated: "1/19/2026"
+last_updated: "3/11/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -19,27 +19,15 @@ By default, Veeam Backup for Microsoft Azure 8.1 stores cloud-native snapshots p
 | Note |
 | Unmanaged disks will be retired in Microsoft Azure on March 31, 2026. That is why it is recommended that you migrate your Azure VMs to managed disks. For more information, see [Microsoft Docs](https://learn.microsoft.com/el-gr/azure/virtual-machines/unmanaged-disks-deprecation). |
 
-To configure location settings for the storage template, do the following:
-
-1. Specify a target location (repository) where image-level backups will be stored. To do that, click the link in the Backups section. Then, select the necessary repository from the Default repository drop-down list in the Backup repository settings window.
+To configure location settings for the storage template, specify a target location (a standard or an archive repository) where backups will be stored. To do that, click the link in the Backups or the Archives section. Then, select the necessary repository from the Default repository drop-down list in the Backup repository settings or the Archive repository settings window.
 
 By default, Veeam Backup for Microsoft Azure will use the selected repository for all protected regions. To instruct Veeam Backup for Microsoft Azure to use separate repositories for each region:
 
 1. Set the Configure region-specific repositories toggle to On.
-2. In the Region-specific backup repository settings section, click Add Region.
+2. In the Region-specific backup repository settings or the Region-specific archive repository settings section, click Add Region.
 3. In the Configure Region Settings window, choose a region and a repository that you want to use for this region.
 
 For a repository to be displayed in the list of available repositories, it must be added to Veeam Backup for Microsoft Azure as described in section [Managing Repositories](repositories.md). If you have not added the repository to Veeam Backup for Microsoft Azure beforehand, you can do it without closing the Select Repository and Configure Region Settings windows. To do that, click Add and complete the Add Repository wizard.
-
-1. Specify a target location (archive repository) where archived backups will be stored. To do that, click the link in the Archives section. Then, select the necessary repository from the Default repository drop-down list in the Archive repository settings window.
-
-By default, Veeam Backup for Microsoft Azure will use the selected repository for all protected regions. To instruct Veeam Backup for Microsoft Azure to use separate repositories for each region:
-
-1. Set the Configure region-specific repositories toggle to On.
-2. In the Region-specific archive repository settings section, click Add Region.
-3. In the Configure Region Settings window, choose a region and a repository that you want to use for this region.
-
-For an archive repository to be displayed in the list of available repositories, it must be added to Veeam Backup for Microsoft Azure as described in section [Managing Repositories](repositories.md). If you have not added the repository to Veeam Backup for Microsoft Azure beforehand, you can do it without closing the Select Repository and Configure Region Settings windows. To do that, click Add and complete the Add Repository wizard.
 
 |  |
 | --- |
