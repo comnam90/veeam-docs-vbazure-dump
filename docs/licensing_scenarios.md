@@ -3,7 +3,7 @@ title: "Scenarios"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/licensing_scenarios.html"
-last_updated: "8/19/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -13,7 +13,7 @@ product_version: "8.0.1.202"
 Backup appliances managed by a Veeam Backup & Replication server use the same license that is installed on the backup server. To learn what types of licenses and licensing models are incorporated in Veeam solutions, see:
 
 * The Veeam Backup & Replication User Guide, section [Licensing](https://helpcenter.veeam.com/docs/vbr/userguide/licensing.html?ver=13)
-* The Veeam Backup & Replication Veeam Cloud Connect Guide, section [Licensing for Service Providers](https://helpcenter.veeam.com/docs/backup/cloud/cloud_connect_hosting_licenses.html?ver=120)
+* The Veeam Backup & Replication Veeam Cloud Connect Guide, section [Licensing for Service Providers](https://helpcenter.veeam.com/docs/vbr/cloud/cloud_connect_hosting_licenses.html)
 
 Licensing of New Backup Appliances
 
