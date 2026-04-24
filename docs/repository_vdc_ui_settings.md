@@ -3,7 +3,7 @@ title: "Step 3. Configure Vault Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_ui_settings.html"
-last_updated: "10/21/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -23,6 +23,7 @@ In the Location section, do the following:
 1. From the Vault drop-down list, select a storage vault that will be used as a target location for backups, and click Apply.
 
 For a storage vault to be displayed in the list of available vaults, it must be created in Veeam Data Cloud Vault as described in the Veeam Data Cloud User Guide, section [Adding Storage Vaults](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_add.html). If you have not created the necessary storage vault beforehand, you can do it without closing the Add Repository wizard. To do that, click Manage, click Configure on the Vaults page of the My Account portal, navigate to Vault and then click Add Tenant.
+If a storage vault already exists in Veeam Data Cloud Vault but is still not displayed in the list of available vaults, make sure your backup appliance is connected to this storage vault. To learn how to connect backup appliances and servers to storage vaults, see the Veeam Data Cloud User Guide, section [Managing Backup Servers](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads).
 
 1. Choose whether you want to use an existing folder inside the selected storage vault or to create a new one to group backup files stored in the vault.
 
