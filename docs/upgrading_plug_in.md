@@ -3,7 +3,7 @@ title: "Upgrading Plug-In"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/upgrading_plug_in.html"
-last_updated: "6/18/2024"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -12,7 +12,7 @@ product_version: "8.0.1.202"
 
 To upgrade Veeam Plug-in for Microsoft Azure, do the following:
 
-1. Install the new version of Veeam Plug-in for Microsoft Azure as described in section [Installing Plug-In](installing_plug_in.md).
+1. Install the new version of Veeam Plug-in for Microsoft Azure as described in section [Deploying Plug-In](deploying_plug_in.md).
 2. Upgrade backup appliances from the Veeam Backup & Replication console as described in section [Updating Appliances Using Console](updating_console.md).
 
 
