@@ -3,7 +3,7 @@ title: "Deploying Plug-In"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/deploying_plug_in.html"
-last_updated: "7/22/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -32,8 +32,6 @@ To install Veeam Plug-in for Microsoft Azure, do the following:
 
 In This Section
 
-* [Installing and Uninstalling Plug-In in Unattended Mode](installing_plug_in_unattended.md)
-* [Upgrading Plug-In](upgrading_plug_in.md)
-* [Uninstalling Plug-In](uninstalling_plug_in.md)
+* [Installing Plug-In in Unattended Mode](installing_plug_in_unattended.md)
 
 

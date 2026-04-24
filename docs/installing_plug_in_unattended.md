@@ -1,13 +1,13 @@
 ---
-title: "Installing and Uninstalling Plug-In in Unattended Mode"
+title: "Installing Plug-In in Unattended Mode"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/installing_plug_in_unattended.html"
-last_updated: "8/19/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
-# Installing and Uninstalling Plug-In in Unattended Mode
+# Installing Plug-In in Unattended Mode
 
 
 You can install or uninstall Veeam Plug-in for Microsoft Azure in the unattended mode using the command line interface. The unattended mode does not require user interaction — the installation runs automatically in the background, and you do not have to respond to the installation wizard prompts. You can use it to automate processes in large-scale environments.
@@ -21,7 +21,7 @@ Before You Begin
 
 Before you start unattended installation, do the following:
 
-1. Download the Veeam Plug-in for Microsoft Azure .EXE file as described in section [Installing Plug-In](installing_plug_in.md) (steps 1–4).
+1. Download the Veeam Plug-in for Microsoft Azure .EXE file as described in section [Deploying Plug-In](deploying_plug_in.md).
 2. Check compatibility of Veeam Plug-in for Microsoft Azure and Veeam Backup & Replication versions. For more information, see [System Requirements](system_requirements.md#compatibility).
 
 Installation Command-Line Syntax
@@ -34,8 +34,9 @@ Open the command prompt and run the .EXE file using the following parameters:
 
 The following command-line parameters are used to run the setup file:
 
+Installation Command-Line Syntax
+
 | Parameter | Required | Description |
-| --- | --- | --- |
 | %path% | Yes | Specifies a path to the installation .EXE file on the backup server or in a network shared folder. |
 | /silent | Yes | Sets the user interface level to None, which means no user interaction is needed during installation. |
 | /accepteula | Yes | Confirms that you accept the terms of the Veeam license agreement. |

@@ -3,14 +3,14 @@ title: "Managing Backup Policies"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/managing_policies.html"
-last_updated: "3/24/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
 # Managing Backup Policies
 
 
-You can manage and edit created VM, SQL, Cosmos DB and Azure Files backup policies, and view the details of each backup policy in Veeam Backup for Microsoft Azure. You can also remove backup policies that you do not use anymore, as well as export existing and import new backup policies.
+You can manage existing backup policies and view the details of each backup policy in Veeam Backup for Microsoft Azure. You can also remove backup policies that you do not use anymore, as well as export existing and import new backup policies.
 
 In This Section
 

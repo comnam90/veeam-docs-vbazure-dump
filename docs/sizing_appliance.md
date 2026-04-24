@@ -3,7 +3,7 @@ title: "Backup Appliance"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_appliance.html"
-last_updated: "12/9/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -15,17 +15,18 @@ You can choose the size of the Azure VM running Veeam Backup for Microsoft Azure
 |  |
 | --- |
 | Note |
-| In Veeam Backup for Microsoft Azure version 8.1, you can only choose the B2s, D4s\_v3 or D8s\_v3 VM size. |
+| In Veeam Backup for Microsoft Azure version 8.1, you can only choose the B2ms, F4s\_v2 or F8s\_v2 VM size. |
 
 General Recommendations
 
 The following recommendations and examples apply to the latest Veeam Backup for Microsoft Azure builds.
 
+General Recommendations
+
 | Azure VM Size | Recommended Maximum Number of Protected Workloads | Recommended Maximum Number of Launched Worker Instances |
-| --- | --- | --- |
-| B2s (2 vCPU, 4 GB RAM)  Note: The minimum amount of system RAM recommended to perform [Virtual Network configuration backup](overview_vnet.md) is 8 GB. If you plan to protect Azure Virtual Network configuration components, it is not recommended that you choose the B2s Azure VM size — consider choosing larger sizes. | * 500 * 300 (if backed up simultaneously) | 20 |
-| D4s\_v3 (4 vCPU, 16 GB RAM) | * 1,500 * 500 (if backed up simultaneously) | 150 |
-| D8s\_v3 (8 vCPU, 32 GB RAM) | * 3,000 * 1,500 (if backed up simultaneously) | 300 |
+| B2ms (2 vCPU, 8 GB RAM)  Note: The minimum amount of system RAM recommended to perform [Virtual Network configuration backup](overview_vnet.md) is 8 GB. If you plan to protect Azure Virtual Network configuration components, it is not recommended that you choose the B2s Azure VM size — consider choosing larger sizes. | * 500 * 300 (if backed up simultaneously) | 20 |
+| F4s\_v2 (4 vCPU, 8 GB RAM) | * 1,500 * 500 (if backed up simultaneously) | 150 |
+| F8s\_v2 (8 vCPU, 16 GB RAM) | * 3,000 * 1,500 (if backed up simultaneously) | 300 |
 
 |  |
 | --- |

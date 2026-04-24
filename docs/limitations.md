@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/limitations.html"
-last_updated: "2/27/2026"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -153,7 +153,7 @@ SQL Restore
 
 When restoring Azure SQL databases, consider the following:
 
-* Database accounts used to restore SQL databases must have the following server-level roles assigned: ##MS\_DatabaseManager##, ##MS\_LoginManager##, ##MS\_DatabaseConnector## and ##MS\_DefinitionReader##. For more information on server-level roles, see [Microsoft Docs](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver16).
+* Database accounts used to restore SQL databases must have the following server-level roles assigned: ##MS\_DatabaseManager##, ##MS\_LoginManager##, ##MS\_DatabaseConnector## and ##MS\_DefinitionReader##. However, consider that you cannot use database accounts having the db\_owner database-level role to restore SQL databases. For more information on [server-level roles](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver16) and [database-level roles](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver16), see Microsoft Docs.
 
 Cosmos DB Restore
 
