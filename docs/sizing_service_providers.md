@@ -3,14 +3,14 @@ title: "Service Providers"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/sizing_service_providers.html"
-last_updated: "12/9/2025"
+last_updated: "4/23/2026"
 product_version: "8.0.1.202"
 ---
 
 # Service Providers
 
 
-You can connect multiple backup appliances to one backup server. Normally, one backup appliance is deployed per customer, but it is possible to deploy more appliances, depending on the scale. This can be managed with [Veeam Cloud Connect](https://helpcenter.veeam.com/docs/backup/cloud/cloud_overview.html?ver=120) and the [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html?ver=81).
+You can connect multiple backup appliances to one backup server. Normally, one backup appliance is deployed per customer, but it is possible to deploy more appliances, depending on the scale. This can be managed with [Veeam Cloud Connect](https://helpcenter.veeam.com/docs/vbr/cloud/cloud_overview.html) and the [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html).
 
 Worker instances and resources will be launched in the same subscription and resource group where the backup appliance is deployed. If you need to have them in the customer subscription, deploy the appliance there, and everything will work as if deployed per individual customer. You can then connect it to Veeam Backup & Replication and Veeam Service Provider Console to fulfill service provider functions.
 
@@ -28,6 +28,6 @@ You can place the backup repository storage account in a subscription separate f
 Related Topics
 
 * [Veeam Cloud Connect](https://helpcenter.veeam.com/docs/backup/cloud/cloud_overview.html?ver=120)
-* [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html?ver=81)
+* [Veeam Service Provider Console (VSPC)](https://helpcenter.veeam.com/docs/vac/provider_admin/about.html)
 
 
