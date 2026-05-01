@@ -3,7 +3,7 @@ title: "Adding Worker Instance Tags"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_instance_tags.html"
-last_updated: "5/30/2025"
+last_updated: "4/29/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -15,7 +15,7 @@ For all worker instances that are launched in specific Azure subscriptions for t
 1. Switch to the Configuration page.
 
 1. Navigate to Workers > Tags.
-2. Use the Name and Value fields to specify a key and a value for a new custom Azure tag, and then click Add. Note that you cannot add more than 50 custom Azure tags.
+2. In the Name and Value fields, specify a key and a value for a new custom Azure tag, and then click Add. Note that you cannot add more than 50 custom Azure tags.
 
 Consider the following limitations:
 
