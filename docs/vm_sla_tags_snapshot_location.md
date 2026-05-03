@@ -3,7 +3,7 @@ title: "Step 6. Configure Snapshot Settings"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vm_sla_tags_snapshot_location.html"
-last_updated: "10/24/2025"
+last_updated: "4/29/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -16,7 +16,7 @@ Tag Assignment
 
 In the Tags section, you can choose whether you want to assign to snapshots of the selected Azure VMs already existing tags from source virtual disks and your own custom tags.
 
-If you set the Add custom tags to created snapshots toggle to On, you must also specify the tags explicitly. To do that, use the Name and Value fields to specify a name and a value for the new custom tag, and then click Add. Note that you cannot add more than 5 custom tags.
+If you set the Add custom tags to created snapshots toggle to On, you must also specify the tags explicitly. To do that, specify a name and a value for the new custom tag in the Name and Value fields, and then click Add. Note that you cannot add more than 5 custom tags.
 
 |  |
 | --- |
