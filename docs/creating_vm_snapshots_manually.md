@@ -3,7 +3,7 @@ title: "Creating VM Snapshots Manually"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/creating_vm_snapshots_manually.html"
-last_updated: "10/20/2025"
+last_updated: "4/29/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -34,7 +34,7 @@ For an account to be displayed in the accounts list, it must be added to Veeam B
 2. In the Tags configurations window, choose whether you want to assign tags to the created snapshot.
 
 * To assign already existing tags from the source virtual disks, select the Copy Tags from source volume check box.
-* To assign your own custom tags, set the Add custom tags to created snapshots toggle to On, and specify the tags explicitly. To do that, use the Key and Value fields to specify a key and a value for the new custom tag, and then click Apply.
+* To assign your own custom tags, set the Add custom tags to created snapshots toggle to On, and specify the tags explicitly. To do that, specify a key and a value for the new custom tag in the Key and Value fields, and then click Apply.
 
 1. At the Summary step of the wizard, review configuration information, choose whether you want to proceed to the [Session Log page](session_statistics.md) to track the progress of snapshot creation, and click Finish.
 
