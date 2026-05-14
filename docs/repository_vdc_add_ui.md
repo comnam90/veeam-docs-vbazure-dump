@@ -3,7 +3,7 @@ title: "Adding Storage Vaults Using Web UI"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/repository_vdc_add_ui.html"
-last_updated: "4/29/2026"
+last_updated: "5/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,11 +17,11 @@ product_version: "8.0.1.202"
 
 To add a new storage vault, do the following:
 
-1. [Launch the Add Repository wizard](repository_ui_wizard.md).
-2. [Specify a vault name and description](repository_ui_name.md).
-3. [Configure vault settings](repository_ui_settings.md).
-4. [Enable encryption for the vault](repository_ui_encryption.md).
-5. [Configure storage and load options for the vault](repository_ui_load.md).
-6. [Finish working with the wizard](repository_ui_finish.md).
+1. [Launch the Add Repository wizard](repository_vdc_ui_wizard.md).
+2. [Specify a vault name and description](repository_vdc_ui_name.md).
+3. [Configure vault settings](repository_vdc_ui_settings.md).
+4. [Enable encryption for the vault](repository_vdc_ui_encryption.md).
+5. [Configure storage and load options for the vault](repository_vdc_ui_load.md).
+6. [Finish working with the wizard](repository_vdc_ui_finish.md).
 
 
