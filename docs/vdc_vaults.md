@@ -3,7 +3,7 @@ title: "Veeam Data Cloud Storage Vaults"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/vdc_vaults.html"
-last_updated: "1/28/2026"
+last_updated: "5/13/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -32,7 +32,7 @@ Limitations for Vaults
 
 Before you start creating storage vaults, keep in mind the following limitations:
 
-* To use a Veeam Data Cloud storage vault as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html), [configure its subscription](https://helpcenter.veeam.com/docs/vdc/userguide/vault_manage_subscriptions.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
+* To use a Veeam Data Cloud storage vault as a target location for backed-up data, you must [get access to Veeam Data Cloud Vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_obtain_product.html) and [connect your backup appliance to the necessary storage vault](https://helpcenter.veeam.com/docs/vdc/userguide/vault_storage_vaults_edit.html#assigning-storage-vaults-to-workloads) as described in the Veeam Data Cloud User Guide, section Veeam Data Cloud Vault.
 
 Keep in mind that the Veeam account that you use to connect to Veeam Data Cloud Vault must be associated with the product subscription as described in section [Adding Storage Vaults Using Web UI](repository_vdc_ui_settings.md#location).
 
