@@ -3,7 +3,7 @@ title: "Performing Configuration Backup Using Console"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/configuration_backup_console.html"
-last_updated: "12/9/2025"
+last_updated: "6/2/2026"
 product_version: "8.0.1.202"
 ---
 
@@ -53,6 +53,6 @@ Veeam Backup & Replication stores configuration backups of backup appliances 
 |  |
 | --- |
 | Note |
-| Consider the following:   * It is not recommended that you store configuration backups on the backup server. Otherwise, you will not be able to restore the configurations of managed backup appliances in case the backup server goes down. * If the name of an appliance contains unsupported characters, these characters are replaced with the '\_' underscore symbol in the name format for a subfolder and a backup files. |
+| Consider the following:   * It is not recommended that you store configuration backups on the backup server. Otherwise, you will not be able to restore the configurations of managed backup appliances in case the backup server goes down. * If the name of an appliance contains unsupported characters, these characters are replaced with the '\_' underscore symbol in the name format for a subfolder and a backup file. |
 
 
