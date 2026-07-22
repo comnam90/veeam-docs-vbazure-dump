@@ -3,7 +3,7 @@ title: "Ports"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/ports.html"
-last_updated: "2/13/2026"
+last_updated: "2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,12 +17,13 @@ As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veea
 | Tip |
 | To allow inbound access to an Azure service, you can use the IP address, DNS name or [virtual network service tag](https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview) of the service. If you want to use an IP address, you can download a .JSON file with the full list of Azure IP ranges and service tags from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519). |
 
+Ports
+
 | From | To | Protocol | Port | Description |
-| --- | --- | --- | --- | --- |
 | Web browser (local machine) | Backup appliance | TCP/HTTPS | 443 | Required to access the Web UI component from a user workstation. |
 | [Optional] Default port required to communicate with the public REST API service running on the backup appliance. For more information on Veeam Backup for Microsoft Azure REST API, see the [Veeam Backup for Microsoft Azure REST API Reference](https://helpcenter.veeam.com/references/vbazure/8.1/rest/main/tag/SectionAbout). |
 | Worker instances | TCP/HTTPS | 443 | Required to access the file-level recovery browser running on a worker instance during the file-level restore process. |
-| Backup appliance | Veeam Update Repository | TCP/HTTPS | 443 | Required to download available product updates, worker deployment packages and restore utilities.  Note: Veeam Update Repository uses the [Amazon CloudFront service](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) to distribute traffic when downloading product updates. |
+| Backup appliance | Veeam Update Repository (DNS name: repository.veeam.com), Amazon CloudFront (DNS names: cloudfront.net, amazonaws.com) | TCP/HTTPS | 443 | Required to download available product updates, worker deployment packages and restore utilities.  Note: Veeam Update Repository uses the [Amazon CloudFront service](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) to distribute traffic when downloading product updates. |
 | Ubuntu Security Repository (DNS name: security.ubuntu.com) and OS Update Repository (DNS name: archive.ubuntu.com) | TCP/HTTP | 80 | Required to get OS security updates. |
 | PostgreSQL Apt Repository  (DNS name: apt.postgresql.org) | TCP/HTTPS | 443 | Required to get PostgreSQL updates. |
 | PostgreSQL Website (DNS name: postgresql.org) | TCP/HTTPS | 443 | Required to download the [PostgreSQL Apt Repository key](https://www.postgresql.org/media/keys/ACCC4CF8.asc). |
@@ -38,6 +39,7 @@ As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veea
 | Veeam Backup & Replication repository service  (DNS name: vbr.butler.veeam.com) | TCP/HTTPS | 443 | Required to authenticate against Veeam Data Cloud Vault to create and manage storage vaults. For more information, see [Veeam Data Cloud Storage Vaults](vdc_vaults.md). |
 | Azure VMs | Azure Storage service (service tag: Storage) | TCP/HTTPS | 443 | [Applies to Windows-based Azure VMs only] Required to download VSS binary files and guest OS files when performing file-level recovery to the original location. |
 | Worker instances | Ubuntu Security Repository (DNS name: security.ubuntu.com) and OS Update Repository (DNS name: archive.ubuntu.com) | TCP/HTTP | 80 | Required to get OS security updates. |
+| Ubuntu Archive repository (DNS name: azure.archive.ubuntu.com) | TCP/HTTP | 80 | Required to get APT updates. |
 | PostgreSQL Apt Repository  (DNS name: apt.postgresql.org) | TCP/HTTP | 80 | Required to get PostgreSQL updates. |
 | PostgreSQL Website (DNS name: postgresql.org) | TCP/HTTPS | 443 | Required to download the [PostgreSQL Apt Repository key](https://www.postgresql.org/media/keys/ACCC4CF8.asc). |
 | Azure SQL Database (service tag: Sql.<region>, where <region> is the [code name of the Azure region](https://learn.microsoft.com/en-us/azure/media-services/latest/azure-regions-code-names#region-code-name)) | TCP | 1433, 11000-11999 | Required to connect to SQL Servers.  Note: The usage of the specified TCP ports depends on the networking settings of SQL Servers. If the Redirect option is selected, port 1433 is used to establish only the first connection. If the Proxy option is selected, port 1433 is used to establish all connections by default. For more information on networking settings of SQL Servers, see [Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/connectivity-settings?view=azuresql&tabs=azure-portal#change-the-connection-policy). |
@@ -59,4 +61,5 @@ As Veeam Plug-in for Microsoft Azure is installed on the same machine where Veea
 | Note |
 | When you deploy a backup appliance from the Veeam Backup & Replication console, Veeam Backup & Replication automatically creates firewall rules for the required ports to allow communication between the backup server and the appliance components. |
 
+Page updated 2026-07-17
 
