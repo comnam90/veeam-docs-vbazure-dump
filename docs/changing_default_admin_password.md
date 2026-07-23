@@ -3,7 +3,7 @@ title: "Changing Default Admin Password"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/changing_default_admin_password.html"
-last_updated: "6/2/2026"
+last_updated: "2026"
 product_version: "8.0.1.202"
 ---
 
@@ -18,4 +18,5 @@ To change the password of the Default Admin account:
 
 [![Changing Default Admin Password](images/changing_default_admin_password.webp)](images/changing_default_admin_password.webp "Changing Default Admin Password")
 
+Page updated 2026-07-17
 
