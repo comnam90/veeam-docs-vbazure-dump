@@ -3,7 +3,7 @@ title: "Adding Worker Profiles"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/worker_profile_add.html"
-last_updated: "6/2/2026"
+last_updated: "2026"
 product_version: "8.0.1.202"
 ---
 
@@ -17,4 +17,5 @@ To add a new custom set of worker profiles for one or more regions, do the follo
 3. [Choose the profiles for worker instances in these regions](worker_profile_selection.md).
 4. [Finish working with the wizard](worker_profile_finish.md).
 
+Page updated 2026-07-17
 
