@@ -3,7 +3,7 @@ title: "Step 4. Specify Policy Scheduling Options"
 product: "vbazure"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbazure/guide/fs_backup_policy_schedule.html"
-last_updated: "6/2/2026"
+last_updated: "2026"
 product_version: "8.0.1.202"
 ---
 
@@ -20,4 +20,5 @@ To help you implement a comprehensive backup strategy, Veeam Backup for Microsof
 
 Combining multiple schedule types together allows you to keep restore points for longer periods of time. For more information, see [Enabling Harmonized Scheduling](fs_harmonized_scheduling.md).
 
+Page updated 2026-07-17
 
